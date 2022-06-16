@@ -16,7 +16,13 @@ def getItemShopID(match_id,newest):
     try:
         data = requests.get(url_search_item.format(match_id,newest)).content
         data = json.loads(data)['items']
-        res = list(map(getItemShopId,data))
+        res = []
+        for item in data:
+            try:
+                res.append(getItemShopId(item))
+            except Exception as e:
+                print(e)
+        # res = list(map(getItemShopId,data))
         return pd.DataFrame(res)
     except:
         print(f"An exception occurred with match_id {match_id} and newest {newest} ")

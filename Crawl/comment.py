@@ -37,7 +37,7 @@ class Comment:
         for item in range(start,end):
             topic = self.categoryList.catid.iloc[item]
             print(f'topic {item} "{self.categoryList.display_name.iloc[item]}" is runing...')
-            for newest in range(0,nb_product,60):
+            for newest in range(100,220,60):
                 time.sleep(0.3)
                 try:
                     ItemListID = getItemShopID(topic,newest)
@@ -75,10 +75,10 @@ class Comment:
 
 
 
-        for type in range(1,6):
+        for type in range(1,4):
             print(f'Crawl rating: {type}')
             for itemid, shopid in tqdm(ItemListID):
-                for offset in range(0, self.limit_commit, self.limit_commit):
+                for offset in range(0, self.limit_commit+50, self.limit_commit):
                     try:
                         rep = requests.get(url.format(itemid,self.limit_commit ,offset, shopid,type)).content
                         data = json.loads(rep)['data']['ratings']
