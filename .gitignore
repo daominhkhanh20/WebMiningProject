@@ -74,3 +74,5 @@ docs/_build/
 #local storage
 assets/data
 assets/model
+
+EDA/data.csv
