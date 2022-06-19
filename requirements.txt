@@ -1,1 +1,7 @@
 gdown
+wordcloud
+pandas
+numpy
+matplotlib
+seaborn
+collections
