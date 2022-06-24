@@ -33,6 +33,7 @@ class BertDataSource(object):
                         text_col: str = 'comment',
                         label_col: str = 'pred_label'):
         train_dataset, test_dataset, val_dataset = None, None, None
+        map_labels = None
         for file in os.listdir(path_folder_data):
             logger.info(f"Start convert file {file} to dataset")
             dataset = CommentDataset(
@@ -40,8 +41,13 @@ class BertDataSource(object):
                 tokenizer_name=pretrained_model_name,
                 text_col=text_col,
                 label_col=label_col,
-                max_length=max_length
+                max_length=max_length,
+                map_label=map_labels
             )
+
+            if map_labels is None:
+                map_labels = dataset.map_label
+
             if 'train' in file:
                 train_dataset = dataset
             elif 'test' in file:

@@ -37,6 +37,7 @@ class CommentDataset(Dataset):
                  text_col: str = 'comment',
                  label_col: str = 'pred_label',
                  max_length: int = 256,
+                 map_label: dict = None,
                  **kwargs):
         if isinstance(data, str):
             data = pd.read_csv(data)
@@ -48,8 +49,13 @@ class CommentDataset(Dataset):
         self.label_col = label_col
         self.token_ids, self.attention_mask = [], []
         self.pad_token_id = self.tokenizer.pad_token_id
-        self.list_labels = list(set(self.data[label_col]))
-        self.map_label = {label: idx for idx, label in enumerate(self.list_labels)}
+        if map_label is None:
+            self.list_labels = list(set(self.data[label_col]))
+            self.map_label = {label: idx for idx, label in enumerate(self.list_labels)}
+        else:
+            self.map_label = map_label
+            self.list_labels = list(self.map_label.keys())
+
         self.data[label_col] = self.data[label_col].map(self.map_label)
         self.labels = self.data[label_col].values.tolist()
         for idx, row in tqdm(self.data.iterrows(), total=len(data)):
