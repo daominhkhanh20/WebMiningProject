@@ -173,9 +173,9 @@ class BertLearner(BaseLeaner):
         accuracy = accuracy_score(labels_truth, labels_pred)
         if mode_testing:
             report = {
-                "f1_score": f1_score(labels_truth, labels_pred, average='weighted'),
-                "recall_score": recall_score(labels_truth, labels_pred, average='weighted'),
-                "accuracy_score": accuracy
+                "f1_score": [f1_score(labels_truth, labels_pred, average='weighted')],
+                "recall_score": [recall_score(labels_truth, labels_pred, average='weighted')],
+                "accuracy_score": [accuracy]
             }
             logger.info("Detail result for testing")
             print(tabulate(report, headers="keys", tablefmt="pretty"))
