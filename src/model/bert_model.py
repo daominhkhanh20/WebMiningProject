@@ -48,4 +48,4 @@ class BertCommentModel(nn.Module):
         loss = 0
         if labels is None:
             loss = self.loss_fn(out_logits, labels)
-        return out_logits, loss
+        return loss, out_logits
