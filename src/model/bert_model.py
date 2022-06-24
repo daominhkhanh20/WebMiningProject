@@ -46,6 +46,6 @@ class BertCommentModel(nn.Module):
         pooling_outputs = outputs.pooler_output
         out_logits = self.linear(pooling_outputs)
         loss = 0
-        if labels is None:
+        if labels is not None:
             loss += self.loss_fn(out_logits, labels)
         return loss, out_logits
