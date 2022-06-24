@@ -2281,7 +2281,7 @@ tạm được,3,thang,neural
 cái xanh thì lỏng đế . hồng thì chạm cánh kêu loẹt quẹt ra ",2,thang,negative
 Sp đc giao lâu,4,thang,negative
 Giao hàng quá lâu ( 5 ngày chờ). Nội thành mà delay suốt. Đến bưu cục giao cách điểm giao 15’ nhưng mất hơn 1 ngày để giao..,4,thang,negative
-"Giao  nhầm size 42, đi ko vừa chân",2,thang,ng
+"Giao  nhầm size 42, đi ko vừa chân",2,thang,negative
 Cổ rộng,3,thang,negative
 "Vải căng bị trùng xuống, giao hàng nhanh nói chung là cũng ổn vố giá tiền.",4,thang,neural
 "Ăn k thơm như quán mk hay mua, được cái sp tươi tạm ăn đượcccccc",3,thang,neural
