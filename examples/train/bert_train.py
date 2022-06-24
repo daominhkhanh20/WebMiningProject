@@ -9,7 +9,7 @@ parser.add_argument('--pretrained_model_name', type=str, default='vinai/phobert-
 parser.add_argument('--max_length', type=int, default=256)
 parser.add_argument('--text_col', type=str, default='comment')
 parser.add_argument('--label_col', type=str, default='pred_label')
-parser.add_argument('--batch_size', type=int, default=4)
+parser.add_argument('--batch_size', type=int, default=64)
 parser.add_argument('--n_epochs', type=int, default=20)
 parser.add_argument('--use_label_smoothing', default=False, type=lambda x: x.lower() == 'true')
 parser.add_argument('--smoothing_value', type=float, default=0.1)
