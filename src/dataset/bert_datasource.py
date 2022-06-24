@@ -48,6 +48,7 @@ class BertDataSource(object):
             if map_labels is None:
                 map_labels = dataset.map_label
 
+            logger.info(dataset.map_label)
             if 'train' in file:
                 train_dataset = dataset
             elif 'test' in file:
