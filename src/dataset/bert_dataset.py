@@ -18,7 +18,7 @@ class CommentCollate:
         self.pad_id = pad_id
 
     def __call__(self, batchs, **kwargs):
-        token_ids = [batch['token_ids'] for batch in batchs]
+        token_ids = [batch['token_id'] for batch in batchs]
         attention_masks = [batch['attention_mask'] for batch in batchs]
         labels = [batch['label'] for batch in batchs]
         labels = torch.tensor(labels, dtype=torch.long)
@@ -63,7 +63,7 @@ class CommentDataset(Dataset):
 
     def __getitem__(self, item):
         return {
-            'token_ids': torch.tensor(self.token_ids[item], dtype=torch.long),
-            'mask': torch.tensor(self.attention_mask[item], dtype=torch.long),
+            'token_id': torch.tensor(self.token_ids[item], dtype=torch.long),
+            'attention_mask': torch.tensor(self.attention_mask[item], dtype=torch.long),
             'label': self.labels[item]
         }
