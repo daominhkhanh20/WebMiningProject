@@ -43,4 +43,4 @@ trainer = BertLearner(
     fine_tune=args.fine_tune
 )
 
-trainer.fit()
+# trainer.fit()

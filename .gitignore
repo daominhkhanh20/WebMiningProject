@@ -68,6 +68,7 @@ ENV/
 .DS_Store
 .vscode
 
+__pycache__
 #sphinx
 docs/_build/
 
