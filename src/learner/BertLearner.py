@@ -157,6 +157,7 @@ class BertLearner(BaseLeaner):
         return train_loss / len(self.train_loader)
 
     def evaluate(self, loader, **kwargs):
+        self.model.eval()
         mode_testing = kwargs.get('mode_testing', False)
         labels_truth, labels_pred = [], []
         val_loss = 0
