@@ -70,8 +70,9 @@ class CleanText:
                 df['by'] = file[: file.find('.')]
                 self.data.append(df)
         self.data = pd.concat(self.data, axis=0)
-        self.data = self.data[['comment', 'rating_star', 'by', 'pred_label']]
         self.data.drop_duplicates(subset=['comment'], keep='first', inplace=True)
+        self.data = self.data[self.data.notna()].reset_index(drop=True)
+        self.data = self.data[['comment', 'rating_star', 'by', 'pred_label']]
         self.data.reset_index(drop=True)
         self.data['comment'] = self.data['comment'].progress_apply(lambda x: self.clean_text(x))
         df_train, df_test = self.split(self.data, n_percentage_split=self.test_split_percentage)
