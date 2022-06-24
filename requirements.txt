@@ -3,3 +3,4 @@ coloredlogs
 transformers
 pytorch
 kaggle
+gensim

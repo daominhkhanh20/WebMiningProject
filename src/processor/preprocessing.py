@@ -1,10 +1,13 @@
 import re
+
+import gensim.utils
 from tqdm._tqdm_notebook import tqdm_notebook
 import pandas as pd
 from pandas import DataFrame
 from typing import List, Union
 import unicodedata
 import os
+
 
 tqdm_notebook().pandas()
 
@@ -46,7 +49,8 @@ class CleanText:
                            u"\ufe0f"  # dingbats
                            u"\u3030"
                            "]+", re.UNICODE)
-        return re.sub(emoji, '', sent)
+        sent = re.sub(emoji, '', sent)
+        return " ".join(gensim.utils.simple_preprocess(sent))
 
     def split(self, df: DataFrame, label_col: str = 'pred_label', n_percentage_split: float = 0.1):
         # print(f"Before: {df.shape}")
