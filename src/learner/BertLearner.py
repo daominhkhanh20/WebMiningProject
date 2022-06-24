@@ -144,7 +144,7 @@ class BertLearner(BaseLeaner):
     def train_one_epoch(self, **kwargs):
         self.model.train()
         train_loss = 0
-        for idx, sample in tqdm(self.train_loader, total=len(self.train_loader)):
+        for idx, sample in tqdm(enumerate(self.train_loader), total=len(self.train_loader)):
             for key in sample.keys():
                 sample[key] = sample[key].to(self.device)
             loss, _ = self.model(**sample)
@@ -160,7 +160,7 @@ class BertLearner(BaseLeaner):
         mode_testing = kwargs.get('mode_testing', False)
         labels_truth, labels_pred = [], []
         val_loss = 0
-        for idx, sample in tqdm(loader, total=len(loader)):
+        for idx, sample in tqdm(enumerate(loader), total=len(loader)):
             for key in sample.keys():
                 sample[key] = sample[key].to(self.device)
             loss, outs = self.model(**sample)
