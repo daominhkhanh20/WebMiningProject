@@ -49,8 +49,15 @@ class CleanText:
         return re.sub(emoji, '', sent)
 
     def split(self, df: DataFrame, label_col: str = 'pred_label', n_percentage_split: float = 0.1):
-        df_split = df.groupby(label_col).sample(frac=n_percentage_split, random_state=42)
-        df = df[~df.index.isin(df_split.index)]
+        # print(f"Before: {df.shape}")
+        # df_split = df.groupby(label_col).sample(frac=n_percentage_split, random_state=42)
+        # df = df.drop(df_split.index)
+        # print(len(df_split))
+        # print(len(df))
+        # print('\n\n')
+        # return df.reset_index(drop=True), df_split.reset_index(drop=True)
+        df_split = df.sample(frac=n_percentage_split)
+        df.drop(df_split.index)
         return df.reset_index(drop=True), df_split.reset_index(drop=True)
 
     def save(self, df: DataFrame, file_name: str):
@@ -64,12 +71,17 @@ class CleanText:
                 self.data.append(df)
         self.data = pd.concat(self.data, axis=0)
         self.data = self.data[['comment', 'rating_star', 'by', 'pred_label']]
+        self.data.drop_duplicates(subset=['comment'], keep='first', inplace=True)
+        self.data.reset_index(drop=True)
         self.data['comment'] = self.data['comment'].progress_apply(lambda x: self.clean_text(x))
         df_train, df_test = self.split(self.data, n_percentage_split=self.test_split_percentage)
         df_train, df_val = self.split(df_train, n_percentage_split=self.val_split_percentage)
         self.save(df_train, f"{self.path_save}/{self.prefix_file}_train.csv")
         self.save(df_test, f"{self.path_save}/{self.prefix_file}_test.csv")
         self.save(df_val, f"{self.path_save}/{self.prefix_file}_val.csv")
+        # print(df_train.shape)
+        # print(df_test.shape)
+        # print(df_val.shape)
 
 
 clean = CleanText()
