@@ -115,7 +115,7 @@ class BertLearner(BaseLeaner):
             self.config_architecture['data'] = {
                 "map_label": self.map_label,
                 "n_label": self.n_labels,
-                "weight_contribution": self.data_source.weight_contribution.cpu().numpy()
+                "weight_contribution": self.data_source.weight_contribution.cpu().numpy().tolist()
             }
             self.best_val_loss = sys.maxsize
             self.best_val_acc = 0
