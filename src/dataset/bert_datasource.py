@@ -59,7 +59,7 @@ class BertDataSource(object):
                 raise Exception(f"Currently, convert file for {file} isn't support"
                                 f"Only support for train, test, val")
         if train_dataset is not None:
-            labels_counter = Counter(train_dataset.data[label_col])
+            labels_counter = dict(Counter(train_dataset.data[label_col]))
             labels_counter = {label: labels_counter[train_dataset.map_label[label]] for label in train_dataset.list_labels}
             norm_count_labels = [len(train_dataset.data) / value for label, value in labels_counter.items()]
             weight_contribution = torch.tensor(
