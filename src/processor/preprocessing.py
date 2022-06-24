@@ -57,7 +57,7 @@ class CleanText:
         # print('\n\n')
         # return df.reset_index(drop=True), df_split.reset_index(drop=True)
         df_split = df.sample(frac=n_percentage_split)
-        df.drop(df_split.index)
+        df = df.drop(df_split.index)
         return df.reset_index(drop=True), df_split.reset_index(drop=True)
 
     def save(self, df: DataFrame, file_name: str):
@@ -79,9 +79,9 @@ class CleanText:
         self.save(df_train, f"{self.path_save}/{self.prefix_file}_train.csv")
         self.save(df_test, f"{self.path_save}/{self.prefix_file}_test.csv")
         self.save(df_val, f"{self.path_save}/{self.prefix_file}_val.csv")
-        # print(df_train.shape)
-        # print(df_test.shape)
-        # print(df_val.shape)
+        print(df_train.shape)
+        print(df_test.shape)
+        print(df_val.shape)
 
 
 clean = CleanText()
