@@ -68,11 +68,15 @@ ENV/
 .DS_Store
 .vscode
 
+__pycache__
 #sphinx
 docs/_build/
 
 #local storage
-assets/data
 assets/model
 
-EDA/data.csv
+
+
+temp.ipynb
+CommentData
+

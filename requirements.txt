@@ -1,7 +1,13 @@
 gdown
+
 wordcloud
 pandas
 numpy
 matplotlib
 seaborn
 collections
+
+coloredlogs
+transformers
+pytorch
+kaggle
