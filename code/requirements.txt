@@ -1,5 +1,3 @@
-gdown
-
 wordcloud
 pandas
 numpy
