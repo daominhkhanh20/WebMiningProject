@@ -98,7 +98,7 @@ class AnnLearner(BaseLeaner):
         for idx, sample in tqdm(enumerate(self.train_loader), total=len(self.train_loader)):
             self.optimizer.zero_grad()
             input = sample['input'].to(self.device)
-            label = sample['label']
+            label = sample['label'].to(self.device)
 
             outputs = self.model(input)
             loss = self.loss_fn(outputs, label)
