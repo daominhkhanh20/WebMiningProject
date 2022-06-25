@@ -1,0 +1,29 @@
+.main {
+    /* align-items: center; */
+    text-align: center;
+}
+
+.elm1 {
+    margin-top: 20px;
+}
+
+.elm2 {
+    margin-top: 20px;
+}
+
+.elm3 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.lb {
+    color: blue;
+}
+
+.res {
+    color: green;
+}

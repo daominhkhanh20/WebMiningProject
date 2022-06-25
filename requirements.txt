@@ -1,6 +1,0 @@
-gdown
-coloredlogs
-transformers
-pytorch
-kaggle
-gensim
