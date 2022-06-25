@@ -10,7 +10,6 @@ datasource = BertDataSource.init_datasource(
 
 
 val_loader = DataLoader(datasource.val_dataset, batch_size=4, shuffle=False, collate_fn=CommentCollate(pad_id=1))
-
 for idx, sample in enumerate(val_loader):
     try:
         label = sample['labels']
