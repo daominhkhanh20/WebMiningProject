@@ -4,3 +4,7 @@ transformers
 pytorch
 kaggle
 gensim
+torch
+tqdm
+scikit-learn
+tabulate
