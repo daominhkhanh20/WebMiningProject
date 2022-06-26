@@ -41,9 +41,9 @@ class CnnCls(nn.Module):
         base_channel = 1
         for i in range(n_cnn):
             cnn_layers.append(nn.Conv2d(in_channels=base_channel, out_channels=self.out_channel[i],
-                                        kernel_size=kernel_size[i], padding='same'))
+                                        kernel_size=(kernel_size[i], embedding_dim), padding='same'))
             cnn_layers.append(nn.SiLU())
-            cnn_layers.append(nn.Dropout2d(p=dropout))
+            cnn_layers.append(nn.Dropout(p=dropout))
             cnn_layers.append(nn.MaxPool2d(kernel_size=pooling_kernel_size))
             base_channel = out_channel[i]
 
