@@ -1,10 +1,13 @@
 import torch
 import pandas as pd
+import logging
 
 from torch.utils.data import Dataset
 from typing import Union, Dict
 from tqdm import tqdm
 from src.utils.create_data import make_input_cnn
+
+logger = logging.getLogger(__name__)
 
 
 class CNNTokenizer:
@@ -79,8 +82,9 @@ class CNNCollate:
         self.pad_id = pad_id
 
     def __call__(self, batch, **kwargs):
-        token_ids = [batch['input_id'] for each_batch in batch]
-        labels = [batch['label'] for each_batch in batch]
+        token_ids = [each_batch['input_id'].detach().numpy() for each_batch in batch]
+        token_ids = torch.tensor(token_ids, dtype=torch.long).squeeze(0)
+        labels = [each_batch['label'] for each_batch in batch]
         labels = torch.tensor(labels, dtype=torch.long)
         return {
             "input_ids": token_ids,

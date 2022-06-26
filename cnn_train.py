@@ -8,7 +8,7 @@ parser.add_argument('--path_folder_data', type=str, default='assets/data')
 parser.add_argument('--n_cnn', type=int, default=6)
 parser.add_argument('--kernel_size', nargs="+", type=int, default=[3, 3, 3, 3, 3, 3])
 parser.add_argument('--pooling_kernel_size', type=int, default=2)
-parser.add_argument('--n_filter', nargs="+", type=int, default=[32, 32, 32, 32, 32, 32])
+parser.add_argument('--out_channel', nargs="+", type=int, default=[32, 32, 32, 32, 32, 32])
 parser.add_argument('--n_dense', type=int, default=4)
 parser.add_argument('--n_tensor_dense', nargs='+', type=int, default=[512, 256, 128, 64])
 parser.add_argument('--embedding_dim', type=int, default=256)
@@ -36,7 +36,7 @@ trainer = CNNLearner(
     n_cnn=args.n_cnn,
     kernel_size=args.kernel_size,
     pooling_kernel_size=args.pooling_kernel_size,
-    n_filter=args.n_filter,
+    out_channel=args.out_channel,
     n_dense=args.n_dense,
     n_tensor_dense=args.n_tensor_dense,
     embedding_dim=args.embedding_dim,

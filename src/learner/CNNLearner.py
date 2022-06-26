@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 class CNNLearner(BaseLeaner):
     def __init__(self, n_cnn: int, kernel_size: List, pooling_kernel_size: int,
-                 n_filter: List, n_dense: int, n_tensor_dense: List, embedding_dim: int,
+                 out_channel: List, n_dense: int, n_tensor_dense: List, embedding_dim: int,
                  mode: str = 'training', data_source: CNNDataSource = None,
                  batch_size: int = 64, n_epochs: int = 10, use_label_smoothing: bool = False, fine_tune: bool = True,
                  smoothing_value: float = 0.1, learning_rate: float = 1e-6, path_save_model: str = 'models',
@@ -41,11 +41,13 @@ class CNNLearner(BaseLeaner):
             # self.pretrained_model = pretrained_model
             pass
 
+        logger.info("Load config")
+
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.n_cnn = n_cnn
         self.kernel_size = kernel_size
         self.pooling_kernel_size = pooling_kernel_size
-        self.n_filter = n_filter
+        self.out_channel = out_channel
         self.n_dense = n_dense
         self.n_tensor_dense = n_tensor_dense
         self.embedding_dim = embedding_dim
@@ -74,7 +76,7 @@ class CNNLearner(BaseLeaner):
                 n_cnn=self.n_cnn,
                 kernel_size=self.kernel_size,
                 pooling_kernel_size=self.pooling_kernel_size,
-                n_filter=self.n_filter,
+                out_channel=self.out_channel,
                 n_dense=self.n_dense,
                 n_tensor_dense=self.n_tensor_dense,
                 n_labels=len(self.data_source.train_dataset.map_label),
@@ -94,7 +96,7 @@ class CNNLearner(BaseLeaner):
                     "cnn_layer": {
                         "n_cnn": self.n_cnn,
                         "kernel_size": self.kernel_size,
-                        "n_filter": self.n_filter,
+                        "out_channel": self.out_channel,
                         "pooling_kernel_size": self.pooling_kernel_size
                     },
                     "linear": {
@@ -159,9 +161,10 @@ class CNNLearner(BaseLeaner):
         self.model.train()
         train_loss = 0
         for idx, sample in tqdm(enumerate(self.train_loader), total=len(self.train_loader)):
+            # print(type(sample))
             for key in sample.keys():
                 sample[key] = sample[key].to(self.device)
-            loss, _ = self.model(**sample)
+            loss, _ = self.model(sample)
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()

@@ -10,7 +10,7 @@ class CnnCls(nn.Module):
                  n_cnn: int,
                  kernel_size: List,
                  pooling_kernel_size: int,
-                 n_filter: List,
+                 out_channel: List,
                  n_dense: int,
                  n_tensor_dense: List,
                  n_labels: int,
@@ -21,11 +21,12 @@ class CnnCls(nn.Module):
                  weight_contribution: Tensor = None,
                  smoothing_value: float = 0.1):
         super().__init__()
-        assert len(kernel_size) == len(n_filter) == n_cnn, "Invalid input"
+        assert len(kernel_size) == len(out_channel) == n_cnn, "Invalid input"
         assert len(n_tensor_dense) == n_dense, "Invalid input"
 
         self.n_cnn = n_cnn
         self.kernel_size = kernel_size
+        self.out_channel = out_channel
         self.pooling_kernel_size = pooling_kernel_size
         self.n_dense = n_dense
         self.n_tensor_dense = n_tensor_dense
@@ -35,16 +36,16 @@ class CnnCls(nn.Module):
         self.use_label_smoothing = use_label_smoothing
         self.weight_contribution = weight_contribution
         self.smoothing_value = smoothing_value
-
-        cnn_layers = [nn.Embedding(num_embeddings=n_vocab, embedding_dim=embedding_dim, padding_idx=0)]
+        self.embedding = nn.Embedding(num_embeddings=n_vocab, embedding_dim=embedding_dim, padding_idx=0)
+        cnn_layers = []
         base_channel = 1
         for i in range(n_cnn):
-            cnn_layers.append(nn.Conv2d(in_channels=base_channel, out_channels=base_channel * n_filter[i],
+            cnn_layers.append(nn.Conv2d(in_channels=base_channel, out_channels=self.out_channel[i],
                                         kernel_size=kernel_size[i], padding='same'))
             cnn_layers.append(nn.SiLU())
             cnn_layers.append(nn.Dropout2d(p=dropout))
             cnn_layers.append(nn.MaxPool2d(kernel_size=pooling_kernel_size))
-            base_channel *= n_filter[i]
+            base_channel = out_channel[i]
 
         cnn_layers.append(nn.Flatten())
 
@@ -72,7 +73,8 @@ class CnnCls(nn.Module):
     def forward(self, inputs):
         token_ids = inputs['input_ids']
         labels = inputs['labels']
-        output = self.model(token_ids)
+        embedding = self.embedding(token_ids).squeeze(0).unsqueeze(1)
+        output = self.model(embedding)
 
         loss = 0
         if labels is not None:
