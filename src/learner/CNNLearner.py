@@ -181,7 +181,7 @@ class CNNLearner(BaseLeaner):
         for idx, sample in tqdm(enumerate(loader), total=len(loader)):
             for key in sample.keys():
                 sample[key] = sample[key].to(self.device)
-            loss, outs = self.model(**sample)
+            loss, outs = self.model(sample)
             label_pred = torch.argmax(outs, dim=-1).detach().cpu().numpy().tolist()
             label_truth = sample['labels'].detach().cpu().numpy().tolist()
             labels_pred.extend(label_pred)
