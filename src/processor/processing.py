@@ -29,5 +29,7 @@ for folder in list_folder:
     print(data)
     if folder == 'dev':
         folder = 'val'
+    map_f = {'0':'negative','1':'neutral','2':'positive'}
+    data['lb_name'] = data['label'].map(map_f)
     data.to_csv(f'{target_path}/final_{folder}.csv',index=False)
 
