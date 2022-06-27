@@ -31,7 +31,7 @@ class AnnDataSource(object):
                         text_col: str = 'comment',
                         label_col: str = 'pred_label'):
         train_dataset, test_dataset, val_dataset = None, None, None
-        map_labels = None
+        map_labels = {'positive': 0, 'neural': 1, 'negative': 2}
         for file in os.listdir(path_folder_data):
             logger.info(f"Start convert file {file} to dataset")
             if 'train' in file:
@@ -42,8 +42,7 @@ class AnnDataSource(object):
                     map_label=map_labels,
                     stopword_path= stopword_path,
                     path_save_tf= path_save_tf,
-                    is_train=True
-                )
+                    is_train=True)
                 logger.info(train_dataset.map_label)
                 if map_labels is None:
                     map_labels = train_dataset.map_label

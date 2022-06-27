@@ -15,6 +15,9 @@ from src.learner import BaseLeaner
 from src.constants import *
 import json
 import pickle
+import torch
+from torch.utils.data import Dataset, TensorDataset,DataLoader
+
 
 logger = logging.getLogger(__name__)
 
@@ -25,7 +28,7 @@ class AnnLearner(BaseLeaner):
                  batch_size: int = 64, n_epochs: int = 10,
                  learning_rate: float = 1e-6, path_save_model: str = 'assets/models',
                  path_report: str = 'assets/report',
-                 is_save_best_model: bool = False,
+                 is_save_best_model: bool = True,
                  dropout: float = 0.2, **kwargs):
         super().__init__(**kwargs)
         if mode.lower() not in [INFERENCE_MODE, TRAINING_MODE]:
@@ -39,7 +42,18 @@ class AnnLearner(BaseLeaner):
         self.device = torch.device(
             "cuda" if torch.cuda.is_available() else "cpu")
         if mode == INFERENCE_MODE:
-            pass
+            self.data_source = data_source
+            self.map_label = self.data_source.train_dataset.map_label
+
+            self.model = ANNModel(
+                input_size=self.data_source.train_dataset.input_size,
+                n_labels=len(self.data_source.train_dataset.map_label),
+                drop_out=dropout
+            ).to(self.device)
+            weight_name = "ann_weight.pth"
+            self.model.load_state_dict(torch.load(f"{path_save_model}/{weight_name}"))
+            print('Load model done...')
+
         elif mode == TRAINING_MODE:
             self.data_source = data_source
             self.map_label = self.data_source.train_dataset.map_label
@@ -90,6 +104,27 @@ class AnnLearner(BaseLeaner):
 
     def make_loader(self, dataset):
         return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
+    def predict(self,input):
+        self.model.eval()
+        if input == None:
+            input = ''
+        input = [input]
+        path_save_tf = 'assets/utils_weight'
+        with open(f'{path_save_tf}/vectorizer.pk', 'rb') as fin:
+            vectorizer = pickle.load(fin)
+            self.input = vectorizer.transform(input).toarray()
+        self.input = torch.tensor(self.input,dtype=torch.float)
+        # self.input = torch.unsqueeze(self.input, 0).to(self.device)
+        with torch.no_grad():
+            outputs = self.model(self.input)
+            label_pred = torch.argmax(
+                outputs, dim=-1).detach().cpu().numpy()
+            res = ''
+            for item in self.map_label:
+                if self.map_label[item] == label_pred[0]:
+                    res = item
+            print(res)
+            
 
     def train_one_epoch(self, **kwargs):
         self.model.train()
