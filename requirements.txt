@@ -9,10 +9,12 @@ collections
 
 coloredlogs
 transformers
-pytorch
 kaggle
 
 pickle
 
 gensim
-
+torch
+tqdm
+scikit-learn
+tabulate
