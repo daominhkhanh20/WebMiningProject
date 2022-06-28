@@ -1,713 +1,1584 @@
-comment,rating_star,by,pred_label
-giao hàng quá lâu gửi hàng nhắn tin shop trả lời đến khi lần hủy đơn hàng shop mới trả lời và gửi hàng cho mình,3,khanh,negative
-giao hàng nhanh đúng thời gian sản phẩm chất lượng phu hợp với giá tiền có nhu cầu sẽ mua tiếp cảm ơn shop,4,giang,positive
-quá là tuyệt vời luôn dùng rất là thích nha các bạn ơi điểm nha,5,ori,positive
-sản phẩm không như mo tả,4,giang,positive
-abc,4,khanh,neural
-mèo nhà mình chê nhạt không đủ kích thích hít không sướng cần loại mạnh hơn,3,thang,negative
-sản phảm rất tốt phù hợp với giá tiền của mọi người nên shop này rất đáng để mọi người nên mua nó trong mùa thu giá lạnh này áo phao là siwj lựa chọn hipwj lí,5,ori,positive
-có bình bị bể nhưng thấy mãnh vỡ mình nghĩ shop xếp bình bể cho mình,3,thang,negative
-tạm ổn hình ảnh ví dụ gương nào cũng như nhau tuy nhiên gắn vào gương phải lau thật sạch bị rơi lần,4,giang,positive
-hàng như hình shop chuẩn bị hàng nhanh chóng đóng gói cẩn thận giá thành rẻ,5,ori,positive
-siêu cute luôn nhưng sp bị lỗi rách đặt loại thì cái nào cũng có lỗi huhu,4,giang,positive
-đẹp chât lượng nên mua,5,ori,positive
-chất lượng sản phẩm tốt đánh giá đẹp xie xie shop nếu có dịp sẽ ủng hộ shop nua,4,thang,positive
-shop đóg gói không cẩn thận mua về bị rớt mất cái loa phải mở ra sữa lại nói với shop thì shop đổ lỗi cho bên vận chuyển nếu shop đóng gói thì đâu đến nỗi nào,2,thang,negative
-hình ảnh video mang tính chất lấy xu nhưng đảm bảo hài lòng khi mua sản phẩm của shop many thanks,5,ori,positive
-mình có đặt bên shop hai chai trên mô tả shop có là có mùi hương nhưng mình nhận hàng thì cả hai chai đều không có mùi hương gì cả mùi rất nồng chả có tí gì gọi là có mùi hương mình có yêu cầu hoàn hàng nhưng shop không giải quyết cho mình sẽ không bao giờ quay lại lần,1,ori,negative
-giao đúng màu đúng kích thước giai hàng nhanh đóng gói sản phẩm cẩn thận,5,ori,positive
-áo ngực mút hơi cứng size thì mềm đợt sau mình mua size mút cứng hơn,5,ori,positive
-shop cứ để em bị thích quá chứ lị đẹp lung linh luôn,5,ori,positive
-giao hàng chậm trễ,1,ori,negative
-chất lượng quá bình thường phong cách phục vụ cũng bình thường sản phẩm nếu chưa sale thì chẳng muốn mua vì quá đắt,3,khanh,neural
-giao hơi lâu tí nhưng bóng có vẻ khá tốt độ nẩy ổn độ bền thì chưa thử,5,ori,positive
-bóng quá mềm vì bị xì hơi ko phù hợp với bé vì như vậy các bé hay cắn khi cầm,1,ori,negative
-,4,khanh,positive
-sốt ướp đee nướng hoặc rang thịt đều ngon mọi ngườ ahjjjjjjjjjj,5,ori,positive
-shop giao hàng nhanh đúng đủ số lượng sẽ tiếp tục ủng hộ lần sau,5,ori,positive
-video và hình ảnh không liên quan shop gửi hàng nhanh sẽ ủng hộ tiếp,5,ori,positive
-shop giao nhầm có món này,3,thang,negative
-cường lực kém chất lượng dùng đc hôm đã mẻ nứt shop lừa đảo,1,ori,negative
-sản phẩm bình thường đóng gói rất sơ xài giao hàng rất lâu đúng tuần mới nhận dc,1,ori,negative
-ko có sp,1,ori,negative
-gọng kính màu mình ko thích,3,giang,neural
-giao đúng hàng nhưng tẩy lo sạch quá buồn cho những ngày đợi chờ,2,giang,negative
-bình thường với giá tiền đổ cả túi lần xả cũng hok thơm luôn chán luôn,1,ori,negative
-electron is free and open source software framework developed and maintained by github,5,ori,positive
-trong tỉnh màu giao khá lâu mua vài thứ lặt vặt mà shop cũng nhặt đủ cho nhưng hơi bực vì đã chọn viên tẩy lồng giặt theo hộp mua lẻ cho hịn mà lại gửi toàn viên bị vỡ như kia như kiểu để lâu quá kb dùng còn tác dụng còn kệ ngang thì dán dc mn,3,khanh,negative
-sản phẩm đóng gói kĩ đủ sản phẩm đã từng sử dụng nên mua tiếp về dùng,5,ori,positive
-shop chăm sóc tốt nhưng giấy quỳ xấu nên không thể cho được,3,khanh,neural
-sản phẩm phù hợp với giá tiền mút dính chắc trên bề mặt nhẵn nên mua,4,thang,neural
-đường may sắc nét cầm êm tay,3,thang,positive
-mk ăn lần ngon lắm luôn mùi thơm giao hàng hơi lâu chút nhưng đáng chờ,5,ori,positive
-đóng gói sản phẩm đẹp chắc chắn giao hàng nhanh chất lượng thì chờ thời gian đánh giá,5,ori,positive
-giao hàng cug nhanh sản phẩm đầy đủ hình nha cái nhựa hơi cứng loại silicon thì mềm ok,5,ori,positive
-tạm đc không vừa với ngón giữa cho lắm,4,khanh,positive
-mk mua này ok moi nguoi ơi hihi mẹ đi chơi vs cả hai đều là người yêu em,5,ori,positive
-chất lượng tạm đk,3,khanh,neural
-né xa,1,ori,negative
-dép đã bị đeo bẩn,3,thang,negative
-hơi mỏng còn đế thấy hơi cứ phồng lên không biết làm sao nnnnnnn,3,thang,negative
-đóng gói sơ sài hàng nhỏ xíu chất liệu vải không đẹp không vzui,1,ori,negative
-đặt hàng kiểu shop giao kiểu ko hiểu có phần chọn sản phẩm để làm gì,4,thang,negative
-shop không gói dây lại dây hơi dài và dạ quang phát sáng được lúc lấy để trên đèn thì sáng lúc lâu hơn cho sao là thấy hơi quá nhưng do mình cũng ko ưng cho lắm do dây hơi dài,3,khanh,neural
-giao hàng nhanh shop nhiệt tình chọn hai đôi sz một đôi sz shop cho hai đôi,1,ori,negative
-pin yếu cơ như đội vỏ,3,giang,neural
-có cục pin nào,2,thang,negative
-giao nhầm màu nt không trả lời nghe ổn,4,thang,neural
-giao hàng nhanh chỉ bị móp ít những chai vòng ngoài do vận chuyển,5,ori,positive
-khẩu trang xấu hoắc mà đắt hơn shop khác khẩu trang xấu hoắc mà đắt hơn shop khác khẩu trang xấu hoắc mà đắt hơn shop khác khẩu trang xấu hoắc mà đắt hơn shop khác khẩu trang xấu hoắc mà đắt hơn shop khác khẩu trang xấu hoắc mà đắt hơn shop khác,3,khanh,negative
-mình đặt thêm viên pin mà shop giao cây bút mình không phải natra đâu mà dùng lần được cây bút shop gửi bù pin cho mình nhé cảm ơn,3,khanh,neural
-ngắn gọn plus ko dùng được ko vào điện luôn,1,ori,negative
-hàng dùng được duy nhất lần là hỏng cắm điện không hoạt động dù đợi rất lâu vẫn không hoạt động phí tiền thật,1,ori,negative
-hình ảnh như mô tả cắt sắc sản phẩm hơi to thô giao hàng chậm,4,thang,neural
-áo xinh vải đẹp nhưng may bị lỗi mất một bộ dây đáng lẽ bên trong thì may ngược ra ngoài,3,khanh,neural
-ưng quá dịch nên giao hơi lâu tí nhưng kh sao màu đẹp còn giao dư đầu treo xuất sắc sẽ ủng hộ shop tiếp,5,ori,positive
-tb bcd phong chong dich covid tinh thai nguyen de nghi nguoi dan tiep tuc nang cao canh giac kip thoi phat hien khai bao trung thuc cac truong hop tu vung co dich den tro ve dia phuong chu dong ap dung cac bien phap phong chong dich covid de bao ve ban than gia dinh va cong dong tran,4,giang,positive
-chất lượng sản phẩm kém chất lượng sản phẩm kém,2,giang,negative
-vừa nhận được hàng hàng rất ok sẽ ủng hộ shop dài dài cảm ơn shop,5,ori,positive
-khá buồn vì bị gãy mất bên nhưng mà cũng đành chấp nhận nói chung vẫn xài đc,3,giang,neural
-rất thất vọng về ship best express đang rất cần bảo giao hộ mà mãi ko ship đc lúc nhận hàng còn thái độ chất lượng giấy bình thường,1,ori,negative
-hình ảnh minh họa shop ship hàng nhanh tạ chắc chắn lắm ok nghen,5,ori,positive
-khá tốt giá tiền thế không thể đòi hỏi cao được,3,khanh,neural
-với giá cả như vậy là quá ổn rồi,4,khanh,positive
-đóng gói rất kém hộp bị móp hết còn lại thì ok,3,thang,negative
-chất liệu nhựa màu sắc trong suốt shop giao đủ hàng thiếu món bình chiết đẹp nha cám ơn ne shop nhiệt tinh rep tn nhanh rat ok se qlai ung hộ tiep,5,ori,positive
-hàng rất ok đóng gói hàng rất chắc chắn sản phẩm dùng rất tiện lợi,5,ori,positive
-shop nên ghi rõ phân loại chứ hôm mua mình tưởng giá sale cho vỉ luôn,3,thang,neural
-đã từng mua để dùng thấy tốt nên mua thêm hộ đồng nghiệp giao hàng siêu nhanh luôn,5,ori,positive
-giao hàng siêu siêu nhanh sản phẩm ok mình sẽ ủng hộ thêm nữa,5,ori,positive
-giao hành nhanh chóng đóng gói đầy đủ đẹp sẽ ủng hộ,5,ori,positive
-hàng ok hộp hơi móp chút nhưng không sao đo thử thì ổn định,5,ori,positive
-đến tay mình thì gãy mất bên quai gãy thì chắc cũng đc shop giao đủ đồ nên khuyến khích sao,4,thang,neural
-mua đưngj đồng hồ hộp dày dặn oke kính hem vỡ bọc cẩn thận có tâmmmm,5,ori,positive
-chưa dùng chưa bik độ bền thế nào hy vọng ko bị cháy máy,5,ori,positive
-cân nhiều lần giống nhau với giá rẻ như này quá hời ship hơi lâu và thái độ ship hơi lồi lõm shop súp pọt nhiệt tình,5,ori,positive
-bóng tốt đá được mỗi cái túi đựng bóng không đựng được,4,thang,positive
-rẻ rách,1,ori,negative
-rất ưng về sản phẩm giao hàng nhanh ghê mình mới đặt mà ngày đã nhận đc nghe nhạc khá ổn giá tiền hợp lý nữa,5,ori,positive
-,4,giang,positive
-bị móp méo số sp hơi thất vọng nhẹ nói chung là tạm ổn kkkkkkkkk,4,thang,neural
-tạm hài lòng với sp,3,thang,positive
-tất mỏng cổ không cao lắm với giá tiền thì ok,4,khanh,positive
-những thành tích của bạn bằng các dẫn chứng định lượng chẳng hạn như các con số thống kê tỷ lệ phần trăm hoặc tổng số lấy ví dụ bạn có thể nói tôi đã tăng được số lượng khách hàng hoặc tôi đã giảm được thông báo lỗi bạn cũng có thể sử dụng những phép tính đơn giản như tôi đã ho,5,ori,positive
-chậu mỏng dính như túi bóng,4,khanh,negative
-shop làm ăn lừa đảo sim đã dùng rồi bán lại,1,ori,negative
-siêu xinh luôn rất chắc chắn giao hàng nhanh chóng oki oki oki,5,ori,positive
-giao hàng nhanh sản phẩm túi chắc chắn giao hàng ngẫu nhiên nhưng đúng hình mình ưng,5,ori,positive
-yếm mọi lần mua đều có nút bấm lần này mua ko có nút chỉ có nút ngoài rộng rộng quá thành ra chưa dùng đc cho bé,4,thang,negative
-sao vì định mua tiếp thì shop tăng giá,4,khanh,positive
-hàng giao đầy đủ đúng như đơn đặt hàng dịch nên giao hơi chậm nhưng vẫn ok,5,ori,positive
-rất đẹp ưng rắc xong mà thấy cốc cafe sang hẳn lên tặng cho shop,5,ori,positive
-gói lại cả dán team lên bịch xả rồi giao nhận chảy hết còn gì tuy có giá trị lớn nhưng cũng hiểu shop làm ăn đc nv giao hàng thì cẩu thả,1,ori,negative
-hình ảnh mang tính chất minh họa giao hàng nhanh bhugdyihgdjjbcf,5,ori,positive
-chất lượng túi rất mỏng giao hàng rất lâu vì dịch đóng gói bao ni lông bình thường chỉ mua thử để trải nghiệm sp,4,giang,positive
-áo xinh xịn cực kì luôn dày dặn form siêu đẹp giao hàng róp rẻn luôn nè rất đáng tiền nhaaa nên muaa,5,ori,positive
-nhận đủ hàng date xa vừa lòng với thái độ của shop với khách mua nữa,4,thang,negative
-không nên mua tôi mua về bị mớp méo,1,ori,negative
-cũng tạm nhưng mà thích mũi giày cho lắm nhìn thô,4,thang,neural
-xà phòng khá thơm và cứng cáp nhưng ch xài nên cùng ko biết nói thêm gì,4,giang,positive
-áo giống hình mà shop giao cho mình thiếu quai áo là sao trừ dù sao thì áo đẹp mà rẻ nha mn,4,giang,positive
-ví hình mà mỗi tội nó bị bẩn bẩn như trên kia cũng tạm ổn so với giá tiền,4,giang,positive
-sản phẩm tốt nên đặt lùi size sẽ đẹp hơn giao hàng nhanh đóng gói cẩn thận,5,ori,positive
-giao lộn hàng nên nt vs shop trc khi mua nha mn hàng săn sale có mà đổi trả hàng phiền phức nên thôi giao loại to bỏ bừa chuột mn lưi trc khi mua,1,ori,negative
-đẹp và giao đây đủ rẻ nữa giao hàng nhanh kabanll nebhsia bbajo kndb nkak anna nna akonaj,5,ori,positive
-hình ảnh mang tính chất nhận xu giao hàng nhanh mà đóng gói đẹp nữa mình đặt cường lực mà đặt nhầm thành kính mặt sau,5,ori,positive
-nó hề phát sáng thật đáng thất vọng đặt ngôi sao bông tuyết mà chỉ mỗi bông tuyết là phát sáng th,3,giang,neural
-sản phẩm bị xước sơn đóng gói không chắc chắn box bị rách,3,khanh,negative
-chất lượng tốt,3,giang,neural
-đã báo shop lưu cục căn bên dưới cho dài ra và ko có zen bên trong ắc mà vẫn giao vậy haizz về khoan phá zen rồi lại phải đệm thêm long đen ốc thì ngắn nữa,3,giang,neural
-đặt hàng mm shop giao hàng mm không hài lòng hy vọng shop gửi lại đúng hàng,1,ori,negative
-chất thi ok mà fom thi mang như bà già,2,khanh,negative
-lấy theo số đo về size quần của shop đưa ra nhưng mặc bị rộng,4,khanh,positive
-hình ảnh ko liên quan chất lượng sản phẩm bình thường tẩy ko được sạch lắm giao hàng nhanh nv giao hàng nhiệt tình,5,ori,positive
-xài dc tuần nó rớt mẹ ra luôn,1,ori,negative
-sản phẩm tốt mẫu mã đẹp chất lượng cũng ok cầm chắc tay nói chung là tui rất ưng bụng sẽ còn mua tiếp shop này nữa giao hàng cũng đc,5,ori,positive
-dính nhưng ko chắc lắm cũng dễ rớt dùng để rửa mặt trang điểm thì cũng tạm ổn,3,thang,neural
-sản phẩm đúng như mô tả trên trang web shopee vn giá thành hợp lý,5,ori,positive
-đồ chơi quá bé so vs tưởng tượng,3,thang,negative
-hình ảnh để lấy xu thôi chất lượng chăm sóc khách hàng quá tệ đặt hàng bao lâu khách nhắn tin ko thèm trả lời khách hủy hàng ko đồng cố tình giao vì đã thanh toán rồi nên bắt buộc phải nhận,1,ori,negative
-giao hàng nhanh đóng gói cẩn thận mặt cúc có vết bẩn không lau cho sáng được,4,thang,neural
-sản phẩm quá bé và mỏng manh không chắc chắn như quảng cáo nói chung là shop bán hàng chưa thật,2,thang,negative
-âm thanh rất nhỏ cắm tai nghe thì nhỏ hơn điện thoại lấy tín hiệu ra âm ly thì thua cắm jack mình đã mua chỗ khác đắt hơn đến nhưng âm thanh ok hơn mọi người xem xét nhu cầu trước khi mua mình không phốt shop mà nói rõ để các bạn lựa chọn,2,thang,negative
-đặt dây nhưng có dây bị lỗi bung chỉ và dơ sp ok giao hàng nhanh,4,khanh,positive
-ảnh mang tính chất nhận xu nhưng giao hàng nhau đóng gói kĩ còn công dụng thì chưa thấy rõ,5,ori,positive
-nhìn hàng hơi cũ,3,thang,negative
-vừa mặc thử đã bị bung chỉ đường may không chắc chắn phần eo không ôm sát mà rộng ra làm quần bị xệ khi mặc nhìn rất xấu,1,ori,negative
-giao đủ sản phẩm sp rất ok nhưng nhân viên giao hàng cư xử quá thô lỗ,2,giang,positive
-sản phẩm mẫu mã tốt đóng gói giao hàng nhanh shop phục vụ nhiệt tình về,5,ori,positive
-nhắn tin không trả lời sản phẩm kém chất lượng,1,ori,negative
-màu đậm hơn chút sẽ đẹp hơn nói chứ mua hàng rẻ thì phải chịu vậy thôi,4,giang,positive
-giao quả màu hồng nhìn bê đê vãi cả bìu sao,1,ori,negative
-chất lượng sản phẩm tốt giao hàng hơi lâu đóng gói sản phẩm chắc chắn,5,ori,positive
-nhỏ quá,3,thang,negative
-giao hàng nhanh hình ảnh mang tính chất nhận xu,5,ori,positive
-sản phẩm đẹp giao hàng nhanh chóng đúng mẫu đúng size hình ảnh mang tính chất nhận xu,5,ori,positive
-mua pin aaa mà shop đưa chỉ với pin nhìn không giống loại thông thường hay mua,4,giang,negative
-bóp đẹp hơi móp méo nhưng kh sao tạm ổn nhưng mình hơi thắc mắc là sao lại có cái lỗ ngay đáy bóp kh bt là thiết kế hay là do shop nhưng mình nghĩ là thiết kế để thoát nước khi đi mưa nói chung rất ưng sẽ tiếp tục ủng hộ,4,thang,neural
-giao hàng bình thường hướng dương vị dừa ăn khá thơm lần sau sẽ quay lại,5,ori,positive
-đánh gia hàng lấy xu yếm hơi cứng tí nhưng đẹp giao hàng nhanh lắm biết tnao cảm ơn shop rất là nhiều lắm rồi đó,5,ori,positive
-da nhan duoc hang shop giao hang nhanh giao hang day du,5,ori,positive
-đàm nghe gọi rất ok kết nối xa lắm mọi người giao hàng thì cực kỳ là nhanh hàng tốt giá cả hợp lí cách sử dụng dễ dàng bốn người dùng vẫn được nha mọi người nhá cảm ơn shop nhiều giao hàng thì cực kỳ là nhanh hình ảnh chỉ mang tốt hợp lý ra,5,ori,positive
-hơi trắng so vs màu da thật bầu từ kg chật phần đùi,3,thang,negative
-hàng ổn đáy săn sals cũng được giá rẻ ksjsj hui ssaa ssijf dk,5,ori,positive
-chưa sử dụng vì để dành tặng nhưng bít rất dễ thương gói ko được đẹp lắm nhưng rất cẩn thận,4,khanh,positive
-đặt nhưng hai chiếc rõ cùng size nhưng cái to cái nhỏ kh đêu,2,thang,negative
-nhựa dỏm có mùi cọ mỏng yếu chất lượng sản phẩm kém không nên mua,1,ori,negative
-giao hàng sai hình quảng cáo đặt chuột forter vì đã mua nó chỗ khác và dùng tốt nhưng lại giao chuột goldtech bé hơn tặng kèm hai pin bé mong lời giải thích từ người bán,1,ori,negative
-chất khá nóng cái áo hồng đường may bị lỗi một chút phần cổ đang giặt nên mh chưa chụp lại dc,3,khanh,neural
-thật sự rất là hài lòng luôn chưa lần nào mua đồ trên shopee mà hài lòng thế này cho shop sao vì nhờ biết đến shop khiến mình lại tốn tiền mua đồ cho con trong khi nhà mình có bé sinh đôi everything sr vì hình ảnh không liên quan do quần áo mình đã đem giặt rồi,1,ori,negative
-ksndbdksla đksb tb chia sẻ khó khăn viettel khuyến mại giảm giá khi soạn umax gửi ngày có gb hết lưu lượng truy cập với tốc độ thông thường dv gia hạn sau ngày với ct áp dụng với lần đăng ký đầu tiên đến cho tb nhận được tin nhắn soạn st gửi,1,ori,negative
-móc khóa cưng xỉu up xỉu down luôn mọi người ơi nên mua nha,5,ori,positive
-cũng ổn hihi,4,giang,positive
-mua cái thì vỡ chả biết nói sao bjo đóng gói sơ sài nhà vận chuyển mạnh tay khách hàng chịu thiệt haizz,1,ori,negative
-vàng nhìn khiếp shop có tâm thì đã ktra trước khi giao vì nhìn là thấy chứ chẳng cần ktra,1,ori,negative
-bt,3,thang,neural
-thật sự theo cảm nhận riêng mình thì sản phẩm tạm được so với một sản phẩm tự nhiên được làm từ nghệ mình đã mua thì vị khác hẳn và cũng không có giá rẻ vậy đâu nhưng giá thành đi đôi với chất lượng ok viên nghệ organic mình đã mua chỉ đã huống chi tặng thêm goi nữa chỉ,5,ori,positive
-giày đẹp đáng mua nha mọi người nhưng có đôi sale trắng đỏ thì quá tệ màu bị loan ra bị dính bụi dơ nữa,3,giang,neural
-chất liệu tốt như quảng cáo sẽ ủng hộ shop lần sau,5,ori,positive
-áo lỗi có vết rách cổ,2,thang,negative
-ảnh mang tính chất nhận xu nhaa vừa gửi hàng hôm trước hôm sau mình nhận được luôn,5,ori,positive
-rất xin lỗi shop nhưng shop giao thiếu hàng thì mình biết đánh giá thế nào đây,1,ori,negative
-chất lượng sản phẩm ok vs mức giá như thế thì khá rẻ vote,5,ori,positive
-dù đọc đánh giá thấy mn bảo shop giao thiếu hàng nhưng mình vẫn thử xem sao ai dè giao thiếu thật mua giao có trả tiền mn cân nhắc khi mua,1,ori,negative
-dép hơi bé mng nên đặt hơn size đi cho thoải mái,4,khanh,positive
-đúng mẫu mã đợn sử dụng sẽ phản hồi tiếp bước đầu đánh giá sa,5,ori,positive
-mình nhận được đủ lót giày nhưng lót giày bé hơn size giày khá nhiều mình mua lót size nhét giày size vẫn hơi hụt phải nhét tận lót,5,ori,positive
-dễ xài có sạch lên chút nhưng kg nhiều vì là hàng giá rẻ nên chất lượng như vậy cũng chấp nhận đc,4,thang,neural
-mọi thứ đều ok nhưng mà nút khoá hơi bị lỏng,3,khanh,neural
-giao hàng rất nhanh luôn hàng về đẹp chạy mượt nên mua mn nhé,5,ori,positive
-ưng lắm nha hàng giao nhanh được tặng sticker và quà nữa sẽ ủng hộ lần sau,5,ori,positive
-đồ xinh giá rẻ giao hang nhanh mng nên mua,5,ori,positive
-chất lượng sản phẩm tốt đóng gói không đẹp mắt không hài lòng khi mà chọn nhiều màu và note lại lấy màu trắng đen nhưng lại ship màu khác không đúng với phần ghi chú,3,thang,neural
-đóng gói sản phẩm cẩn thận chưa dùng nên chưa đánh giá được chất lượng hy vọng sử dụng tốt,4,khanh,positive
-chất lượng âm thanh quá kém rè mua về nghe lần vứt bỏ,1,ori,negative
-sản phẩm xấu khác xa trên hình,1,ori,negative
-giao hàng nhanh đúng mẫu chất liệu túi dày dặn còn kèm thêm cả con gấu đáng yêu sẽ tiếp tục ủng hộ shop những lần sau,5,ori,positive
-mua của shop nhiều lần rồi lần nào cũng ok shop còn tặng quá trời khẩu trang cồn ok đốt cháy mong shop giữ mãi phong độ này giao hàng cực nhanh luôn saooo,5,ori,positive
-mua số lượng vòng mà chỉ giao có vòng giao thiếu hàng,1,ori,negative
-giao nhanh đủ video liên quan để nhận xu chứ mua shop nhiều lần rồi,5,ori,positive
-máy dùng ok nha mà mua đc cái xong muốn mua thêm thì đã hết hàng rồi buồn,5,ori,positive
-dép chưa đi đã rách giao hàng quá lâu,2,khanh,negative
-dây hơi cứng so với hàng chính hãng nhưng hàng vậy là ok nhận hàng sau tuần shop đóng gói cẩn thận,5,ori,positive
-sau thời gian sử dụng mình thấy sp cấp ẩm bt kh giống tuyp cũ mình dùng dưỡng môi mức độ khá,4,giang,positive
-mình đặt bộ nhưng giao chỉ có bộ,1,ori,negative
-hàng mã nắm,2,giang,negative
-giao hàng quá lâu quá chậm nhận hàng còn bị bể hơi thất vọng xbbxbxhdh buồn,3,khanh,negative
-vớ khá ổn áp giao nhanh shop còn tặng cột tóc nữa sẽ ủng hộ thêm shop,5,ori,positive
-gs đc,4,khanh,neural
-siêu đẹpppp ưng lắm stickers nhiều mà đẹp xỉuuuu mua về mà đứa em thích quá lại phải đặt thêm đôi nữa cho nó,5,ori,positive
-móc mềm dễ cong kém chất lượng hơn loại mình mua ngoài giao hàng nhanh,5,ori,positive
-mấy rất ok nhưng cái này thì tem dán sai và có phiếu bảo hành nhunge rẻ mà như này rất ok phím ấn rất nhẹ bị cứng,5,ori,positive
-giao khá là nhanh form to đựng sách okla lắm bên trong có ngăn bé bé rất tiện,5,ori,positive
-ảnh chỉ kiếm xu dép đẹp mang êm chân mua nhít lên size vừa khít,5,ori,positive
-mosfet tuy hơi cũ nhưng dùng vẫn ok phết tuy hơi yếu hơn irf một chút nhưng dùng để kích điện vẫn tốt mỗi tội chân hơi ngắn xíu thank shop đã chịu khó gửi hàng,5,ori,positive
-màu sắc giao thiếu đúng với mô tả giao thiếu chất liệu shop giao thiếu vớ cho saoooo,1,ori,negative
-đóng gói hàng bị rách ko ưng,2,khanh,negative
-hàng hình mới dùng lần đầu nên chưa biết chất lượng thế nào hic,4,khanh,positive
-hàng ok nhé đèn rất sáng nhìn chắc chắn độ bền chưa biết thế nào chờ thời gian sử dụng,5,ori,positive
-lần đầu mua của shop mà thấ vọng vải quá mỏng vải như vải nhựa dởm vải mỏng mà mặc thì lại nóng,1,ori,negative
-shop bỏ dư cái bọc pin hàng đẹp rõ ràng màu dễ thương like,5,ori,positive
-shop giao đúng hàng giao hàng nhanh,5,ori,positive
-hàng giao nhanh không biết có tác dụng ko vì chưa dùng thử bh,5,ori,positive
-không phải màu đỏ tươi nó là màu đỏ son nhìn xấu,3,thang,negative
-ngoài nhìn nhỏ hơn trong hình,3,khanh,negative
-giao hàng không đúng vòi dài gấp đôi chai shop bảo tôi xoắn lại mà xoắn lại thì nó gẫy gập không sử dụng được nếu cắt thì mất cấu trúc cuối vòi để hỗ trợ phun xịt tóm lại shop đã giao hàng sai và không hề có thức sửa lỗi tôi cũng không muốn bàn cãi về việc này tôi sẽ không mua hàng đây,1,ori,negative
-fjznfzfj jf hf,5,ori,positive
-tốc độ không như quáng cáo tốc độ đoc ghi chi hon,2,thang,negative
-vải cũng tốt giao hàng nhanh mặc mát là ok cho shop sao nha,5,ori,positive
-không hề có sản phẩm được tặng shop lừa dối khách hàng,1,ori,negative
-pin mới vôn chuẩn thanks shop nhe,5,ori,positive
-vừa sezi nhưng gửi toàn màu xanh hình không đc đẹp lên không thích lắm,3,khanh,neural
-dây cấm vào laptop vẫn lo co tín hiệu nhắn tin shop ko trả lời thái độ phục vụ rất chán không nên mua mất tiền oan,1,ori,negative
-rất đẹp nhe để quần áo rất hợp lí luôn,4,thang,positive
-giao hang nhanh dong goi ki chat luong day vua nhu mong doi se ung ho shop trong thoi gian toi,5,ori,positive
-mk ko biết tại sao túi của mk ko có mấy con thỏ thỏ các kiểu đính trên đó khác với hình mà shop đăng mk đọc đánh giá thì thấy mọi ng ai cũng có đủ hichic giao hành nhanh chất túi khá mềm nhưng mà dây đeo chất ko ưng lắm,3,giang,neural
-sản phẩm dùng được tiền nào của đấy không có gì khác muốn ngon phải mua đồ giá cao,5,ori,positive
-khá ok lần sau sẽ ủng hộ hình ảnh mang tính chất nhận xu saoo,5,ori,positive
-freeship đông trùng hạ thảo nhộng vnherbs hộp con chỉ tr tặng combo gồm con đông trùng nhộng hộp hoa cúc túi táo đỏ đông trùng hạ thảo nhộng vnherbs hộp con chỉ tặng combo gồm con đông trùn,5,ori,positive
-nói thật là nó như cái mềnh,3,thang,negative
-quá nhỏ so với tưởng tượng,1,ori,negative
-mình đặt mẫu thì shop lại gửi mẫu chắc do mình chuyển tiền trước nên shop làm ẩu hả bạn dù sp ít hay nhiều tiền thì cũng phải làm cho có tâm chứ chán shop cũng may mình chỉ mua dùng tạm cho laptop nên thôi đành chịu vậy,1,ori,negative
-dép bé chỉ dc một màu thôi dc nhiêug màu,4,khanh,neural
-shop giao hàng hơi lâu đủ hàng bé trai mà shop giao cái màu hồng shop không gói vào bọc nên bụi không biết có phải shop không để không nữa,2,giang,negative
-hàng bị gãy nt lâu shop trả lời dạ hết,1,ori,negative
-chất lượng sản phẩm tuyệt vời đóng gói sản phẩm rất đẹp và chắc chắn shop phục vụ rất tốt rất đáng tiền thời gian giao hàng rất nhanh,5,ori,positive
-hàng rất đẹp mình rất thích sản phảm của sop lần sau sẽ quay lại ủng hộ sop nhiều hơn nữa,5,ori,positive
-giao hàng nhanh mua size mà shop lại gửi size haiz mong shop lưu hơn khi soạn hàng vận chuyển,3,thang,neural
-xinh giống trong hình shipper thân thiện hình ảnh và video chỉ mang tính chất nhận xu,5,ori,positive
-nhẽ ra mình phải xem kỹ để rõ ảnh shop đăng với feedback người mua trc cái mui dép nó xấu kinh khủng luôn trông dại cực thấy mua đôi này phí tiền lắm nhưng shop rất thân thiện nhiệt tình nên mình vẫn để sao cao tý,4,giang,positive
-giao hàng rất đầy đủ hàng dùng rất là tốt giá lại siêu rẻ luôn,5,ori,positive
-cảm thấy quá ít ko đc bát như shop bảo nhưng đc cái giao hàng nhanh shop nhiệt tình,4,thang,neural
-qc mùa yêu ngọt ngào ưu đãi dạt dào đổi điểm để nhận voucher dart chocolate chỉ có tại viettel,5,ori,positive
-hàng mã lắm,1,ori,negative
-giao hàng sai mẫu mà không nói trước và giao hình rất xấu vì không chụp được nên lấy ảnh khác,3,thang,negative
-dịch nên ship hơi lâu shop gói hàng không cẩn thận hộp của mình bị móp,3,thang,negative
-lắp vào rất vừa bắt điểm hàn nhanh cổng nối chắc chắn giao hàng nhanh chóng trả lời khách hàng ngay tức thì vote sao đánh đấu sẽ mua lần sau,5,ori,positive
-đánh giá cho shop sao sim mới mà khi lắp vào máy dùng đăng kí tài khoản shopee thì báo số thuê bao đã có người dùng và số đã đăng kí nhắn tin cho shop thì shop đọc xong im luôn,1,ori,negative
-giao hàng nhanh như cơn gió,5,ori,positive
-nồi nhỏ mỏng,1,ori,negative
-có giấy lau kính cả,3,giang,neural
-đặt cái này gửi cái khác chán,2,khanh,negative
-giao đúng mẫu,2,thang,negative
-giày giống hình nhưng không được êm cho lắm nói chung tiền nào của đó thôi,4,thang,neural
-giao hàng rất lâu luôn khoai chưa tươm mật lắm lần nào mua cũng bị thế nên phơi nắng vài ngày,4,khanh,positive
-mua lần hai nè sản phẩm chất lượng pha với một cốc nước uống là đủ ngọt nhẹ rùi ok lắm,5,ori,positive
-giày lên form đẹp lắm nhma bị lộ keo dán nên hơi mất thẩm mĩ xíu với lại mình đặt size mà shop giao size mang rộng quá trời nên phải pass lại nhắn thì shop bảo là do hết size nên nv lấy size đánh giá sao để shop rút kinh nghiệm có hết size thì nhắn khách hàng để đỡ lu bu đôi bên,4,thang,neural
-đóng gói sản phẩm chắc chắn phù hợp với giá tiền đáng mua,4,thang,positive
-sản phẩm đóng gói chắc chắn cẩn thận cắm thử thấy điện vào ngay mỗi tội dây hơi cong và méo đuôi sale nên rẻ ủng hộ shop,4,giang,positive
-kính cũng được hơi to so với mặt mình hihiii nhưng vẫn okeee la lắm nên mua mn,5,ori,positive
-gel này thơm mở hộp ra đã thấy rồi khá dễ dùng lần đầu thì hơi khó nhưng làm nhiều sẽ quen đặt cây loại khác nhau thì chỉ nhận được cây ấn cái này thì không sao lắm vì tháo ra lắp vào dễ hàng gửi nhanh nhưng thiếu đồ phụ nhắn thì shop không trả lời hàng tốt dịch vụ kém,2,khanh,negative
-shop nhiệt tình chu đáo dễ thương lắm chuẩn bị và gói hàng nhanh chóng yêu shop,5,ori,positive
-rất là bực mình hàng ko đc đóng gói cẩn thận nhét vào cái túi nilon còn rách rách khi hàng đến tay mk thì chai méo hết rồi phải nắn nắn bóp bóp mà còn ko vẫn bị méo biết là hàng rẻ nhưng nếu đóng gói cẩn thận thì sẽ ko đến mức này đóng gói kiểu ko tôn trọng khách hàng vậy,2,giang,negative
-vẫn chưa nhận được hàng nha hơi khó chịu nhưng thôi bỏ qua,2,giang,negative
-shop tuyệt vời nhưng đơn vị quá tệ mong shopee cho người mua tự chọn đơn vị vận chuyển thanks,1,ori,negative
-hộp giấy màu xinh chất cứng cáp nhưng bị rách chốt càiiiiii,4,khanh,positive
-mình đã mua hàng của shop lần rồi lần trc đều ok bị móp khoảng chai trên chai còn chấp nhận đc nhưng lần này móp chai và rất nhiều chai móp nặng nhà mình phải bỏ đi không dùng đc rất xin lỗi nhưng lần này nhà mình chỉ cho shop sao đc thôi lỗi đóng gói quá nặng shop,2,thang,negative
-sản phẩm ok đóng hàng cẩn thận giao hàng nhanh chóng,5,ori,positive
-miếng dán ko được ôm trọn màn hình series,4,khanh,positive
-đóng gói ẩu chuẩn bị hàng có tâm dẫu biết giao hàng ngẫu nhiên nhưng mình đặt cái mà cho cùng màu trắng có tâm sẽ ủng hộ lần sau,1,ori,negative
-giao hàng siêu nhanh viên sủi đã dùng nhiều lần chất lượng tốt tiện lợi,5,ori,positive
-áo rất rất mỏng với giá tiền này mua áo giữ nhiệt sẽ hợp lý hơn nhiều áo ko ấm chút nào đâu,1,ori,negative
-đóng gói đẹp cẩn thận chất lương sản phẩm tuyệt vời thời gian giao hàng nhanh rất ưng mùi quần thơm,5,ori,positive
-mua về sài đúng bữa là hỏng ko nhận pin sạc gì hết liên hệ shop thì trả là dk câu rui mất tiêu mình khuyên mọi người ko nên mua sản phẩm thì rất tệ shop thì chả có tâm chúc nào,1,ori,negative
-nhận đầy đủ hàng giống hình đóng gói cẩn thận nhận đầy đủ hàng giống hình đóng gói cẩn thận,5,ori,positive
-,5,ori,positive
-giao hàng thiếu đã nhắn tin giải quyết nhưng không một lời giải thích,1,ori,negative
-sản phẩm giao hàng nhanh giá thành rẻ sản phẩm dùng tốt nên mua nha mng,5,ori,positive
-nhận được đủ đồ nhưng rất là thất vọng đặt cái thì giao giống hệt màu nhau đã vậy đồ bị dơ và lỗi shop vẫn giao cho khách quần áo dễ dơ mà lại không cho vô bịch riêng buộc đại rồi giao bèo nhèo đồ giá rẻ nên mình không nói đến chất lượng rất mỏng vad xù lông,1,ori,negative
-shop uy tín nên cũng chả cần quay khi nhận,5,ori,positive
-dây trắng to hơn dây đỏ không đồng loại vỏ không phải silicon như quảng cáo hình ảnh,2,thang,negative
-giao hàng nhanh đóng gói chắc chắn nhưng shop giao thiếu cho mình dây áo,3,giang,neural
-chất liệu mỏng khóa zip lại chắc nên mình kéo để mở khóa bị rách mảng nhỏ,4,khanh,positive
-chăn mỏng mặt giống nhau kiểu chăn nỉ,3,thang,negative
-hàng flash sale thì cũng bình thường không có gì đặc biệt,4,thang,neural
-bị bung bên ốc shop ơi,3,giang,neural
-sáng mua bóng mới sd dc tuần cháy bóng,2,giang,negative
-hàng ổn nhiều chỉ thừa chỉ bọc một lớp bị nilon trắng thấy được cả bên trong không hiểu sao shipper biết nhà hay vậy,4,giang,positive
-đem giặt bị lem màu hết cái trắng đúng là tiền nào của đó,4,thang,neural
-tất nữ nhún cố cao hay còn được gọi là vớ nữ nhún cổ cao là phụ kiện thời trang có mặt trong tủ đồ của mọi người tiêu dùng tất chân thường được sử dụng với mục đích giữ ấm bàn chân bảo vệ sức khỏe hoặc đơn giản là thấm hút mồ hôi trong quá trình bạn đi giày những loại tất phổ biến trên thị trường,5,ori,positive
-đúng với những gì mình đã đặt đã thế shop còn bonus thêm bộ hạt chặn nữa,5,ori,positive
-sp ok ôm vào đt cho lắm nhưng ốp khá cute cái ốp màu xanh bị nhèo mực với giá tiền như này ổn,4,khanh,positive
-đóng gói sản phẩm cẩn thận,3,giang,neural
-giao hàng siêu nhanh đóng gói sản phẩm cẩn thận lắm chất lượng sản phẩm tốt tuy nhiên shop đăng là mũ trơn nhưng mình nhận được mũ lại là loại có thêu hơi thất vọng,4,khanh,positive
-mình đặt xanh dương hàng ghi ngoài cũng là xanh dương mà không hiểu sao mở ra lại là màu rêu chắc do thời điểm gần tết nhiều đơn nên thôi mình cũng thông cảm cho shop may là chị mình cũng thích màu đó,5,ori,positive
-đặt màu đen giao màu xanh quá thất vọng giao hàng thì chậm gần tuần mình mới nhận dc,1,ori,negative
-nhận được hàng của shop rất dễ thương chất liệu giấy cứng cáp đẹp lắm luôn giao hàng cũng nhanh tuy còn tháng mới tới nhưng đặt trước rất hài lòng lần sau đặt tiếp,5,ori,positive
-kiếp nào ta cũng tìm thấy nhau tặng postcard bốn mùa ngẫu nhiên công ty phát hành thái hà tác giả brian weiss ngày xuất bản kích thước cm loại bìa bìa mềm số trang nhà xuất bản lao động kiếp nào ta cũng tìm thấy nhau là cuốn sách thứ ba của brain,5,ori,positive
-cười ỉa luôn lướt qua thấy sale nên mua thử giao về nhìn bcuoi vl lại còn màu hồng may là mua lúc sale nên đắt,3,giang,neural
-sản phẩm như quảng cáo đóng gói chắc chắn giao có cục bị lỗi,3,thang,neural
-chs bộ lỗi vậy shop cũng ship giao hàng lâu đồ lắp thiếu tùm lum móc treo thì gãy hết còn đủ mảnh gãy,4,khanh,negative
-chất lượng sản phẩm rất tốt mình rất ưng cảm ơn shop nhiều shop nhiệt tình lắm,5,ori,positive
-rẻ nè nên mua còn hơn ra ngoài ép thẻ mất giao hàng thì hơi lâu giao hcm tầm ngày,5,ori,positive
-giao hàng nhanh đặt nhận hàng khi chuyển hàng quên chưa lau qua nên hơi nhem tay xúi cũng dek,3,giang,neural
-đã nhận được hàng và rất ưng sẽ ủng hộ shop nữa đóng gói rất cẩn thận cảm ơn shop nhiều,5,ori,positive
-dính vào nhau quá lại phải mất công cắt chỉ sợ cắt lẹm vào cái khác chất lương linon dày trong ok đấy,5,ori,positive
-túi tạm được hơi mỏng giá ko quá cao giao hàng khá nhanh hi vọng shop sẽ sx loại dày hơn chút,4,khanh,positive
-đóng gói hàng móp méo hương ko thơm mùi trầm ko phải,1,ori,negative
-hàng nhận về bị hỏng cắm điện vô bị kêu như bị rò rỉ điện vậy chán thật nhắn tin cho shop để đổi thì bảo nhắn zalo rồi không rep luôn,1,ori,negative
-tháo ra mình bỏ thùng rác luôn rồi nên ko có chụp hàng rẻ thật nhưng ko xài được vì đục mờ,1,ori,negative
-shop làm ăn như đàu buồi đóng hàng thì méo mó túi trà đào kia toàn con quái gì ko biết làm ăn ko có tâm nhiều lần mua hàng shopee nhưng đây là lần tồi tệ nhất,1,ori,negative
-giao hàng nhanh dép đẹp lắm hình mang tính nhận xu gdhjdjdjcjcjcj hdhdhhch,5,ori,positive
-hàng chuẩn đáng tiền âm thanh nghe rõ nét shop giao giáo hàng nhanh tư vấn nhiệt tình,5,ori,positive
-sơn dễ tróc,3,thang,neural
-giày tạm ổn hợp với giá tiền cũng đẹp giống hình,5,ori,positive
-quá thất vọng giao rõ lâu lại còn sai rõ ràng mua chân ip lại giao cái chân này chịu thật,1,ori,negative
-cũng ổn giao hàng,4,thang,positive
-mua miếng vạn sự bình an vợ chồng hòa hợp tránh hạn tai ương mua may bán đắt mà giao cái mua may bán đắt ko có vợ chồng hòa hợp,3,khanh,neural
-đường kính chỉ cm thôi shop,4,thang,negative
-shop giao hàng lâu thiếu hàng còn lại sp cũng,4,giang,positive
-ko nhận đc quà mất công thức đêm đặt sáng đi làm muộn sếp chửi vợ mắng,1,ori,negative
-thiếu hàng thì đừng nhận đơn lần đầu gặp cái shop làm ăn tham lam vô trách nhiệm kiểu này chuyển khoản hoàn trả thì ậm muốn quỵt tiền cho sao để mọi người cảnh giác và tạo môi trường thương mại sạch và văn minh,1,ori,negative
-đã mua nhiều lần của shop hàng dùng rất ok về bán cho khách mấy bộ luôn,5,ori,positive
-khẩu trang đẹp shop nhiệt tình,5,ori,positive
-shop lm ăn có tâm gửi nhầm hàng còn cãi cùn chụp ảnh gửi vẫn cãi ầm ầm mn nên mua,1,ori,negative
-chất lượng tạm ổn cũng ko dầy cho lắm nhưng giao hàng nhanh cảm ơn shop hình ảnh mang tính chất mik hoạ để nhận xu,4,thang,neural
-đế giày ok nhất nước rửa giày cũng bình thường thấy trắng giày áo lót màu da ok mặc cấn da mua cái màu đen màu da cái màu da có dây màu đen dây biết mặc kiểu gì nữa nhắn tin shop trả lời hài lòng,2,khanh,negative
-móc đẹp lắm giao siêu nhanh hơi đắt hơn chỗ khác chút nhưng cũng okela rồi,5,ori,positive
-mình nhận được hàng thì kính bị vỡ shop cũng đồng nhận lại hàng nhưng chuyển đi chuyển lại mất công mất cả phí ship nữa nên mình bỏ kính đi cho miếng mika dùng tạm nếu không bị vỡ kính thì hàng rất đẹp cho shop vì hàng bị vỡ,3,giang,neural
-hàng như cặc xấu thata vọng vlon,1,ori,negative
-keo xài dính chặt lắm với lại mua hiểu sao mà màu xanh với hồng lại ra giá khác nhau cái ngàn cái ngàn,3,giang,neural
-shop đóng gói sản phẩm cẩn thận giao hàng rất nhanh tks shop nhiều,5,ori,positive
-tưởng tem là cặp ai ngờ,3,thang,neural
-shop giao hàng chậm,4,thang,negative
-hình ảnh khum liên qan shop giao đủ hàg đúg màu đúg size giao hàg cực nhanh do là chưa dùng nên mình cũng chưa biết nên đánh giá mma khi nào dùg thì mình sẽ sửa nheeee,5,ori,positive
-giao hàng nhanh chất lượng oke giá rẻ,5,ori,positive
-săn sale tùm lum giao hàng nhanhhhh màu,5,ori,positive
-có thơm nhưng ban ko ra hoa tam được ko đẹp mắt lắm,3,giang,neural
-mua combo dây với switch sw hơi cứng xíu nhưng xài đc còn dây thì chắc chắn hơn dây zin mong xài đc bền mình cho thôi vì ko có bảo hành,4,giang,positive
-sản phảm tốt đóng goie kỹ đẹp sử dụng lâu dài giao hàng nhanh chóng,4,thang,positive
-chất lượng sản phẩm uy tín đúng với mô tả đúng với mô tả hình ảnh và video mang tính chất nhận xu ạa,5,ori,positive
-chấp nhận được tiền nào của ấy,3,khanh,neural
-máy ổn những nốt này cuối năm ngoái có đi trị sẹo rỗ bệnh viện có chấm tca xong bị mưng mủ chỗ chấm,5,ori,positive
-hàng sử dụng tốt,5,ori,positive
-que cay rất ngon bao bì đóng gói cản thận mọi người nên mua nha,5,ori,positive
-hàng thì đúng nhưng mà cái hình tên nhãn chữ thì ko có nên rất buồn,5,ori,positive
-hình da đẹp mịn nhưng rất nhỏ bé giao hàng lâu hình da đẹp mịn nhưng rất nhỏ bé giao hàng lâu hình da đẹp mịn nhưng rất nhỏ bé giao hàng lâu,4,khanh,positive
-,2,thang,neural
-hàng chuẩn giao hàng cực nhanh shop uy tính mọi người nên mua hàng tại shop này,5,ori,positive
-ví đẹp giao khá nhanh chỉ có là cái túi nhỏ gắn bên trong bị bẩn nên mình tháo ra rồi được tặng kèm cái bọc thẻ khá ok dễ dàng tháo ra lắp vào,5,ori,positive
-cắt cụm camera bị lệch tưởng cắt luôn trái táo nhưng ko cắt đã nhận được và đã bỏ sau khi dán được quá sấu,2,khanh,negative
-backpack không thực sự xứng với giá tiền mình mua sử dụng chưa đến tuần đã đổ lông hết lên không xứng đáng với giá,1,ori,negative
-lót giày ngắn hơn so với size giày thông thường đặt đôi đôi mà size hệt nhau,3,thang,negative
-may săn sale mua nên mới tiếc tiền giấy xấu,3,giang,neural
-lần mua đây mà thấy lần này chất lượng hơn hẳn nhìn rất chắc chắn đẹp shop phục vụ cững nhiệt tình nữa rất đáng để mua nha,5,ori,positive
-hàng ok đợt này sợi dây hơi bé lần sau noi nhà cc làm sợi dây to chút vẫn cho giá cạnh tranh,5,ori,positive
-sản phẩm bị rách inbox cho shop không trả lời luônn,1,ori,negative
-giao hàng khá lâu nhưng sản phẩm ổn chất lượng sản phẩm khá ok,5,ori,positive
-giao đúng những đã đặt đóng gói cẩn thận làm hàng bị rơi thiếu mất món mấy món rơi khỏi thùng,4,thang,negative
-hàng dùng ổn định nhưng chắc do dịch nên shop chuẩn bị đồ mất khá nhiều thời gian,4,khanh,positive
-sử dụng biểu tượng chỉnh sửa để ghim thêm hoặc xóa đoạn,1,ori,negative
-sử dụng sp tuần mới quay lại đánh giá giá rẻ mà tốt đáng mua tự ngắt khi lâu sử dụng chuột bấm cực êm êm hơn em chuột trước của mình tuy nhiên thiết kế khó lấy usb shop nên bọc chống sốc chứ chuột vầy mà bỏ mỗi bao mỗi hộp hộp bị mở mất tem chắc shop kiểm tra hàng trước,4,thang,neural
-mình muốn mua kính cường lực chứ kphai miếng dán thế này tuy nhiên đã bóc nên dán dùng tạm,3,thang,neural
-chất lượng sản phẩm tạm được,3,giang,neural
-gương đẹp nma của tui nó bị rỉ màu sắt ra ngoài gương hơi buồn hic,5,ori,positive
-bị sim bị khoá trong tổng sim,3,giang,neural
-bình hơi bẩn kb làm sao để đánh sạch cái mảng bám két bên trong bình,3,khanh,neural
-đẹp rất mát không có tiếng ồn nhưng tôi cắm vào sạc dự phòng thì nó không lên phải cắm vào điện trực tiếp nói chung là ngon,5,ori,positive
-hàng khá ổn riêng bột báng đun hơi lâu giao hàng nhanh đóng gói cẩn thận,5,ori,positive
-các bạn dung vao shop nay mua hàng nha cố tình giao thieu hàg cho khách de ăn giựt tien của khach do tren don hàng rõ ràng là gạch mã hàng kg có hàng mà van cố tinh giao de lay tien cua khach goi dien thì kg bat may né cái sh này ra để phải kg bị giong minh mất tien oan uổng,1,ori,negative
-sản phẩm ổn giá tốt ban đầu chưa quen lắm nhưng dần quen thấy khá okkk,5,ori,positive
-hàng chỉ mang tính chất kute thôi chứ đỡ được điện thoại đâu mong manh lắm,3,thang,neural
-đặt mà giao li,1,ori,negative
-móc cứng cáp chắc chắn treo áo vest lên đứng form rất đẹp nha,5,ori,positive
-cam bị lỗi hết gửi về bảo hành nhưng vẫn lỗi không xử lý triệt để mà vẫn thu tiền mn chú gói magiccer là chiêu trò nhằm đánh lừa khách hàng thực chất nó không có tác dụng khi cam bị lỗi mà vẫn bị mất tiền bảo hành cam mới mặc định được bh tháng nên gói đó ko có giá trị,1,ori,negative
-ban máy ma ko co cục sạc đt bao thi noi sac mua riêng vào gia cục sạc nua hàng chưa sài nên chưa biết,3,khanh,neural
-nhìn ổn chưa chơi không biết như nào nói chung okii,5,ori,positive
-hàng về đẩy đủ hình ảnh và vid chỉ mang tính chất nhận xu thôi nhé,5,ori,positive
-sản phẩm dỏm qué mọi người ơiiii độc hại nữa chớ nói chung là săn giá nghìn cho đủ đơn thui nè,1,ori,negative
-đặt thẻ gb nhưng nhận được thẻ nhớ tận gb cảm ơn shop nhiều lắm,5,ori,positive
-sp hình mua hàng ko mong thừa chỉ cần đủ sp là dc nhưng lại giao thiếu mũ bảo hiểm cách chsoc khách hàng ko tốt nchung ko hài lòng hơi thất vọng mn mua nên cân nhắc,2,thang,negative
-mic về cứ bị rè không sử dụng được nt shop cứ bảo đổi đt khác thử thì ko biết lấy đt đâu ra để mà đổi có mà quá mệt mỏi mọi người muốn mua mic này nên cân nhắc nha,1,ori,negative
-cảm ơn shop nhieuf vì đã giao hành nhanh hàng tốt đóng gói cũng dc vải thì nêm nhưng cụm le nó chia ra lm cục mà cái tròn cái dẹp nói chung là cũng ok lắm nên mua shop này,5,ori,positive
-túi hơi mỏng nhỏ và đặc biệt là có mùi rất nồng tuy nhiên giá và sản phẩm thế này là ok rồi,4,thang,neural
-giao hàng lâu đóng gói hàng hoá cẩn thận chính xác thì là kem dưỡng đồ da chứ không có công dụng làm sạch mấy,4,thang,positive
-sp ok,4,thang,positive
-hơi bé,4,thang,neural
-ko dùng online được,1,ori,negative
-ảnh đẹp mà mấy ảnh có màu tối thì in ra mày ko giống lắn nên in những ảnh có màu sáng thì sẽ đẹp hơn,5,ori,positive
-sản phẩm ổn cắt len xù ok nhưng ko cắt hết đc giao hàng hơi lâu,5,ori,positive
-thấy quảng cáo hay nhưng đeo vào tức tai hơn đặt mua lại bỏ ko dùng trải nghiệm biết sản phẩm,3,thang,negative
-hộp cũng không có gì là đẹp nhưng mua kèm vậy để đựng đồng hồ thì khá ok,4,khanh,positive
-dây đẹp như hình giao lộn màu sợi giao hàng đủ và nhanh,4,thang,neural
-không biết chỉnh đồng hồ thông minh như thế nào có nhắn tin hỏi shop mà trả lời đúng một câu rồi im bặc,3,giang,neural
-sản phẩm chất lượng tốt giá cả phải chăng shop tư vấn tận tình giao hàng nhanh chóng mình dùng thấy rất dễ và tiên lợi ủng hộ shop thêm nhiều lần nữa em lười quay video nên video chỉ mang tính chất minh họa,5,ori,positive
-shop dễ thương tận tình gói hàng kĩ nhưng mà cái tripod thì bị lỏng phần khớp không khắc phục được,4,giang,positive
-màu đẹp nhưng đế lại bị đều màu chắc do giá rẻ nên thẩm mỹ cao nhiều phần nhựa thừa mua fs nên tạm ổn,4,khanh,positive
-do mình đặt trắng và đen shop lưu nên có miếng giấy lót ngăn trắng và đen ra để không bị lem màu,5,ori,positive
-thời gian giao hàng vừa vặn hàng giống ảnh chất lượng phải dùng mới đánh giá tiếp đc,5,ori,positive
-với giá tiền như thế thì chất đẹp xịn tôn dáng nhưng mà quá dài không dành cho mình dày qua chân cả gang tay hic cạp không co giãn nên kéo lên hơi khó rcm mấy bạn cao cao nên mua nha,3,khanh,neural
-đắt nhưng chất lượng ko tốt như giá giao hàng lâu ko đáng tiền chút nào xấu hơn cái mình mua,3,thang,negative
-đặt hàng đến ngày mới nhận được biết là hàng quốc tế nhưng mà lâu quá tui chia tay ny đc gần tuần mang miếc gì nữa,3,khanh,neural
-phù hợp với giá tiền,3,khanh,positive
-video quay bóc gói hàng quá lâu shop bọc siêu kỹ hàng ship nhanh cứng cáp hi vọng dùng bền,5,ori,positive
-hàng ok chả nhưng mua hàng tiện mua luôn cám này,4,thang,positive
-giao hàng nhanh hộp siêu to có lấy ra thử ít thì thấy bọt nhiều như xà phòng mùi thì cũng tạm đc tiền nào của nấy nch cũng ổn,5,ori,positive
-mua về tính đi tặng mà tem mác vứt lả tả thế này chả biết có nên tặng không,4,thang,negative
-giao hàng nhanh đúng mẫu,4,thang,positive
-đẹp đáng tiền ổn áp giá tiền cũng hợp lin gia hàng nhanh nên mua,5,ori,positive
-sản phẩm nào cũng tốt lắm sẽ quay lại ủng hộ shop tiếp,5,ori,positive
-hàng đúng mô tả gửi nhanh uy tín nha em,5,ori,positive
-lót giày không thấy có mùi như shop quảng cáo mong rằng khi đi sẽ ko bị mùi mồ hôi,4,khanh,neural
-lạy trời sét đôi tất giờ mình vào xem lại ghi đôi trong khi ngoài chợ bán,1,ori,negative
-ko giao hàng chạy deal sản phẩm rồi ko giao nhắn tin không trả lời chắc là shop cố nên thôi thì sao nhẹ,1,ori,negative
-hơi buồn màu đậm hơn hình nút ấn bị thụt xuống bật được quạt cắm được sạc pin,3,khanh,neural
-thời gian giao hàng nhanh shop phục vụ khá tốt hơi nhiều chữ không cho con tự học được mà bố mẹ phải đọc,4,thang,neural
-mua thì hết bị tình trạng xước bề mặt rồi lúc đóng gói phải thấy chứ nhỉ lần đầu mua coi bộ ổn tẹo nào,3,thang,negative
-chất lượng đâu ko thấy chỉ thấy nó gãi suốt ngày rồi quấy khóc lúc đầu bị chàm sữa có tí giờ dưới cằm cũng bị,2,khanh,negative
-dễ hỏng mua hỏng chất âm nghe rất ổn trong tầm giá,3,khanh,neural
-ko giống mô tả sạc đầy pin ko đèn ko chuyển màu xanh,3,giang,negative
-mình mua có cái mà lỗi cả lỗi nha chứ phải hỏng,1,ori,negative
-chả khác gì cây viết xoá đã còn mau hết và khó xài hơn tiền nào của đó,1,ori,negative
-hàng chuẩn hình đóng gói cẩn thận mới câu rô phi nên chưa đanha giá được hết,5,ori,positive
-mình mua đôi khác loại nhưng nhận được cùng kiểu và cùng là màu trắng giống nhau,3,giang,neural
-đặt nhầm hàng đã xin hủy khi shop chưa chuyển hàng đi vậy mà shop vẫn không ok hủy và tiếp tục gửi cũng chẳng phản hồi gì với khách cả đã nhận đc hàng và sẽ thanh toán nhưng không ok lắm,1,ori,negative
-giao hàng lâu tận ngày mình mới nhận được nt cho shop thì kh trl nhưng sp tốt nên cho,4,giang,positive
-giày rất xinh vừa chân tuy mùi nhựa khác nồng ai mua nên tăng thêm size nhé do form giày khá nhỏ trừ shop do mình order thêm tất sao đen mà shop lại giao sao sáng đã vậy có đôi còn bị dơ nữa,4,giang,positive
-iphone không dùng được nhéeeee mn,1,ori,negative
-dán màn hình bị nứt ốc vít cũ chứ ko phải mới pin chưa gắn nên chưa biết chất lượng thế nào hỗm mình có ib tư vấn mà shop ko tl chưa hài lòng về sp lắm,4,thang,negative
-sp dúng chất lượng giáo hàng nhanh,4,thang,positive
-giá rẻ hơn so với những chỗ khác shop giao nhanh đủ hàng sản phẩm dùng tốt,5,ori,positive
-nhận được hàng khá thất vọng mua mới mà như hàng cũ như vậyyyyy,3,thang,neural
-sản phẩm như hình nhưng không thấy nâng mút mỏng giá cả chấp nhận được,3,giang,neural
-,3,thang,neural
-upload chậm mình đã dùng cục kích wifi mà vẫn khá thất vọng,3,khanh,neural
-shop giao lâu nhưng mình cũng thông cảm cho shop có bill tặng dây miếng lót giày thì bên có bên không bên có thì mờ câm hình thêu kh đều nchung chắc kh ủng hộ nữa inb nói shop về vấn đề bị thiếu lót giày shop kh rep,2,khanh,negative
-đóng gói sản phẩm kém,2,khanh,negative
-tạm dc,3,giang,neural
-shop giao hàng oke giày đẹp nhưng lùi lại một size vẫn hơi rộng đế ko ôm sát chân dễ bị trượt,5,ori,positive
-nước giặt rất thơm ship hàng nhanh shipper thân thiện em sẽ ủng hộ lần sau,5,ori,positive
-ok,5,ori,positive
-yếu,3,giang,neural
-chai cứng cáp chất lương rất ok shop nhiệt tình giao nhanh mua lần thứ nhà shop rồi,5,ori,positive
-do là dây đi luôn vào trong tường nên là có video và ảnh nhưng mà dây rất tốt nhé cả nhà,5,ori,positive
-thời gian giao hàng nhanh sản phẩm cũng oki,4,thang,neural
-pan ml nên khá nhỏ ai thích to đựng nhiều thì mua nhiều ml lên riên mk thấy ml rất gọn,5,ori,positive
-mấy cái khác cute mà riêng em bơ này thì không được như hình đâu huhu,3,khanh,neural
-mua shop nhìu lần lắm rồi lúc nào shop cũng đóng gói cẩn thận hàng chất lượng giao nhanh cám ơn shop,5,ori,positive
-sp nghe êm nha mn đáng mua vừa rẻ vừa tốt mình vừa đặt thêm cho ng quen nữa,5,ori,positive
-dây đeo nhanh dãn,3,giang,neural
-đã nhận được hàng thời gian giao hàng lâu thật chắc xa nên thế đóng hàng và ship hàng bình thường,5,ori,positive
-hàng ok đúng số lượng sản phẩm chất lượng cũng tạm ổn dùng được,3,khanh,neural
-bóng làm từ nhựa cứng dễ vỡ nên thay đổi chất liệu bằng nhựa dẻo,2,thang,negative
-bim bim ăn chán quá hộp miến bị móp méo hơi thất vọng tẹo nma do dịch nên cũng chấp nhận đc,3,thang,negative
-bịch cả ship là bên kia còn dc miếng bên này miếng bán hàng lên trung thực miếng ghi miếng là dc,2,thang,negative
-hàng tốt phù hợp với giá tiền giao hàng nhanh phục vụ tốt sẽ ủng hộ shop tiếp,5,ori,positive
-mua giùm thằng bồ mập địt ngulol không biết đặt hàng shopee mà kể cũng tội ngày nào cũng tự giác vào shopee điểm danh lấy xu giúp nên thôi hổng chửi nó nữa shop bán rẻ ship nhanh ha,5,ori,positive
-đồ siêu dễ thương gói hàng kĩ giao hàng khá nhanh lần sau sẽ ghé lại,5,ori,positive
-lần đầu mua hàng đầy đủ đúng loại sp đều ok date xa trừ cây dầu hít bị hết hsd shop ib hứa bù lại đợt sau lần sau check kỹ hsd trước khi gửi nha shop,4,thang,negative
-đẹp nhưng mà về phá nên hư rồi,4,thang,positive
-kg thường mặc size mà váy này rộng thênh thang vải bố mỏng tênh không như trong ảnh mua xong hối hận vải mặc cứ nhẹ nhàng sợ rách vãi nói chung mọi người cân nhắc khi mua tiền nào của đó,3,giang,neural
-đúng như quảng cáo đóng gói cẩn thận recommended,5,ori,positive
-shop ok chỉ có mỗi bên giao hàng làm ăn mắc chán đề nghị shop ko làm việc vs nữa nhé,4,khanh,positive
-bát bị vỡ,2,khanh,negative
-không vừa chuôi sạc,2,thang,negative
-giao hàng nhanh đặt hôm trước hôm sau nhận được hàng luôn shop uy tín,5,ori,positive
-khá xấu so với hình mình khá thất vọng giao hàng cũng nhanh,3,giang,neural
-chất lượng giảm so vs lần mua trước,3,giang,neural
-giao hàng nhanh đóng gói cẩn thật quần dg chỉ may cẩn thận,4,thang,positive
-rong biển cháy tỏi ăn ngon lắm shop giao hàng nhanh đóng gói cẩn thận sẽ ủng hộ shop tiếp,5,ori,positive
-mũ cầm rất thích tay lun rất ưng lunnn hình ảnh và video mang tính chất nhận xu,5,ori,positive
-đã mua nhiều lần của shop hàng đẹp ok dùng tốt dễ canh sẽ ủng hộ shop lần sau,5,ori,positive
-hàng giao nha đủ số lượng nhưng đôi dép đi trong này giao ko đúng màu và sz ko chọn màu kẻ chân mày được,4,khanh,positive
-không nhận đc hàng shop bảo hết hàng ib sẽ hoàn lại tiền nhưng mà ib shop rep nên thôi kệ may là rẻ mấy đồ khác vẫn ok lắm nha,3,thang,neural
-giao thiếu hàng giao hàng rất lâu shop nói là lỡ có gì sai xót xin đừng đánh giá ngay mà hãy nt shop giải quyết nhưng mà nt thì shop không trả lời nói chung là các bạn nên lưu nha,1,ori,negative
-hàng okkkkkk mang tc nhận xu lý các bạn nói gì về sản phẩm này bên trong và rất nhanh liền kề biệt thự liền kề biệt thự chung,4,thang,positive
-shop giao thiếu sticker và giao sai mẫu huhu hơi chán vì lần mua rất ưng nên mua tiếp mà lần này bị thế này hị hị,4,thang,negative
-ship nhanh nhưng mk nhận đc hàng thì có vài cục xà phòng bị bóp méo,4,giang,negative
-mới lắp vô ping còn hơn tý trong khi shop báo đóng gói chắc chắn chưa sài nhìu nên chưa bít pin ntn,3,thang,neural
-võng nhỏ chứ phải sz đại đâu nha ng nhỏ hơn cái võng nhà đang xài nữa móc khoanh tròn cái võng ngắn lắm nên phải móc mức thì nằm tạm dc,4,thang,neural
-sản phẩm tốt đàm thoại rất là hợp lý giao hàng thì nhanh cảm ơn shop nhiều nhé hàng đẹp lắm chất lượng cực kỳ luôn,5,ori,positive
-chất vải không không được mềm như khăn theo máy sơi thô vẫn có tơ trên bề mặt dùng tạm ổn,4,thang,negative
-bên shop tự thay đổi mẫu giao nhưng ko có thông báo với mình trước gửi lời xin lỗi trong hộp đựng sản phẩm ko biết chất lượng sao nhưng lần sau nếu có nên nhắn là hết hàng và hỏi có muốn đổi ko chứ ko nên tự giao mẫu khác như vậy,3,khanh,neural
-hàng giao đầy đủ do lễ nên hơi chậm chuea dùng nên chưa đánh giá được nhìn chung oke la,5,ori,positive
-giấy chất lượng phù hợp với giá tiền đóng gói rất cẩn thận không làm ảnh hưởng tới form hộp khi vận chuyển giao hàng nhanh,5,ori,positive
-honda vision là một trong những mẫu xe ga tầm trung phù hợp cho những bạn gái với thiết kế trẻ trung và hiện đại cùng những gam màu nổi bật đây là một trong những dòng xe tay ga nổi bật của thương hiệu,5,ori,positive
-sản phẩm chính hãng đóng gói cẩn thận shop uy tín đáng mua sẽ ủng hộ tiếp,5,ori,positive
-mình mới nhận sản phẩm mới dễ sử dụng sóng tốt độ ổn định thì mới dùng nên chưa đánh giá được định cho sao vì giao trong hn mà mất tận ngày nhưng nghĩ lại thì do bên giao hàng giao chậm chứ ko phải do shop,5,ori,positive
-sp tốt chất lượng khỏi bàn luôn luôn ủng hộ shop thuý béooo hi hiii,5,ori,positive
-đánh giá chỉ mang tính chất nhận xu tại mk lười chụp quá nhưng hàng chất lượng ok đẹp giao hàng nhanh,5,ori,positive
-rất thất vọng khi mở gói hàng ra bị như thế này hàng thế này mà gửi cho khách rất háo hức nhận hàng mở ra cảm giác sợ luôn mấy vụ mua hàng onl,1,ori,negative
-quần lên dáng thì ok mà chất hơi xấu từ phần mông đổ lên may hơi xấu những loại khác mình mặc sz thì vừa mà cái này thấy hơi rộng,3,thang,neural
-sorry hình ảnh không liên quan form quần goodmama không vừa vặn như dorabe phần lưng thun thì ổn nhưng lưng cao quá,5,ori,positive
-thất vọng về xử lí đóng gói hàng của shop mình đặt sp mà chỉ nhận được sp mình có nhắn tin cho shop và shop cũng đã rep tn của mình nhưng lại không giải quyết cho mình thật sự tệ,1,ori,negative
-đúng như vậy có thể được không các bác cho em hỏi là khi đang thả lỏng thư giãn đúng mẫu đang dùng tốt,5,ori,positive
-cáp siêu tốt mà giá lại rẻ đã test sạc và truyền nhận dữ liệu mọi thứ đều rất ổn,5,ori,positive
-sp tạm ổn so brightreaching out you take my handand from then,5,ori,positive
-dày lắm nha giao rất nhanh luôn size này mua thì vừa khít lun nhaaa mỗiii tộiii là nhét vô hơi rít mọi người nhưng ok nha rất là ưng luôn cái set thứ thì nó có hơi cong một tí lấy vở ép lên là thẳng ngay,5,ori,positive
-hàng hình giày đẹp mà tiếc là mang ko vừa ai chân hoặc là ng dáng thon nên mua,5,ori,positive
-chưa dùng nên ko bik thế nào,4,khanh,neural
-sory nha ảnh để nhạn xu dép nhẹ êm thích hợp đi trog nhà mua trc ok nên mua thêm nè,5,ori,positive
-giao hàng chậm,3,giang,neural
-mua bộ hoa cúc cho bé gái kg mà shop giao cho loại kg ko mặc nổi bực mình,1,ori,negative
-hộp rất đẹp cứng cáp so với giá tiền thấy khá ưng giá rẻ sẽ ủng hộ dài dài,5,ori,positive
-giá rẻ nên cũng có nghi vấn ban đầu mình dùng hà nội silk nhiều cầm cuộn giấy là thấy khác biệt ngay chất lượng thì kém xa hàng mua tạp hoá chưa nói siêu thị giấy mỏng kém dai xơ bề rộng nhỏ hơn check tem là giả mạo,3,khanh,neural
-giao hàng chậm đóng gói không kĩ sản phẩm bị chảy hết ra ngoài,1,ori,negative
-,2,giang,negative
-ví hơi mỏng,4,khanh,neural
-đóng gói hơi sơ xài chỉ gói bằng túi bóng sạc pin vào điện nhắn tin shop có bảo trả hàng hoàn tiền nhưng vì săn sale hàng rẻ nên cũng mất công sau shop nên kiểm tra hàng trước cho khách,2,thang,negative
-về tới đứt hết mạch,1,ori,negative
-mua về chủ yếu gắn vô quạt tản nhiệt cho khỏi va chạm vô tùm lum thôi sp ok,5,ori,positive
-,4,khanh,neural
-shop giao hàng thiếu hàng còn bị hỏng bị vỡ nữa ko dùng dc,1,ori,negative
-ko ok mở ra dùng thì chỗ gấp đã bị rách,3,giang,neural
-hàng giống trên hình mới xài nên chưa biết đc lâu dài ko nhưng mới đầu xài thấy ok,5,ori,positive
-shop ko đáp ứng nhu cầu của khách hàng mặt dù đã nhắn tin trước cho shop còn sản phẩm tạm được,2,khanh,negative
-hàng đẹp đúng đủ giá rẻ nhưng giao hàng rất chậm shipper không thân thiện,4,khanh,positive
-mình đặt cái mà giao chỉ có thôi quá thất vọng,1,ori,negative
-lắp vào sử dụng được mà không ngon như hình đâu,3,giang,neural
-sản phẩm tốt giá vừa phải hàng giống hình chất lượng tốt giống hình,5,ori,positive
-quần màu hồng thì còn tạm được tí đóng gói tạm được sp tạm được,3,khanh,neural
-,5,ori,positive
-giao đủ số lượng sản phẩm bình nhựa ko dày ko mỏng nhưng dễ trầy có móc khóa bị cứng,4,khanh,positive
-hàng đúng mô tả giao hàng chậm tăng lên đấu vào motor phát sụt áp luôn,3,thang,neural
-quạt lỗi vẫn gửi về nt hỗ trợ thì rep vì mình đặt nhiều nên ngại chẵng muốn trả hàng,5,ori,positive
-,5,ori,positive
-shop đóng gói đẹp rất cẩn thận bóng nảy tốt giá lại rẻ quá luôn sẽ ủng hộ shop,5,ori,positive
-xinh lắm nha mọi người vải cực kỳ thích luôn nha neen mua hihi,5,ori,positive
-về ko làm đc,1,ori,negative
-ỳctxt,3,giang,neural
-ví giống hình shop giao hàng đúng số lượng chất lượng màu sắc giá khá rẻ đóng gói ổn shiper nhiệt tình thân thiện sẽ tiếp tục ủng hộ shop,5,ori,positive
-máy gửi về cái dùnh được cái còn cái bị thủng lỗ không dùng được nhắn tin thì khi trả lời khi không đổi trả cho người ta chứ shop làm ăn gì kì vậyn,1,ori,negative
-hàng đẹp shop gói kĩ lắm ship rất nhanh đèn khá ok có màu đèn nhiều mức sáng chất nhựa trung bình lúc xài chắc phải nhẹ tay một xíu mình mua để quay tik tok chơi nên thấy đèn này rất là phù hợp giá rẻ đầy đủ chức năng để điều chỉnh như đèn xịn rất đáng tiền nha mn,5,ori,positive
-giao hàng quá lâu,3,thang,negative
-máy hút sữa giá tầm trung mà vắt mượt lắm máy chạy tốt các chức năng giống như quảng cáo dùng kích sữa hay vắt sữa đều ok trc khi mua mình cũng đắn đo sợ dùng ko ổn nhưng dùng ngày vắt sữa lần thì khuyên các mẹ nên mua,5,ori,positive
-ko đạt công suất rrbfkịfi,4,giang,neural
-ok lắmmay giao mà hôm sau có để đi hc shipper cute xỉu giao riết bt mặt luôn,5,ori,positive
-giao hàng nhanh đầy đủ sản phẩm đúng mô tả đóng gói ổn,5,ori,positive
-dán không dính để một lúc là bong,3,giang,neural
-shop làm ăn như cc mua size giao chiếc chiếc đcm tao mang cái deo gì làm ăn nhắn thì deo rep gọi thì in lặng ncc vl mua phí tiền,1,ori,negative
-ms mua thấy xài tạm ổn ko pk đc bao lâu đây,3,thang,positive
-mùi cao su quá nồng,3,giang,negative
-sản phẩm chất lượng tốt đúng với hình quảng cáo sử dụng khá thuận tiện phù hợp với giá tiền nói chung là có thể nghiên cứu đặt thêm,4,khanh,positive
-giao hàng nhanh đóng gói kĩ càng shop hết mẫu mình chọn nên có liên hệ để đổi mẫu khác,5,ori,positive
-bình thường thần thánh như quảng cáo bịt đau bỏ ra hơi bị đau tai bịt bt thì xốp nở từ từ và đẩy ra khỏi tai tốn tiền có tác dụng,1,ori,negative
-,4,khanh,positive
-lỗi nhiều quá,3,khanh,negative
-sản phẩm đẹp lắm nha đáng tiền lắm nên muaa aknsxjqkznwiwz,5,ori,positive
-shop tư vấn nhiệt tình chất lượng sản phẩm tốt sẽ ủng hộ lần sau,5,ori,positive
-mình đã nhận được hàng test thử thấy ok shop bọc hàng cẩn thận chuẩn bị giao hàng nhanh khâu vận chuyển giao chậm,5,ori,positive
-shop giao cho mà cái bị rách,1,ori,negative
-pin cũ gi sét ngoài hết dung luong còn shop bán hàng hk huy tín người nào mua nen lưu shop này,3,khanh,negative
-sp khá tốt xem phần cmt của mng thấy có móc treo cứ tưởg có hoá ra ko có nên hơi thất vọng shop nên ghi rõ có móc hay ko có để còn bt mà mua thêm,4,thang,neural
-đeo vào hơi khó chịu,3,thang,negative
-tất hơi mỏng và các trường hợp với các trường đã bị bệnh tật cho biết thêm một cách để làm việc có thể xác minh bạch hoá,4,thang,neural
-rõ ràng mình đặt số lượng miếng là miếng thế mà giao có miếng cái này chê nhé giao thiếu nhưng cũng không đáng nên mình bỏ qua nhưng như thế là được nhé,4,giang,negative
-bộ dáy tai quá tệ kém chất lượng không nên mua,1,ori,negative
-dầu loãng hơn minh mua lúc trước,4,giang,neural
-hàng gia công xấu điên vỏ như lõi giấy vệ sinh hình trong ống chỉ là những đoạn ống hút cắt nhỏ mặt ống thì bằng nhựa mờ cong qoeo,1,ori,negative
-giao hàng nhanh nhưng vải ảo rất mỏng,3,thang,neural
-ko giống loại giấy hn tôi đang dùng trọng lượng lượng cũng ko bằng,1,ori,negative
-ốc thì răng nó không khớp cho sao thôi,4,giang,neural
-thời gian chuẩn bị hàng siêu nhanh mặc dù đặt rất nhiều hình như trên món nhưng không thiếu thứ nào luôn đóng gói rất cẩn thận cho từng món hàng trả lời tin nhắn rất nhanh và nhiệt tình chất lượng sản phẩm đáng tiền date mới và xa sốp xứng đáng có người yêuuuuu điểmmmmm,5,ori,positive
-đầy đủ day đúng sản phẩm,5,ori,positive
-xinh đẹp tuyệt vời mỏng mát phù hợp giá tiền mlemmmmmmmmmm,5,ori,positive
-chất lượng sản phẩm tạm được nhat la ke dung dt ko giong nhu hinh giao hang ko tron mau chi giao mot mau duy nhat mong shop cai thuen de phuc vu tot hon,3,giang,neural
-chậu xứng đáng với giá tiền giao hàng đủ còn được tặng thêm chậu,5,ori,positive
-sản phẩm mới shop chưa kịp cập nhật ảnh phân loại xịn xò hơn mê,5,ori,positive
-hàng good nhenn,5,ori,positive
-sản phẩm xài dc ngày là bung chỉ tè le ra,1,ori,negative
-tốt bxjsksk bnxjjsx cnnsksks nsnskd,5,ori,positive
-đóng gói chắc chắn giao hàng nhanh chất lượng dùng hết vẫn thấy nhiều sữa chắc do cơ địa mình lì chỉ được vậy,4,khanh,positive
-khách hàng đã đặt đến cái loại thì yêu cầu shop phải lấy màu khác nhau chứ bán hàng mà ko biết đường sắp xếp thế nào cho hợp lí cả vi gõ vào đây số lượng cái thi nó chi báo màu gửi cả cái màu đen luoin chán,2,giang,negative
-cá nhân thấy sạc thì sạc được nhưng mà rất chậm nhưng mà mua giá rẻ nên dám đòi hỏi nhiều,3,giang,neural
-giao hàng cũng khá nhanh sản phẩm đúng như mô tả sử dụng thử thì khá ổn không có vấn đề,5,ori,positive
-hàng cực ok shop tư vấn nhiệt tình có sao cho cả sao luôn,5,ori,positive
-đặt combo cái giao trong hộp có cái,2,thang,negative
-hình ảnh không liên quan cho lắm nhưng giày của shop rất đẹp nhaaa,5,ori,positive
-kính cường lực mặt trong nhiều bụi giãm man luôn không lấy đươc bụi ra nên dán tạm chứ nhìn thật sự khó chịu lắm,3,khanh,negative
-giao đầy đủ tất cả sản phẩm chất lượng sản phẩm tuyệt vời đóng gói rất gọn và đẹp vận chuyển nhanh,5,ori,positive
-mình đặt bộ mà có bộ rách nhắn tin shop phản hồi buồn,3,giang,neural
-rổ xinh shop ship hàng nhanh cực sáng đặt tối giao nhưng đóng gói thì chỉ có lớp nilon bọc ngoài nhân viên shop dễ thươngg,5,ori,positive
-hàng đẹp chất lượng đống gói kỉ đẹp chuyên nghiệp,5,ori,positive
-,4,giang,neural
-giao hàng quá lâu tháng mới nhận đc hàng nt cho shop thì kg hồi âm,1,ori,negative
-do là mua nhiều thứ và nhờ người lấy hộ nên là ko có ảnh chụp mong mn thông cảm shop đóng gói ổn thời gian giao hàng cũng khá là nhanh giao đầy đủ đúng màu đúng mẫu mình đã đặt ko thiếu thứ hết nên là mình hài lòng lắm về cách lm việc của shop có dịp sẽ quay lại ủng hộ shop tiếppppppp,5,ori,positive
-ưng cái bụng,4,thang,positive
-sản phẩm tốt giao hàng nhanh đóng gói cảna thận sẽ mua nhiều hơn,5,ori,positive
-lừa đảo mua về không sử dụng đc luôn,1,ori,negative
-lấy ráy tai to tổ bố thế nhét thế nào dc vào trong tai,1,ori,negative
-cốc đẹp nên mua nha,5,ori,positive
-giao hàng nhanh đồ tặng hết hàng thì ít ra báo khách để chọn đồ khác tự tặng hỏi lại sp thì mặc được như cc,2,giang,negative
-khác với hình ảnh quảng cáo,2,khanh,negative
-sản phẩm như mô tả đóng gói cẩu thả vỏ hộp bằng sắt mà shop chỉ quấn mỗi cái túi nilon đen bên ngoài nên về tay khách hàng nó bị móp pin trong hộp bị gỉ hết nên không biết có dùng được có cũng như không,3,thang,neural
-mua về bán lại chỗ nào giá ngợi mình mới mua mấy bạn nên mua nhe giao hàng nhanh lẽ ra ngày mai nhận dc ok ok,5,ori,positive
-mình mua loại loại loại nhưng ko phân biệt dc giữa loại luôn vì shop gửi cùng loại bóng xấu ghi là nhưng tư vấn báo và thực tế nhận dc bóng chỉ quả nào cũng xước rất nhiều và có quả còn bị vỡ rồi chả hiểu bán hàng kiểu gì,1,ori,negative
-chất lượng sản phẩm rất kém,1,ori,negative
-đã nhận hàng cần thử nghiệm mới biết được chất lượng tạm thời sao đã,5,ori,positive
-đóng gói sản phẩm chắc chắn sản phẩm trầy xước trong cực kì khó chịu cứ như đã dùng qua,3,khanh,neural
-giao hàng nhanh giá cả hợp lý đóng gói sản phẩm chắc chắn,4,thang,positive
-giao hàng rất nhanh dễ thương nhỏ gọn tiện lợi phù hợp giá tiền,5,ori,positive
-cx ok đấy ảnh gì tầm này nữa khá ổn nha mn ơi mua ủng họi shop đi,4,thang,positive
-mua size giao size mua size giao size mua size giao size mua size giao size,1,ori,negative
-mình ko nghĩ là shop gói hàng sơ sài đến vậy kcbhbxjsnbxjsn,3,khanh,negative
-đóng gói sơ sài giao hàng lâu hộp đúng kích thước bị cái đóng gói chán quá mưa gió dính nước chắc nhão nhét,2,thang,negative
-hàng đúng như hình ảnh chất lượng thì phải để thời gian trả lời shop phản hồi nhanh,5,ori,positive
-rất hài lòng với sp shop phục vụ tận tình và tư vấn kỹ càng ngay cả khi đã khuya chất lượng sản phẩm tốt như tặng shop,5,ori,positive
-đóng gói ko cẩn thận tới nơi nát bét hoàn hàng thì ko thấy phản hồi mua hàng rước cục tức vô người thôi tui bố thí cho shop,1,ori,negative
-nhỏ hơn mình tưởng dùng ok,4,thang,neural
-hàng rẻ mà xài dc gì hết cài tóc mái mới bung ra thôi tóc rụng rồi trâm cài tóc cây mỏng quá cài dc khăn cái mà mỏng tanh mỏng te chán,1,ori,negative
-base đặc nè kco gì để chê nhưng giao hàng hơi lâu tí thui,5,ori,positive
-đóng gói sản phẩm rất đẹp và chắc chắn thời gian giao hàng rất nhanh,5,ori,positive
-hàng giao đủ và khá nhanh nhưng chất lượng thi tệ shop đóng hàng cả những viên pin bẹp móp không dùng được,1,ori,negative
-mọi ngưòi đọc kĩ miếng dán và miếng dán thêu nhé mình bị nhầm hic,5,ori,positive
-nói ngắn gọn là ngon bổ rẻ nên mua nha mng bàn đẹp và rất chắc chắn ưng lm luôn,5,ori,positive
-lúc đầu giao thiếu giao sai mẫu sai size tùm lum sau đó shop có khắc phục tuy nhiên đồ đợt sau về thì dính rỉ sét bung chỉ đáy của đầm tưa vải nhắn shop rồi mà cũng ko thấy phản hồi đc mấy cái quần với áo thì đẹp thiệt nên là link sao và link sao nhé,2,giang,negative
-để trong nhà ko bắt đc sống bạn,3,giang,neural
-mua shop cả chụp lần rồi đóng gói kĩ hàng tốt vẫn ủng hộ lâu dài ấn nhầm mua có cái,5,ori,positive
-túi ko đủ dây,3,khanh,neural
-bé deadpoool cũng ciu ngựa ngựa lắp vô cái dép pha kè của mà cũng vừa ưng,5,ori,positive
-đã mua rất nhiều lần nhưng lần này giao hàng chậm đóng gói cũng tệ hơn mong shop chú hơn,4,khanh,negative
-mình rất hài lòng vì sản phẩm nhỏ gọn hơn mình nghĩ chất lượng gia công tốt shop cũng rất cẩn thận khi in cả phiếu xuất và hướng dẫn sử dụng tiếng việt nhưng nên để cả hdsd của nhà sản xuất trong hộp mình ko có sản phẩm có thể tháo pin chỉ cần cắm sạc khi sử dụng mình thích nhất tính năng này,5,ori,positive
-hàng đẹp và đủ số lượng chất lượng chắc cũng ok đóng gói kỹ giao hàng nhanh sao cho shop và shopee,5,ori,positive
-giao hàng lâu thiếu hàng,3,thang,negative
-mua lân shop giao hàng nhanh đúng loại rất ok,5,ori,positive
-kính này để dùng cho biết thôi còn đắc hay rẻ thấy đều như nhau cả dùng lần ko biết làm gì,3,khanh,neural
-với giá này thì hợp lí hình ảnh chỉ để lấy xu nhx đẹp lắm,4,thang,neural
-chưa câu nên chưa biết ntn,5,ori,positive
-,1,ori,negative
-dễ thương id tiktok heo fb https www facebook com kimtien phanthi ig kimtien,5,ori,positive
-giao thiếu nước tẩy trang kẹp tóc ok hình ảnh mang tính chất nhận xu,5,ori,positive
-sản phẩm gãy lỗi,1,ori,negative
-shop rất nhiệt tình tuy nhiên kiểm tra trước tai nghe xem hoạt động tốt đã ship cho khách bên tai hỏng nghe được chán,3,thang,neural
-nước rửa chén chưa sài nên chưa pít nó như thế nào nhưng nó nước chỉ tới tay cầm nắm dưới ak,2,thang,neural
-hàng đẹp đúng sai chất lượng giao hàng hơi lâu nhưng không sao bình chọn shop sao sẽ tiếp tục mua của shop nữa,5,ori,positive
-bé xíu nên ko ưng nhìu,3,giang,neural
-đã nhận đk hàng hàng đẹp chất lượng thì chưa biets,5,ori,positive
-shop giao hàng nhanh đóng gói cẩn thận tất rất đẹp mình ưng lắm nha shop,5,ori,positive
-chưa dùng nhìn dễ thương,4,khanh,positive
-dây giầy đẹp chắc chắn nha gửi đúng mẫu đúng màu và nhanh chóng mn nên mua cho sao,5,ori,positive
-dép xịn xò giao hàng hơi lâu màu cam xinh muốn xỉu nhưng kén da đeo tối da hihi yêu shop,5,ori,positive
-hàng chuẩn đóng gói cẩn thận vận chuyển nhanh giá cả hợp lý,5,ori,positive
-jdxbwksbsubjkaj,5,ori,positive
-vải khá mỏng giống trong hình lắm nhưng với giá tiền rẻ như vậy thì cũng khá ok rồi,3,khanh,neural
-được cái giá phù hợp mà đồ hơi dỏm xíu mong shop làm chắc chắn hơn,3,khanh,neural
-ốp nhìn xịn sò giá rẻ phù hợp cho sinh diên sẽ tiếp tục ủng hộ shop sr vi clip ko liên quan,5,ori,positive
-lưới bảo cao mà shop gửi có là như nào shop làm ăn vỡ vẩn lắm mn ak ko nên mua shop này nha ko uy tín tí nào lun,1,ori,negative
-shop vui vẻ nhiệt tình mẫu mã đa dạng đẹp êm bền hàng giao nhanh lắm luôn ấy,5,ori,positive
-mình muốn mua cái thẻ nhớ mà shop để giá phải mới áp mã giảm đc nên buộc phải mua thêm cái đầu đọc làm marketing kiểu này dám mua lần,4,khanh,positive
-giao hàng siêu nhanh sp giống hình dây nhỏ bị lộ nên mua nha mọi người,5,ori,positive
-dung lượng để gb nhưng chỉ xài đc gb thôi chênh lệch chút ok chua dung chua biet nhung do giao dung chua bị gõ nguyen tem giao truoc ngay,3,khanh,neural
-túi đẹp chất liệu tốt giao đúng mẫu mã nhanh lần sau sẽ ủng hộ thêm shop,4,giang,positive
-đồ đầy đủ đẹp không thiếu cái gì chất lượng mua mỗi thứ cái nhưng không giao nhầm,5,ori,positive
-shop giao đủ hàng mà đĩa hơi nhẹ và mỏng kẹp miệng túi chắc chắn nha ncl so với giá tiền mình cũng hy vọng nhiều sao sáng lắm,4,khanh,positive
-cáp mét thì đúnh cáp mét thì không phải của xiaoman không có in chữ xiaoman trên cáp như sợi mét và cũng không giống hình mẫu đăng trên đây không uy tín,1,ori,negative
-bị gỉ,1,ori,negative
-giao đủ số lượng đổi được mật khẩu xứng đáng giá tiền tốt nhé mn,5,ori,positive
-giao hàng quá lâu,4,giang,positive
-không như qoảng cáo,2,thang,negative
-hơi cũ,4,thang,negative
-nhìn kỹ tiêu đề nhe mí khách ơi chai bé xíu mà giao còn sai mùi nữa nên thích,2,giang,negative
-giao thiếu cây chua lên men hết chó ăn mèo cũng ngửi chịu ăn vì bị chua,1,ori,negative
-mình sài bị mất cảm ứng,2,thang,neural
-dùng tốt nét có cả hdmi rất ít máy tầm giá này có triệu like cho shop pppppppp kakaka,5,ori,positive
-váy form ổn vải hơi cứng và mỏng so với váy len màu sắc như mô tả shop giao hàng nhanh chóng,3,thang,neural
-vải căng bị trùng xuống giao hàng nhanh nói chung là cũng ổn vố giá tiền,4,thang,neural
-đóng gói hàng nhanh đầy đủ mấy món nhỏ nhỏ nhìn rất dễ thương shop còn tặng mình cái cột tóc nữa,5,ori,positive
-đẹp nheeee njejekejeke jekenek ieoeejek odoeenejej idkeenej,5,ori,positive
-hàng gói cẩn thận kỹ lưỡng giao hàng nhanh shop hỗ trợ tận tình,5,ori,positive
-shop đáng yêu nhiệt tình chuẩn bị hàng nhanh đóng dói đẹp ship hàng nhanh còn được tặng thêm đồ cột tóc nữa thích ghê cảm ơn shop nhiều nhé lần sau sẽ tiếp tục ủng hộ shop nà,5,ori,positive
-giao hàng nhanh giao đúng sản phẩm mua đóng gói cẩn thận kĩ,5,ori,positive
-hang ok đủ hang ngai kem hoi khoi cay mat qua ko biết mua loai nao thơm ma ko cay,5,ori,positive
-hơi cứng bị đau tay,3,giang,neural
-chất lượng hơi kém chơi đc vài lần bung chỉ hợp với giá tiền shipper thân thiện,3,thang,negative
-như shit đặt cái có nếp gẫy cả,1,ori,negative
-phụ kiện đẹp chất lượng hài lòng về sản phẩm đóng gói tốt,5,ori,positive
-chất lượng sản phẩm tuyệt vời đóng gói sản phẩm thì ko được túi tối màu nữa để túi trong nhìn thấy hết thời gian giao hàng rất nhanh okokok hình ảnh và clip mang tính chất lấy xu,3,khanh,positive
-mới dùng được vài bữa nó tróc màu rồi,1,ori,negative
-sản phẩm cực kì đẹp và bền giao hàng chính xác chất lượng an tâm tuyệt đối,5,ori,positive
-đã nhận được năng lực của sếp sắp rồi nhé hàng cực lực của tê giác thì mình sử dụng rồi nên mình biết hàng quá ok hy vọng lần sau sẽ đặt nhiều hàng của shop,5,ori,positive
-hàng đẹp miễn bàn mặc dù săn sale đc vs giá mỗi tội hàng quốc tế nên giao hơi lâu,5,ori,positive
-chưa nhận được hàng mà shipper đã báo giao hàng rồi mình thì nhờ người khác nhận hộ nên cũng chủ qua xác nhận đã nhận hàng luôn hic ninja van hay bị dính mấy trường hợp thế này quá,5,ori,positive
-mua đôi thì chỉ được đôi và cái gói hàng không đủ tất hơi mỏng,3,khanh,neural
-băng dán cá nhân khá xinh khá okela đó giá thành lại rẻ nữa nói chung là cũng nên mua chưa dùng thử nên chưa biết chất lượng như nào nhưng shop đóng gói chán quá,4,giang,positive
-yêu thương và chăm sóc con cái của mình là người yêu công nghệ thì không có lý lẽ riêng mình thì không có lý lẽ riêng mình thì không thể không nhắc nhở các bác cứ thử xem có bị gì không nhỉ các mẹ ơi,5,ori,positive
-hàng mua đẹp nhưng vì nước ngoài nên giao hơi lâu và shop giao thiếu hàng cho mình rồi,3,khanh,neural
-shop phục vụ tốt chất lượng tiền nào của đấy thôi nên mua hàng chính hãng đắt hơn chút nhưng chất lượng tốt nhựa cứng đi mấy bữa phòng hết chân keo thì bong,2,giang,neural
-mình lấy màu đen shop đưa màu đỏ ib cho shop thì hok rep làm hok có trách nhiệm,1,ori,negative
-không biết do shop hay do khâu vận chuyển mà mũ bị móp gần như tất cả khá thất vọng,3,giang,neural
-cầu chi bị mẻ cái ko biết có dùng được không nhưng hàng của shop rất tốt và chất lượng cao lần sau sẽ ủng hộ shop nữa,5,ori,positive
-ổn lắm nha mọi người ui sẽ tiếp tục ủng hộ shop nha ths shop,5,ori,positive
-thẻ ko còn nguyên hộp bỏ vào cái hộp nhựa,3,khanh,neural
-giao sai sản phẩm đã đặt lần đầu cũng như lần cuối đặt shop,2,khanh,negative
-công dụng chuot mi độ bền màu khong ben nó cứ bột bột đều màu nma tiền nào của nấy nên đòi hỏi thêmm,5,ori,positive
-mình mua con icons có ghi số mà giao toàn hình khác còn giày thì đẹp shop nha shop con tặng cho dây cột tóc,4,giang,positive
-vải mỏng hơn tưởng tượng nhìn thấy màu bàn cũ hơi thất vọng cho shop sao,4,thang,negative
-hàng giống quảng cáo hàng loại đổi trả hàng mà nghĩ có mấy tiền lôi thôi khi mua nên cân nhắc,1,ori,negative
-chất lượng sản phẩm tốt đúng mô tả đã dùng thử ok nên đánh giá giao hàng bình thường do dịch bệnh phức tạp ok,5,ori,positive
-háo hức nhận áo mà thấy hụt hẫng ghê mẫu mk thích thì quá ngắn mặc dù nhìn mẫu mặc ko ngắn lắm chất vải ok so với giá tiền mua áo mà mặc đc có,3,thang,negative
-hàng đẹp đủ số lượng shop còn gửi cả bill kèm hàng dễ check lần sau sẽ ủng hộ,5,ori,positive
-hàng oke dùng cũng oke,5,ori,positive
-đang ngủ mà shipper gọi gói hàng không cẩn thận,3,thang,negative
-vải mềm đường may cẩn thận mặc lên dáng vừa với body của mình sẽ ủng hộ shop dài dài,5,ori,positive
-tôi đã nhận được hàng sop đóng gói cẩn thận hàng giống như hình ảnh nhưng test thử thì bluetooth thì bắt hơi kém,3,thang,neural
-đặt hàng mà để trễ nhiều ngày mà vẫn có phản hồi bên vận chuyển thì quá thất vọng,1,ori,negative
-săn hàng sale thật nhưng shop làm thế ko đc đăng bán loại đến lúc giao hàng loại thấy nhiều ng mua đánh giá mới mua thử mua xog kiểu này cũng xin kiếu ko có lần sau chẳng lẽ lại chuyển hoàn thì ko ra gì,1,ori,negative
-sản phẩm ổn áp chưa test nên biết sống chết,5,ori,positive
-giao đúng màu sợi len hơi thô cuộn len bị nối nhiều dùng hơi khó chịu,3,thang,negative
-hàng quốc tế nên giao hàng lâu may đặt sớm nên vẫn kịp giáng sinh giao đúng màu đúng loại,5,ori,positive
-áo chán lắm nhé chất vừa mỏng form áo bé lắm,2,thang,negative
-màu trắng thì tạm ổn còn màu vàng thì là vàng nhạt ko giống màu trong hình đèn ko sáng như hình giao hàng chậm,4,khanh,positive
-cho bên giao hàng best express giao quá chậm trong nước mà nửa tháng mới nhận được hàng thiếu trách nhiệm,1,ori,negative
-lần nào shopee express giao là rằng bị bóc hàng thôi từ giờ chắc chả dám đặt đơn to luôn chất lượng sản phẩm thì bình thường phù hợp giá tiền,1,ori,negative
-có hai đề nghị của bạn sẽ có một số điện thoại này kh giao thông đường bộ đường,5,ori,positive
+sentence,label,lb_name
+giáo trình chưa cụ thể .,0,negative
+giảng buồn ngủ .,0,negative
+"giáo viên vui tính , tận tâm .",2,positive
+"giảng viên nên giao bài tập nhiều hơn , chia nhóm để làm bài tập , giảng kỹ những vấn đề trọng tâm của môn học , đưa ra phương pháp để học hiệu quả hơn .",0,negative
+"giảng viên cần giảng bài chi tiết hơn , đi sâu hơn code và chạy thử chương trình có trong bài giảng nếu được .",0,negative
+nên có giảng viên nước ngoài dạy để sinh viên có cơ hội thực hành giao tiếp .,0,negative
+nên có bài tập lớn đồ án môn học .,0,negative
+"giảng viên đảm bảo nội dung học , phân tích giải nhiều bài tập .",2,positive
+"nêu rõ mục tiêu , mục đích môn học để sinh viên tiếp thu dễ dàng .",0,negative
+có một số vấn đề nói chưa rõ .,0,negative
+"giáo viên tận tình , chuẩn bị bài học chu đáo .",2,positive
+giảng viên dạy hay và tâm huyết .,2,positive
+"cách tính học phí đối với môn thực hành không được rõ ràng và minh bạch , trong khi học thực hành sinh viên hầu như không sử dụng máy tính của trường và kiến thức học được từ giảng viên là rất ít so với học lý thuyết .",0,negative
+nói chuyện dễ nghe .,2,positive
+"hiểu được mục tiêu của môn học , thầy nhiệt tình giúp đỡ sinh viên .",2,positive
+"cô dạy khó hiểu , phải về nhà học thêm nhiều mới hiểu những gì cần thiết cho môn học .",0,negative
+"truyền đạt tốt , bám sát đề thi , bài giảng cung cấp đầy đủ .",2,positive
+thầy cô dạy rất nhiệt tình !,2,positive
+em không có bất cứ một lời phê bình nào .,1,neutral
+"nội dung học quá trừu tượng , thực hành chưa thực sự mang lại hiệu quả , đa phần sinh viên thực hành theo bài tập được giao , thực hành xong không biết mình đang làm gì , không thấy được ý nghĩa thực tiễn của môn học .",0,negative
+cô nên thêm phần điểm đi học thực hành .,0,negative
+cách nói chuyện với sinh viên gây mất cảm tình của sinh viên đối với giảng viên .,0,negative
+"đồng thời , bài giảng , theo em nhìn nhận , thực sự rất chi tiết .",2,positive
+truyền đạt kiến thức .,1,neutral
+rất ấn tượng với những bài tập thở giúp cho não bộ được nghĩ ngơi của cô .,2,positive
+"thầy rất nhiệt tình , giảng bài rất hay và dễ hiểu .",2,positive
+"nhưng em không mấy hài lòng về cách giải quyết vấn đề của giảng viên khi giảng viên đã đi trễ như vậy , thầy trực phòng thực hành lên tiếng bảo em ( và một số bạn khác ) ra về .",0,negative
+đôi khi giảng dạy quá nhiệt tình mà quên mất cả thời gian ( hết giờ học giảng viên vẫn dạy thêm 10 - 15 phút ) .,0,negative
+ôn tập kỹ trước khi thi hoặc trong lúc giảng dạy cập nhật đến những vấn đề có thể cho ra trong bài thi .,0,negative
+"sự nhiệt tình , vui tính của giảng viên .",2,positive
+"thầy cho tự tìm hiểu , và tự tìm hiểu khác với hiểu được vấn đề .",1,neutral
+"cô dạy đều , bao giờ cũng đến sớm và đúng giờ .",2,positive
+"thầy dạy hay và có tâm , mặc dù môn học lịch sử khá khô khan nhưng chúng em hiểu được rất nhiều bài học qua bài giảng của thầy .",2,positive
+mong thầy dạy tận tâm hơn !,0,negative
+thầy chưa có sự hướng dẫn cụ thể .,0,negative
+không đi đúng giờ .,0,negative
+môn này khó .,0,negative
+tạm được .,1,neutral
+rât tốt .,2,positive
+"khi ra đề thi thầy nên kiểm tra kỹ nội dung đề , tránh để sót lỗi điển hình như doubledot tên cột của bảng trùng từ khóa của oracle .",0,negative
+giảng viên chưa cho sinh viên bài tập về nhà .,0,negative
+giảng viên chỉ lên lớp còn lại không hướng dẫn nội dung thực hành cho sinh viên .,0,negative
+thầy giảng bài dễ hiểu .,2,positive
+giảng bài nghe rất dễ hiểu vui tính .,2,positive
+giảng viên thực hành chỉ gặp sinh viên rất ít .,0,negative
+còn đi trễ .,0,negative
+"thầy dạy hay , demo code trực tiếp cho sinh viên dễ hiểu .",2,positive
+giáo trình nên có sự trình bày cụ thể hơn .,0,negative
+"thầy vui tính , chuyên môn vững .",2,positive
+"dạy đúng đề cương , ôn tập sát với đề thi .",2,positive
+"cô dạy bài tập rất tận tình , dễ hiểu .",2,positive
+cô rất nghiêm .,0,negative
+"đề cập về tính thực tế , liên quan của hệ thống kiến thức .",2,positive
+"mỗi khi cần giảng giải bài tập , kiến thức , vấn đề gì mà sử dụng đến mạng wifi thì rất tệ làm tốn thời gian của thầy và sinh viên .",0,negative
+"thầy rất nhiệt tình , sẵn sàng trả lời câu hỏi sinh viên .",2,positive
+nhà trường nên cập nhật visual studio lên phiên bản mới nhất để tụi em thực hành tốt hơn .,0,negative
+em hy vọng nhà trường cải thiện lại các máy trong phòng thực hành để tương ứng với số tiền đối với số chỉ thực hành .,0,negative
+quá khó khăn trong việc báo cáo bài .,0,negative
+"cô dạy đến hơi thở cuối cùng , rất tận tâm với sinh viên , sinh viên không rõ vấn đề gì đề giải thích cặn kẽ , lâu lâu trong giờ học kể những vấn đề có liên quan tới môn học giúp cho sinh viên định hướng được học môn này để làm gì tạo hứng thú cho sinh viên học tập , đặc biệt cô có giờ tiếp sinh viên định kỳ để để hỗ trợ sinh viên em rất thích điều này .",2,positive
+ngoài ra cung cấp một vài thông tin bổ sung về việc học công nghệ thông tin hiệu quả hơn .,2,positive
+cô dạy nhiệt tình và dễ hiểu .,2,positive
+"giảng dễ hiểu , cho bài tập đầy đủ .",2,positive
+"thầy vui tính , rất nhiệt tình với sinh viên .",2,positive
+sự nhiệt tình và liên hệ thực tế của giáo viên .,2,positive
+tận tình chỉ bảo .,2,positive
+"mong giảng viên có thể liên hệ bài học với thực tế , cho ví dụ nhiều hơn sinh viên có thể hiểu được bài .",0,negative
+giảng viên giảng nhiều bài tập và tăng cường ôn tập ngữ pháp và luyện nói .,2,positive
+"tụi em tới để học chứ không phải để nghe cô chê bai người việt này nọ lọ chai , không phải để nghe việc cô đi dạy người nước ngoài nói tiếng việt , cô cũng đừng đánh giá người ta nói cái gì cho cả một tập thể .",0,negative
+đề thi khó .,0,negative
+không check mail mỗi khi hỏi bài .,0,negative
+nhiều tài liệu hữu ích .,2,positive
+"đồ án cuối kỳ trong vòng một tháng cuối , áp dụng được quy trình thực tế .",2,positive
+thúc đẩy sinh viên tự học đạt điểm cao trong các kỳ thi .,2,positive
+"thì hiện nay khóa 5 đang học môn này có cảm nhận vẫn còn là con "" chuột bạch "" thử nghiệm cho môn học .",0,negative
+"thầy rất nhiệt tình , vui tính , dạy dễ hiểu và cặn kẽ .",2,positive
+giảng viên nói tiếng anh không hay .,0,negative
+các công thức đã có sự đổi mới nên cô cần cập nhật thêm ( betweenness centrality và closeness centrality ) tránh áp đặt kiến thức lên sinh viên .,0,negative
+thầy không quan tâm đến học sinh .,0,negative
+"mong nhà trường cần nâng cấp các phòng thực hành , và phong lab khoa .",0,negative
+"nhưng cách truyền đạt và cách dạy học rất buồn ngủ , không hiệu quả , rắc rối .",0,negative
+"giảng viên vui vẻ , thoải mái trong giờ học , không gây áp lực .",2,positive
+không dễ tính .,0,negative
+"giảng rất hay và dễ hiểu , giúp cho sinh viên nắm vững kiến thức .",2,positive
+"giảng viên giảng dạy nhiệt tình , có đầy đủ các hoạt động để sinh viên rèn luyện và học tập .",2,positive
+"giảng viên không dạy phần trọng tâm của môn học , dạy quá dài dòng , và cần hạn chế viết bảng .",0,negative
+"giảng viên chưa giải hết thắc mắc của sinh viên , còn một vài vấn đề chưa hiểu rõ .",0,negative
+"cô dạy vui , dễ hiểu .",2,positive
+được 200 điểm là đươc 1 điểm quá trình .,1,neutral
+chất lượng tốt .,2,positive
+tôi thấy rất bất mãn về việc giảng dạy của giảng viên mong nhà trường chấn chỉnh lại việt này .,0,negative
+"giảng viên giảng dạy dễ hiểu , nhanh tiếp thu bài , đưa ra các ví dụ và bài tập hay .",2,positive
+thầy giảng bài quá buồn ngủ .,0,negative
+"thầy vui tính , dạy rất dễ hiểu và rất nhiệt tình .",2,positive
+các bài thực hành cần bám sát theo chương trình lý thuyết .,0,negative
+tài liệu được cấp thông qua lớp trưởng .,1,neutral
+"nhiệt tình , tài liệu đầy đủ dễ đọc dễ hiểu .",2,positive
+thầy vui tính trong việc dạy .,2,positive
+"thầy rất tân tâm , vui vẻ , và có khả năng truyền đạt kiến thức .",2,positive
+"slide bài giảng đầy đủ rõ ràng , giáo viên đúng giờ .",2,positive
+cô vui vẻ trong giảng dạy .,2,positive
+"tận tình , chu đáo , hiểu tâm lý sinh viên .",2,positive
+"giảng viên giảng dạy tận tâm , nhiệt huyết .",2,positive
+"giáo viên dễ gần , phương pháp dạy dể tiếp thu .",2,positive
+"thầy mở máy lạnh lạnh quá ạ , mong thầy bật máy lạnh vừa phải thôi !",0,negative
+giảng viên nên trình bày mẫu các bài giải nhiều hơn .,0,negative
+dành ra những tiết thực hành nghe nói riêng tạo sự tự nhiên cho sinh viên khi giao tiếp bằng tiếng anh .,2,positive
+cô giáo xinh .,2,positive
+"giảng hay , dễ hiểu .",2,positive
+thầy dạy cho nhiều dạng bài tập ví dụ hay giúp em hiểu rõ hơn môn mạng .,2,positive
+chia sẻ kiến thức thực tế cho sinh viên .,2,positive
+"thầy cũng vui tính , nói chuyện liên hệ thực tiễn cao .",2,positive
+"nội dung không sâu , sơ sài .",0,negative
+"giáo viên nhiệt tình , thân thiện .",2,positive
+chủ yếu dựa vào năng lực tự học của sinh viên .,0,negative
+"đúng giờ , tận tình .",2,positive
+thầy lên lớp đúng giờ .,2,positive
+"giọng cô khó nghe , cô truyền đạt chưa hay , giảng nhanh .",0,negative
+sự nhiệt tình .,1,neutral
+"thầy cho ít bài tập để làm , toàn bộ bài tập em làm đều là do các bạn ở lớp khác chia sẻ .",0,negative
+thầy dạy rất truyền cảm .,2,positive
+thầy rất đúng giờ .,2,positive
+cô có tổ chức một hoạt động về anh văn nhưng em thấy chưa thực sự có hiệu quả ( đó là ý kiến cá nhân của em ) .,0,negative
+"giảng khó hiểu , nhưng phần lớn là do môn giải tích khó .",0,negative
+"cô tạo được một môi trường học tập rất thân thiện , thoải mái và không kém phần bổ ích cho sinh viên , hy vọng cô sẽ dạy nhiều hơn .",2,positive
+khi nào sinh viên chưa hiểu đều giảng nhiệt tình .,2,positive
+thầy dịch slide và giảng khó hiểu .,0,negative
+không đăng slide bài giảng lên course .,0,negative
+cẩn thận .,1,neutral
+thầy cần chủ động về thời gian .,0,negative
+"thầy giáo tích cực , tâm lý .",2,positive
+"thầy tận tâm , nhiệt tình với sinh viên .",2,positive
+thầy dạy bám sát nội dung cần thiết nhiệt tình .,2,positive
+em mong thầy sẽ cung cấp chúng em nhiều tài liệu chính thống hơn để chúng em có thể dễ dàng tìm hiểu kiến thức môn học .,0,negative
+"cô dạy nhiệt tình , thường xuyên chia sẻ bài trên website môn học .",2,positive
+đã là chủ nhật còn bắt đi học .,0,negative
+thầy nhiệt tình giảng bài !,2,positive
+quá nhiều nội dung không cần thiết .,0,negative
+thầy giảng kỹ bài .,2,positive
+"cô nhiệt tình với sinh viên , vui vẻ .",2,positive
+"thầy dạy vui tính , không áp lực .",2,positive
+"việc truyền đạt kiến thức theo lối bình dân , khiến sinh viên khó hình dung , nắm bắt được mình đang được truyền đạt điều gì .",0,negative
+và nội dung đó không giúp sinh viên sau này nhiều .,0,negative
+"thầy giảng bài rất nhiệt tình , có các ví dụ minh họa để làm rõ vấn đề .",2,positive
+các bài tập thực hành giúp nâng cao kiến thức đã học trên lớp .,2,positive
+báo nghỉ không đại trà .,0,negative
+"cô dạy hay tuyệt , rất dễ hiểu .",2,positive
+thầy giao đồ án cho sinh viên tự bơi .,0,negative
+"dạy đúng giờ , thường xuyên đưa bài tập lên moodle , tạo cơ hội cho học sinh rèn luyện kỹ năng nghe và nói nhiều .",2,positive
+giảng viên giảng chưa được thú vị .,0,negative
+em muốn thầy dạy và sửa bài tập .,0,negative
+đừng có một chỗ tiếng anh một chỗ tiếng việt .,0,negative
+giảng dạy hay dễ hiểu .,2,positive
+cần sử dụng phòng elab và các thiết bị nghe nhìn cho lớp chất lượng cao .,0,negative
+thầy nhiệt tình trong cách giảng dạy .,2,positive
+"theo như danh sách phòng đào tạo đưa xuống , lớp học có gần 140 sinh viên đăng kí .",1,neutral
+môn này là môn quan trọng trong truyền thông nên cần thực hành trên phần mềm và thiết bị mô phỏng nhiều hơn .,0,negative
+giảng viên giảng dạy theo đúng quy trình .,1,neutral
+"hiện tại tương đối tốt , không cần điều chỉnh gì thêm .",2,positive
+"giảng dạy tận tâm , nhiệt tình , hay .",2,positive
+vui tính hoà đồng .,2,positive
+"giảng viên thường cho một số bài tập nâng cao , hơi quá sức đối với tụi em .",0,negative
+"thầy khá hiền , ít nói .",0,negative
+"cô dạy dễ hiểu , bài giảng sống động .",2,positive
+"thầy cho bài tập về quá nhiều , thời gian cố định , ngắn nên không đủ thời gian để làm bài .",0,negative
+"giáo viên dạy tận tình , dễ hiểu , hay giải đáp những thắc mắc của sinh viên về môn học .",2,positive
+nhà trường nên có nhiều giáo trình bài tập và hướng dẫn giải bài tập nhiều hơn .,0,negative
+"tận tâm , nhiệt tình giải đáp thắc mắc trong quá trình học .",2,positive
+"thầy dạy vui , không khô khan , liên tưởng tốt .",2,positive
+tệ đến mức không tả được .,0,negative
+"giảng viên diễn đạt quá nhanh , lớp thường rất đông , rất thiệt thòi cho sinh viên ngồi cuối lớp do không nhìn thấy nội dung bài giảng .",0,negative
+thầy không cho slide bài giảng cũng không giới thiệu tài liệu đọc thêm .,0,negative
+nếu là điểm cố định thì thầy phải cho cơ hội cho tất cả các sinh viên đều nộp bài được và giải thích rõ ràng khung điểm này từ đầu .,0,negative
+thầy tiếp tục giảng bài .,1,neutral
+"tài liệu thầy cung cấp đầy đủ , cụ thể .",2,positive
+cực kỳ nhiệt tình .,2,positive
+"thầy ít có giảng về bài tập , chỉ cho sinh viên tự tìm hiểu .",2,positive
+giáo viên có kiến thức tốt .,2,positive
+"nhờ thầy cho bài tập và sửa thầy không làm , và cũng giảng nhưng mà để làm được bài thì em muốn có được cách làm rõ ràng .",0,negative
+"học thầy rất là vui , mà còn biết thêm nhiều cái hay nữa .",2,positive
+có thể tổ chức các buổi seminar nhằm kích thích sinh viên tìm hiểu thêm và ứng dụng tốt hơn môn học này vào thực tiễn .,2,positive
+"thầy giảng bài khá là dễ hiểu , chậm nhưng chắc .",2,positive
+"dạy dễ hiểu , và cung cấp thêm những phương pháp học tập hiệu quả .",2,positive
+"cô dạy rất dễ thương , dễ hiểu , nắm chắc kiến thức .",2,positive
+"thầy giảng dạy nhiệt tình , hăng say !",2,positive
+"thêm nữa , thầy cũng không muốn nhìn thấy một sinh viên ngủ gục trên bàn mà vẫn có tên trong danh sách điểm danh .",0,negative
+thầy dạy dễ hiểu tận tâm nhiệt tình với sinh viên .,2,positive
+giải bài tập cho sinh viên nhiều .,2,positive
+môn mạng máy tính còn nặng nề lý thuyết rất nhiều .,0,negative
+thầy giảng bài rất hay !,2,positive
+không áp lực khi học tập .,1,neutral
+"tiết học căng thẳng , phải thường xuyên đúng giờ .",0,negative
+"nhưng thầy rất ra dáng một doanh nhân thành đạt , một người diễn thuyết tạo cảm hứng nhiều hơn là kiến thức phù hợp với sinh viên .",2,positive
+thầy lồng ghép ví dụ thực tiễn vào bài học .,2,positive
+"cô dạy nhiệt tình và có tâm huyết , dễ hiểu , cô dạy rất hay và cung cấp cho em nhiều kiến thức , trình độ của cô rất giỏi .",2,positive
+nâng cấp hệ thống loa cho các phòng học .,0,negative
+"giảng viên nhiệt tình , tâm huyết , giảng dạy tốt .",2,positive
+đề nghị trừ lương .,0,negative
+"thầy dạy hay nhưng không ôn tập thi giữa kỳ , cuối kỳ cho sinh viên .",0,negative
+thầy dạy hay và tận tâm với em .,2,positive
+"nhiệt tình , tận tâm , giảng dễ hiểu .",2,positive
+"em thích cách dạy của thầy , làm bài tập sau khi giảng xong lý thuyết cho sinh viên có thể nhớ ngay hôm ấy không cần về nhà coi lại bài .",2,positive
+giảng viên cần đảm bảo thời gian lên lớp .,0,negative
+giảng viên cho bài tập bám sát nội dung giảng dạy .,2,positive
+giảng viên nhiệt tình !,2,positive
+máy chiếu tại phòng học còn mờ .,0,negative
+viết quá nhiều ví dụ trùng lặp ( dạng ) với nhau .,0,negative
+tài liệu môn mạng máy tính được dịch từ computer networking a topdown aproach còn hơi khó hiểu để sinh viên học hay tự nghiên cứu .,0,negative
+thầy rất nhiệt tình giảng dạy .,2,positive
+"em mong muốn được nghe thầy kể nhiều câu chuyện về sự nghiệp và cuộc đời , gian nan từng trải của thầy trong các bài học nhiều hơn nữa , có lẻ sinh viên sẽ học được nhiều điều hơn .",0,negative
+"em thấy lúc giảng , thầy chỉ ngồi yên trên ghế và đọc slide dẫn đến sinh viên cảm thấy nhàm chán .",0,negative
+thầy dạy rất dễ hiểu .,2,positive
+"dạy chắc chắn kiến thức , truyền đạt tốt .",2,positive
+"thầy dạy rất hay , quan tâm học sinh .",2,positive
+giáo trình môn học được cập nhật .,2,positive
+thầy thường xuyên đặt ra những deadline không phù hợp với sinh viên .,0,negative
+phương pháp dạy thực hành rất hay .,2,positive
+"giảng viên tận tâm , nhiệt tình , dễ tính , lên lớp đúng giờ .",2,positive
+quá khắt khe colonsad .,0,negative
+em mới gặp thầy buổi thực hành cũng là buổi thi .,1,neutral
+"cô dạy hay , lại rất đúng giờ dạy học .",2,positive
+giải đáp rất tận tình mọi thắc mắc của sinh viên .,2,positive
+"cô dễ thương , tận tâm với sinh viên .",2,positive
+cách giảng của thầy hơi đều và chậm .,0,negative
+"giảng viên nhiệt tình , tạo nhiều hoạt động cho lớp .",2,positive
+cần thể hiện chi tiết hơn nội dung của môn học và nhiều ví dụ minh hoạ hơn .,0,negative
+không đảm bảo giờ lên lớp .,0,negative
+"mỗi khi báo cáo tiến độ đồ án trong năm học , giảng viên chỉ chỉ ra duy nhất một lỗi trong đồ án cho sinh viên , mà không xem toàn bộ đồ án để góp ý cho sinh viên mọi sai sót để sinh viên khắc phục trong lần báo cáo cuối kỳ .",0,negative
+quá tệ .,0,negative
+"giảng viên tận tâm , nhiệt tình , vui vẻ .",2,positive
+tăng thêm thời lượng môn học .,0,negative
+giúp học sinh chủ động trong việc thực hiện đề tài và nhiệt tình giúp đỡ sinh viên tìm tài liệu .,2,positive
+cung cấp nhiều kiến thức bổ ích cho sinh viên .,2,positive
+"giảng viên nhiệt tình trong giảng dạy , hệ thống tài liệu học tập được update tốt .",2,positive
+giáo viên nhiệt tình giảng dạy .,2,positive
+thầy dạy rất nhiều điều bổ ích từ học tập đến cuộc sống ngoài đời .,2,positive
+"cách diễn đạt dễ hiểu , vui vẻ , tận tình với học sinh .",2,positive
+"hay đi trễ , dạy lố thời gian .",0,negative
+tận tình chu đáo dễ hiểu .,2,positive
+giải đáp thắc mắc sinh viên kỹ lưỡng .,2,positive
+"phần đầu môn này nói về những chủ đề đại loại như "" làm thế nào để thành công "" , "" thói quen người thành công "" hay là bàn về tương lai vdotv .",1,neutral
+"dạy nhiệt tình , vui vẻ trong giờ học .",2,positive
+như vậy là được .,2,positive
+thấy rất vui tính .,2,positive
+"giảng dạy quoa loa , thiếu nhiệt tình , chương trình học hoàn toàn không ăn khớp với lý thuyết .",0,negative
+giảng viên nên dạy kỹ hơn các phần quan trọng của bài học .,0,negative
+"giáo viên không nhiệt tình , tận tâm với sinh viên .",0,negative
+"môn học này không có sắp xếp lịch học , phòng học .",0,negative
+"nhiều bạn phải học tiết 4 , 5 phải nghỉ giữa chừng để đi học môn khác như tư tưởng .",0,negative
+khả năng tiếng anh .,1,neutral
+không công bố điểm giữa kỳ sớm .,0,negative
+nên giảng những phần cần chú trọng nhiều hơn .,0,negative
+phương pháp giảng tốt .,2,positive
+thầy dạy dễ hiểu !,2,positive
+"thầy lên lớp rất trễ , giờ học bắt đầu vào lúc 13h00 thì có hôm 13h30 hoặc 14h00 thầy mới vô .",0,negative
+"thầy dạy hay , cung cấp thông tin rất chi tiết , ví dụ dễ hiểu .",2,positive
+"giảng viên vui vẻ , giảng dạy tận tâm , đến lớp đầy đủ đúng giờ .",2,positive
+giảng viên tận tâm nhiệt tình vui vẻ .,2,positive
+giọng nói khó truyền đạt kiến thức một cách hiệu quả nhất .,0,negative
+học còn khá tẻ nhạt .,0,negative
+"giọng nói hơi nhỏ , khó tiếp thu !",0,negative
+"dạy rất kỹ , rất nhiệt tình , thêm giờ để hoàn thành xong bài giảng , hỏi han sinh viên , nói chung là rất tuyệt .",2,positive
+thực hành nhiều hơn .,0,negative
+"tiết học vui vẻ , thoải mái , thầy dạy nhiệt tình , dễ tiếp thu .",2,positive
+nhiều phần nâng cao thường bị giảng viên bỏ qua .,0,negative
+dời lịch hẹn gặp sinh viên nhưng không thông báo .,0,negative
+"phòng học , micro , máy chiếu cần nâng cấp và cải thiện và bảo trì thường xuyên hơn .",0,negative
+tận dụng hết thời gian .,2,positive
+"thầy dạy tận tâm , nhiệt tình , tạo nhiều điều kiện giúp đỡ , hỗ trợ sinh viên học tập tốt môn học .",2,positive
+đôi lúc giảng quá nhanh .,0,negative
+"thầy dạy với tư tưởng là sinh viên biết hết cả rồi , lên giảng dạy chỉ nói vài chỗ .",0,negative
+cần đổi mới tài liệu .,0,negative
+do đó làm hiệu quả học chưa đạt mức tốt nhất .,0,negative
+"tận tâm , nhiệt tình giảng dạy , tiết học có lồng ghép nhiều chuyện đời vui vẻ , lý thú , không gây buồn ngủ .",2,positive
+"hoạt động dạy và học rất sôi nổi , rất tận tâm và nhiệt huyết !",2,positive
+"nhiệt tình , tạo không khí học tập tốt .",2,positive
+thầy nên up các bài giải lên để em so sánh kết quả cho dễ .,0,negative
+"cơ sơ vật chất tốt , giảng hay .",2,positive
+"em nghĩ nhà trường nên nâng cấp phiên bản của sql vì sql 2005 mà nhà trường đang cho sinh viên thực hành còn thiếu sót nhiều chức năng , hỗ trợ .",0,negative
+"giảng viên cũng hỗ trợ nhiều kiến thức cho sinh viên , giúp sinh viên hiểu bài tốt hơn .",2,positive
+dạy nói hơi nhỏ .,0,negative
+em thấy cô dạy rất hay .,2,positive
+thầy dạy rất nhiệt tình .,2,positive
+"sinh viên lớp chất lượng cao nhưng lại xếp thi phòng thực hành của lớp thường , việc cấu hình máy mất hơn nửa tiếng cho cả lớp , chưa kể còn nhiều bất cập khi làm bài thi .",0,negative
+"cách truyền đạt kiến thức dễ hiểu , sự hài hước vui vẻ .",2,positive
+"phương pháp dạy của thầy rất hay , cho điểm rất rõ ràng .",2,positive
+tận tình nhiệt huyết .,2,positive
+"giáo viên giảng bài dễ hiểu , nhiệt tình .",2,positive
+"tận tâm , nhiệt tình , đúng giờ .",2,positive
+"cô nhiệt tình , tận tâm , dạy dễ hiểu , quan tâm học sinh , lớp hoạt động sôi nổi , phát âm dễ nghe , dễ hiểu .",2,positive
+"giáo viên dạy nhiệt tình , dễ hiểu .",2,positive
+cách thức diễn đạt chưa đạt hiệu quả tốt .,0,negative
+nội dung bài giảng khó hiểu .,0,negative
+không hài lòng với sự cố gắng của bản thân mình .,0,negative
+lịch học bù không phù hợp với sinh viên .,0,negative
+một người thầy như vậy thì làm sao có thể dạy được học sinh tốt .,0,negative
+"đúng từng câu chữ thì ok , còn lại failse .",0,negative
+good .,2,positive
+khó tính .,0,negative
+do học khoa khác nên dạy không theo kịp tiếng độ của chương trình .,0,negative
+"giảng viên dạy hay , tận tâm , dễ hiểu bài .",2,positive
+giảng viên tận tâm và nhiệt tình .,2,positive
+quan tấm sinh viên nhiều hơn .,0,negative
+giáo viên nên làm nhiều bài tập mẫu cho sinh viên .,0,negative
+không nên dừng lại chỉ ở mức khái niệm .,0,negative
+"mong muốn nhà trường , khoa cùng giảng viên có thể thay đổi nội dung sao cho hấp dẫn hơn .",0,negative
+nhiệt tình yêu nghề .,2,positive
+"ít kinh nghiệm , dạy khó hiểu , kỹ năng giao tiếp kém , giảng bài cực khó hiểu .",0,negative
+"dễ hiểu , tích cực trong việc giải đáp thông tin của học sinh .",2,positive
+thầy thân thiện .,2,positive
+hướng dẫn dạy học tận tình .,2,positive
+speaking vừa rồi cô không công bằng .,0,negative
+"em không thể nghe được thầy nói gì do khác vùng miền , cách giảng dạy chưa có sức hấp dẫn .",0,negative
+"cần giảm bớt căng thẳng , dồn dập tiết học .",0,negative
+cô hướng dẫn làm đồ án rất nhiệt tình .,2,positive
+"thầy giảng hay , dễ hiểu , có nhiều ví dụ .",2,positive
+"thầy dạy nhiệt tình , kiến thức bộ môn chuyên sâu , cần phát huy .",2,positive
+"giảng viên giảng dạy tốt , dễ hiểu .",2,positive
+"giảng viên giảng bài khó hiểu , đặt nặng lý thuyết khiến sinh viên khó hiểu dễ gây chán nản .",0,negative
+"nhiệt tình , nhưng đôi khi quá nhiệt tình , giảng bài một cách quá nhiều khiến em không thể nhớ hết được .",0,negative
+ôn kiến thức bằng cách chơi trò chơi .,2,positive
+môn này thầy dạy rất mơ hồ .,0,negative
+môn học cần phải gần gũi với thực tiễn ở việt nam .,0,negative
+"cô rất nhiệt tình , tận tâm và gần gũi .",2,positive
+giảng viên dạy rất dễ hiều .,2,positive
+"thầy có lòng giúp sinh viên , rất tốt .",2,positive
+cần tạo cảm hứng học hơn cho sinh viên .,0,negative
+sau môn học toàn kiến thức lý thuyết mà không biết vận dụng kiến thức đó như thế nào .,0,negative
+mini test trong cả khóa học nhiều hơn .,0,negative
+đồ án thầy phân tích rất chuyên sâu .,2,positive
+thầy cần sử dụng máy chiếu khi giảng bài vì lớp khá đông !,0,negative
+"thầy giảng dạy những phần kiến thức có hơi cao , sinh viên không nắm bắt kịp .",2,positive
+cần lắp thêm quạt và màn che cửa sổ .,0,negative
+"thầy ơi , giảng bài cho tụi em đi !",0,negative
+mong cô giúp đỡ để cải thiện vốn tự vựng tiếng anh .,0,negative
+"cô luôn động viên và định hướng sinh viên trong việc tự rèn luyện , trau dồi kỹ năng ngoại ngữ .",2,positive
+nên có giờ thực hành của môn học này .,0,negative
+giảng dạy tốt đạt hiểu quả cao .,2,positive
+"truyền đạt tốt , dễ hiểu .",2,positive
+"phòng đào tạo và khoa wzjwz84 nên thống nhất lại hình thức thi và nội dung thi cho hợp lý , tránh thay đổi hình thức thi vào gần sát cuối kỳ học .",0,negative
+"giảng viên luôn đến lớp đúng giờ , giảng dạy thân thiện , tận tâm .",2,positive
+"những bài thuyết trình chưa đủ để nâng cao kiến thức của cá nhân , chưa thực sự phù hợp với khả năng hiện tại của bản thân .",0,negative
+nhưng không sao .,1,neutral
+"giảng viên dạy dễ hiểu , hướng dẫn bài tập cụ thể .",2,positive
+"cho thêm bài tập về nhà , đề tài thuyết trình bằng tiếng anh , bài viết .",0,negative
+"giảng viên dạy dễ hiểu , đi dạy đúng giờ .",2,positive
+giảng viên làm việc riêng khi sinh viên báo cáo .,0,negative
+"nhiệt tình , quan tâm giúp đỡ học sinh .",2,positive
+sức khỏe yếu .,0,negative
+giảng viên không sử dụng moodle để sinh viên nộp bài tập mà yêu cầu gửi qua mail cá nhân .,0,negative
+giảng viên quá tệ .,0,negative
+hài lòng hết !,2,positive
+thầy dạy rất đúng giờ .,2,positive
+thầy rất vui tính gần gũi .,2,positive
+lên lớp đầy đủ .,2,positive
+giáo viên lên lớp đúng giờ .,2,positive
+hướng dẫn cách học tiếng anh hiệu quả cho sinh viên !,2,positive
+nhiệt tình với sinh viên .,2,positive
+"đề thi không có tính phân loại về kiến thức nhiều , mà hơn nhau ở chỗ ai tỉ mỉ hơn , ai nhanh hơn .",0,negative
+khả năng sư phạm của cô theo em cần được cải thiện hơn .,0,negative
+thầy đẹp trai colonlove .,2,positive
+giảng viên thường xuyên tương tác với sinh viên trong lúc dạy .,2,positive
+cô nên yêu cầu sinh viên trả lời câu hỏi nhiều hơn .,0,negative
+cung cấp lượng lớn thông tin .,2,positive
+có nhiều thứ bổ ích .,2,positive
+thầy giảng rất kỹ từ lý thuyết cho đến bài tập .,2,positive
+nguyên kỳ này em thấy học được mỗi môn của thầy dạy là vô .,2,positive
+"thầy siêu dễ thương , dạy có tâm .",2,positive
+điều chỉnh trang thiết bị giảng dạy .,0,negative
+lo cho sinh viên .,2,positive
+đôi khi thầy hơi lan man .,0,negative
+cô giáo tuyệt vời .,2,positive
+"đi dạy đúng giờ , truyền đạt kiến thức dễ nắm bắt .",2,positive
+phần thực hành nếu có phải nộp bài nào để lấy điểm thì nên thông báo lên moodle và cho nộp online .,0,negative
+"sinh viên được chủ động trong giờ học , tự suy nghĩ , tham gia thảo luận về bài học và có liên hệ thực tế .",2,positive
+chưa từng gặp giảng viên wzjwz144 ở môn thực hành thiết bị mạng và truyền thông đa phương tiện .,0,negative
+hoạt động tham quan rất bổ ích .,2,positive
+thầy rất nhiệt huyết trong khi giảng bài .,2,positive
+"thầy dạy hay , dễ hiểu , cho bài tập nhiều nhưng thường quá giờ quy định .",2,positive
+"đôi khi thầy có đến trễ một chút nhưng các nội dung thầy giảng dạy đều đầy đủ , ngoài ra thầy còn tăng thêm các buổi tăng cường trước các ngày thi .",2,positive
+thầy không quan tâm tiến độ và bám sát hoạt động học của sinh viên .,0,negative
+quay video quá trình dạy .,2,positive
+trong quá trình dạy cô có liên hệ thực tế nhiều .,2,positive
+thầy dạy rất nhiệt tình ví dụ và lý thuyết dễ hiểu slide bài giảng tốt .,2,positive
+thầy dạy khá hay và kỹ .,2,positive
+truyền đạt rất tốt .,2,positive
+tận tâm và nhiệt tình trong giảng dạy .,2,positive
+"rất dễ hiểu , bài tập phong phú , đa dạng .",2,positive
+"cô dạy rất tận tình , tạo không khí thoải mái trong lớp học cung cấp tốt mọi kiến thức cho sinh viên quan tâm đến sinh viên .",2,positive
+vui nhiệt tình tận tâm .,2,positive
+yêu cầu bài lab chưa đủ rõ ràng .,0,negative
+"một vấn đề nữa , em mong quý thầy cô tạo một không khí hưng thú cho sinh viên , có thể kể thêm chuyện ngoài lề , bao giờ vui vẻ thì sinh viên cũng học tốt hơn , gò bó ép buộc mình vào một điều gì đó đôi khi lại phản tác dụng , em tin nếu làm được thế sinh viên sẽ tự giác đi học nhiều hơn , còn việc điểm danh thì thủ tục quá gây cho học sinh tâm lý trói buộc .",0,negative
+có chuẩn bị slide bài giảng chi tiết với nhiệt tình .,2,positive
+"thầy dạy nhiệt tình , cập nhật được kiến thức mới .",2,positive
+"giảng viên nhiệt huyết , rất có tâm colonhihi .",2,positive
+"dạy sai kiến thức về fork , sai giải thuật round - robin , sai kiến thức về bộ nhớ .",0,negative
+giảng viên thiếu trách nhiệm .,0,negative
+"rất thích cách dạy của thầy , dễ hiểu , thầy rất tận tình .",2,positive
+"cô vui tính , truyền đạt được ý kiến cho học sinh , tạo môi trường làm việc nhóm hiệu quả .",2,positive
+"cô dạy rất kỹ , nhiệt tình , cô luôn giám sát thái độ và chất lượng học tập của sinh viên , và luôn cóc những bào tập về nhà để sinh viên luyện tập thêm ở nhà .",2,positive
+"giảng viên theo dõi , giám sát quá trình thực hành .",2,positive
+"thầy cho cả lớp tranh luận về các quy luật , các cặp phạm trù , các nguyên lý của chủ nghĩa mác - lênin .",1,neutral
+thầy dạy tâm huyết và nhiệt tình .,2,positive
+"trình bày vấn đề đơn giản , dễ tiếp thu .",2,positive
+"giảng viên nên có bài sửa cho những bài thực hành được cho làm , hoặc giảng lại cách làm sau đó .",0,negative
+cần đảm bảo thời gian lên lớp .,0,negative
+kiến thức truyền đạt .,1,neutral
+"giảng viên nói to rõ , nhiệt tình , tận tâm .",2,positive
+cần tăng thêm bài tập thực tế .,0,negative
+cô tạo không khí vui vẻ và tạo được tinh thần học cho sinh viên .,2,positive
+"nhiệt tình , quan tâm sinh viên .",2,positive
+"thầy dạy nhiệt tình , cho nhiều ví dụ .",2,positive
+không giới thiệu khái quát về nội dung .,0,negative
+tâm huyết giảng dạy của giáo viên .,2,positive
+"những bài giảng thiết thực , kèm theo những hình thức học tập mới lạ làm cho sinh viên cảm thấy bớt căng thắng khi học .",2,positive
+tài liệu ôn tập thi không được cung cấp .,0,negative
+không thông báo rõ ràng lịch học .,0,negative
+"thầy tận tâm nhiệt tình , dạy sát nội dung môn học .",2,positive
+giảng viên khuyến khích sinh viên tự tìm hiểu .,2,positive
+nâng cấp phiên bản của các phần mềm .,0,negative
+"thầy dạy hay , dễ hiểu bài , em thích điều đó .",2,positive
+"giảng viên vui vẻ , hoạt bát , lun tiếp cận tìm hiểu sinh viên , giúp sinh viên hiểu bài tốt hơn .",2,positive
+mọi mặt đều tốt .,2,positive
+đó là ý kiến cá nhân của em .,1,neutral
+cô đẩy nhanh quá nên chậm lại xíu .,0,negative
+"hướng dẫn và giảng dạy chi tiết , dễ hiểu .",2,positive
+"thầy nhiệt tình , giải đáp thắc mắc kịp thời .",2,positive
+thầy giải thích rất chi tiết nội dung bài .,2,positive
+"thầy cho các nhóm seminar dịch sách tiếng anh nhưng nhiều nhóm làm quá qua loa nên em không hiểu nội dung sách cho lắm , mặc dù thầy có giảng lại .",0,negative
+"thầy dạy nhiệt tình , vui tính , tận tâm !",2,positive
+tạm tạm .,1,neutral
+"nên tăng thời lượng thực hành để đủ thời gian cho giảng viên hướng dẫn thực hành hướng dẫn đầy đủ cho sinh viên , môn này là môn quan trọng trước khi vào chuyên ngành .",0,negative
+buổi học nào thầy cũng có mặt đầy đủ .,2,positive
+"cách dạy không hay , dễ gây nhàm chán .",0,negative
+có đầy nhiệt tình và quan tâm việc học .,2,positive
+nên có các bài tập trên lớp và bài tập hàng tuần để rèn luyện kỹ năng và vận dụng kiến thức học được vào thực tế .,0,negative
+cần tài liệu point word để dễ tiếp thu .,0,negative
+cần phân bố thời gian thực hành và lý thuyết hợp lý hơn .,0,negative
+"giáo viên thân thiện , tận tâm , nhiệt tình .",2,positive
+thầy nên cho sinh viên làm nhiều loại bài tập .,0,negative
+"giáo viên dạy sát chương trình , lượng kiến thức truyền đạt đầy đủ .",2,positive
+"cô dạy hay , rất nhiệt tình với sinh viên .",2,positive
+"phương pháp truyền đạt thú vị , tiết học sôi động không gò bó .",2,positive
+"thầy wzjwz288 nhiệt tình , nghiêm túc .",2,positive
+mong thầy lên lớp đừng muộn quá .,0,negative
+cách học theo nhóm rất hay .,2,positive
+"hướng dẫn tốt , nhiệt tình giải đáp khi sinh viên có thắc mắc .",2,positive
+"giảng viên nhiệt tình dạy tốt , nhưng cô cập nhật điểm lâu , không up bài lên course .",0,negative
+"thầy không chủ động hướng dẫn , gây khó khăn trong việc áp dụng kiến thức .",0,negative
+cuối cùng em không biết môn học làm gì .,0,negative
+"giảng dạy đúng giờ , hiệu quả .",2,positive
+ít bài tập làm thêm .,0,negative
+chưa tạo được nhiều hoạt động trên lớp .,0,negative
+"giải tích là một môn học khó , thầy cần thêm thời gian giảng dạy và cho sinh viên một bài thi phù hợp trình độ đồng đều hơn .",0,negative
+"giảng viên nhiệt tình , vui tính , giảng hay và dễ hiểu .",2,positive
+"em thấy có vài vấn đề ở môn học này , thay vì nó là một môn học có thể thay bằng một đồ án chuyên ngành .",0,negative
+"ngoài ra , các bài hướng dẫn thực hành nên chú trọng vào các vấn đề của môn để sinh viên có thể vừa tiếp cận thực hành và tiếp cận với đồ án cuối kỳ .",0,negative
+quá nghiêm khắc .,0,negative
+một số chỗ nên giảng kỹ hơn .,0,negative
+"điểm thi còn nhiều bất cập , rất nhiều bạn còn phúc kháo .",0,negative
+"giáo viên giảng dễ hiểu , bài tập thầy cho có tính ứng dụng cao , và cần nhiều kiến thức để giải quyết .",2,positive
+"thầy rất nhiệt tình , giảng bài dễ hiểu và tận tâm .",2,positive
+"thầy giảng rõ ràng , dễ hiểu .",2,positive
+bài tập chưa đủ để sinh viên thấu hiểu .,0,negative
+"giảng dạy hay , nhiệt tình , vui tính .",2,positive
+"không hiểu thầy có phải là giảng viên không nữa , nói tiếng anh không thể nào nghe được , còn có thái độ không nghe góp ý của sinh viên nữa chứ , giải bài gì mà toàn "" this is .",0,negative
+"giảng viên nhiệt tinh , tận tâm .",2,positive
+giảng viên cần tập trung đi sâu vào kiến thức ngữ pháp và nhiều bài tập hơn .,0,negative
+"cô rất vui vẻ , nhiệt huyết .",2,positive
+"cô wzjwz306 cực kỳ nhiệt tình , luôn biết cách tạo cơ hội cho sinh viên , khuyến khích cự chủ động và sáng tạo trên lớp , thẳng thắng phê bình dù là cả lớp một cách hết sức xây dựng và thức tỉnh .",2,positive
+mỗi người giảng viên đều có một phương pháp dạy khác nhau và trình bày bài tập cũng khác nhau .,1,neutral
+"đề thi nằm ngoài mục tiêu giảng dạy quá nhiều , đề trắc nghiệm khách quan mà cho tới 5 đáp án là không hợp lý .",0,negative
+"thoải mái , lắng nghe ý kiến sinh viên .",2,positive
+"sinh viên được chia nhóm và thực hành trên thiết bị thật 2 buổi , 1 buổi làm quen và một buổi hoàn tất là hơi thiếu .",0,negative
+cô cho nhiều bài tập để rèn luyện .,2,positive
+kiến thức môn học có ích .,2,positive
+"thầy khá nhiệt tình , các nội dung giảng dạy của thầy là những câu chuyện thực tế mà thầy trải qua vì vậy tụi em thích thú hơn .",2,positive
+cần có nhiều tài liệu được cung cấp ngay từ buổi học đầu tiên thuận lợi và tạo điều kiện cho sinh viên tìm hiểu và nghiên cứu .,0,negative
+"thầy wzjwz298 , dạy rất hay và dễ hiểu môn xác suất thống kê , cực kỳ thích cách giảng dạy của thầy , bài tập và slide bài giảng thầy đều gửi đầy đủ giúp sinh viên nắm bắt được bài giảng hiệu quả .",2,positive
+tốt .,2,positive
+"giảng viên tận tình , tâm huyết .",2,positive
+giúp nâng cao kiến thức .,2,positive
+nghỉ học nhưng không thông báo cho sinh viên biết trước .,0,negative
+đảm bảo giờ giấc lên lớp .,2,positive
+giảng viên giảng dạy nhiệt tình và hiệu quả .,2,positive
+"phương pháp giảng của thầy hơi trừu tượng , đề thi có lý thuyết mà thầy quên nhắc .",0,negative
+"sự nhiệt tình của giảng viên , tạo động lực cho sinh viên học tập tốt .",2,positive
+cần có nhiều thời gian hơn nữa để sinh viên có thể tiếp thu và vận dụng vào trong thực tế .,0,negative
+"thầy nhiệt tình , giảng hay .",2,positive
+"chấm điểm rộng rãi , không công bằng .",0,negative
+"đôi lúc thầy "" chia sẻ "" hơi nhiều thời gian và việc học vào chương trình thì bị bớt lại nhưng điều này cũng không mấy ảnh hưởng gì .",1,neutral
+điều em hài lòng nhất đó là thầy rất là vui vẻ khi mà hỏi bài thầy và thầy rất nhiệt tình trong lúc giảng dạy .,2,positive
+nhiều trang thiết bị thực hành trong phòng thực hành điện tử cơ bản đa số hư hỏng nhiều cần phải thay mới .,0,negative
+môn game là môn khó mà lượng thời gian thực hành quá ít .,0,negative
+"slide bài giảng đầy đủ rõ ràng , giáo viên đúng giờ , tạo nhiều điều kiện cho sinh viên .",2,positive
+thầy rất nghiêm khắc .,0,negative
+cần chú ý khắc phục .,0,negative
+"vui vẻ , tận tình giải đáp thắc mắc .",2,positive
+"giảng viên giảng dạy quá áp lực , gây áp lực về điểm số cho sinh viên .",0,negative
+"thiết bị thực hành không đáp ứng yêu cầu môn học , như router , switch .",0,negative
+"thầy giảng hay , dễ hiểu , bài tập cho về nhà vừa sức với em .",2,positive
+nên có tiết thực hành hỗ trợ phần đồ án .,0,negative
+"giảng viên giảng dạy nhiệt tình , tận tâm , dễ hiểu .",2,positive
+nói chuyện điện thoại nhiều hơn giảng dạy .,0,negative
+giảng viên rất hòa đồng với học sinh .,2,positive
+khi dùng micro em nghe được hai giọng của thầy và của loa rất đau đầu .,0,negative
+điều này như lướt qua đầu tụi em và nó chả để lại ấn tượng gì nên trong bài thi giữa kỳ đa số là sai phần bài tập .,0,negative
+còn nghỉ .,0,negative
+"quản lý lớp tốt , truyền đạt hay .",2,positive
+"gần gũi , phương pháp dạy phù hợp .",2,positive
+"trong quá trình giải bài tập , giảng viên đưa ra nhiều nhận xét khác nhau , mỗi buổi lại giải một cách khác nhau khiến sinh khiên không xác định được cách làm , hoang mang .",0,negative
+giao viên dạy rất nhiệt tình .,2,positive
+"có bài thì một tuần deadline , có bài thì cả tháng mới deadline , có tuần thì deadline ba bài cùng lúc .",0,negative
+"cô wzjwz82 dạy rất khó hiểu , nhiều bạn trong lớp không nắm được .",0,negative
+"hy vọng cô thay đổi cấu trúc đề thi thực hành , thực ra khó thì không khó lắm , nhưng đánh máy không kịp .",0,negative
+"thầy tận tâm , nhiệt tình , giảng bài trên lớp kỹ .",2,positive
+giảng viên luôn nhiệt tình với sinh viên trong quá trình giảng dạy .,2,positive
+"cô dạy vui vẻ , thân thiện với sinh viên .",2,positive
+môn học giúp hiểu rõ về từng ngành .,2,positive
+"nhiệt huyết , vui tính .",2,positive
+nên thường xuyên điểm danh hơn .,0,negative
+cần phòng thực hành môn học .,0,negative
+đây là một giảng viên có số lượng fan đông nhất trường .,2,positive
+"thầy dạy và hướng dẫn sinh viên làm đồ án rất tốt và rất nhiệt tình , luôn giải đáp các câu hỏi của sinh viên rất nhanh .",2,positive
+nên mất tiết khá nhiều .,0,negative
+"sự nhiệt tình tận tâm , nếu có thể tăng tiết cho môn học này thì rất tốt ạ !",2,positive
+cô chấm bài tập còn khắt khe .,0,negative
+cô nên sử dụng micro .,0,negative
+chỗ thực hành rất nắng và nóng và dụng cụ thực hành rất có hạn .,0,negative
+chưa có diễn đàn trên courses .,0,negative
+giải bài tập nhiều hơn .,0,negative
+nên nhanh chóng đưa thiết bị thật vào thực hành .,0,negative
+"có nhiều trò chơi mới lạ , vui tươi .",2,positive
+mở rộng hệ thống bài giảng .,1,neutral
+đề thi ra không hợp lý .,0,negative
+"nội dung thi , kiểm tra quá rộng .",0,negative
+"thân thiện , tận tình hướng dẫn .",2,positive
+"cô rất nhiệt tình , dạy kỹ .",2,positive
+giảng viên nên hướng dẫn sinh viên sử dụng myelt trong việc tự học ở nhà .,0,negative
+"cô giảng hay , truyền đạt được kiến thức đầy đủ .",2,positive
+luôn vui vẻ và rất nghiêm túc trong chuyện giảng dạy .,2,positive
+"do năm nay chường trình av nâng lên một bậc , nên cũng giống như em vừa học xong av1 , lại nhảy lên thẳng av3 của năm ngoái .",0,negative
+trong một khoảng thời gian ngắn không thể vừa tìm hiểu vừa làm được .,1,neutral
+"cách dạy thầy rất tốt , nâng cao khả năng , kiến thức của sinh viên .",2,positive
+tài liệu .,1,neutral
+đưa ra nhiều ví dụ cụ thể minh họa cho bài giảng giúp cho sinh viên phân biệt rõ các khái niệm và nắm bắt bài học .,2,positive
+"thầy dạy hay , thầy có kiến thức sâu rộng nhưng lại không lên lớp đủ giờ học , thường xuyên nghỉ học không được báo trước làm sinh viên rất hoang mang , thiếu kiến thức .",0,negative
+giọng rõ dễ nghe .,2,positive
+"đúng giờ , dễ hiểu .",2,positive
+em chưa bao giờ gặp giáo viên như vậy trong suốt 3 năm năm đại học .,1,neutral
+thiếu kinh nghiệm .,0,negative
+giảng viên khá tích cực trong việc trao đổi các vấn đề về đồ án với sinh viên .,2,positive
+thời gian làm bài tập còn hơi dài .,0,negative
+"giảng viên rất tâm huyết , nhiệt tình .",2,positive
+"lý thuyết quá nhiều , không nhiệt tình với sinh viên .",0,negative
+hướng dẫn giải bài tập rất hay và chi tiết .,2,positive
+thầy giảng bài dễ hiểu và tận tâm .,2,positive
+"thưa , thầy luôn nhiệt tâm và rất gần gũi với sinh viên .",2,positive
+"cô dạy rất nhiệt tình , hiểu tâm lý sinh viên , rất vui tính .",2,positive
+"môn học khá nặng và có nhiều phần rất khó hiểu , thời gian phân bố các chương cần có sự thay đổi cho phù hợp , một số phần khá khó nhưng chỉ học trong vòng vài tiết làm sinh viên rất khó hiểu .",0,negative
+"học lý thuyết khác hẳn với thực hành , học nhiều buổi thực hành nhưng thầy chỉ cho 2 bài thực hành về sân bóng mà đa số sinh viên không hiểu đề .",0,negative
+phương pháp dạy dễ hiểu .,2,positive
+chất lượng đào tạo quá tốt .,2,positive
+"em có ý kiến là thầy nên ra thêm nhiều bài tập , chia sẻ thêm nhiều tài liệu hơn .",0,negative
+thầy giảng bài rất nhiệt tình và đầy đủ kiến thức của môn học .,2,positive
+"giảng viên đảm bảo đủ các buổi học , nhưng rất thường xuyên đến lớp trễ .",0,negative
+giọng thầy hơi nhỏ và đều đều làm sinh viên buồn ngủ .,0,negative
+"giảng viên dạy nhiệt tình , dễ hiểu , kỹ càng , chu đáo .",2,positive
+thầy vui vẻ tận tâm .,2,positive
+"thầy dạy chi tiết , dễ hiểu bài , luôn đi vào các phần trọng tâm của bài .",2,positive
+"hiện nay theo em nhận thấy , trong khi lúc học thì sinh viên chỉ được học về doubledot kỹ năng ghi chép , kỹ tổ chức cuộc họp .",1,neutral
+"giảng dạy hay , dễ hiểu .",2,positive
+thầy truyền đạt nhiều kiến thức hay .,2,positive
+"điểm thực hành nên chia ra nhiều mục doubledot chuyên cần , bài tập , kiểm tra , kiểm tra cuối kỳ .",0,negative
+"giảng viên nhiệt tình , đưa ra nhiều bài tập .",2,positive
+"thầy dạy rất hay , rất dễ hiểu .",2,positive
+cô dạy có tâm nhất luôn colonlove .,2,positive
+"cô vui tính , hướng dẫn rất tận tình .",2,positive
+"khả năng truyền đạt tốt , tận tâm , chu đáo .",2,positive
+"mong cô thay đổi một chút về phương pháp như sau , có lẽ sẽ giúp sinh viên tiếp cận dễ dàng với bài học hơn .",0,negative
+nên cho làm bài tập trên lớp sau mỗi chương .,0,negative
+cô dạy hay nhiệt tình nhất trong những giáo viên anh văn em đã học !,2,positive
+đi dạy luôn trễ từ 10 - 20 phút .,0,negative
+hoạt động giảng dạy logic và dễ hiểu không có gì để ý kiến .,2,positive
+"thầy nhiệt tình , chỉ dạy dễ hiểu .",2,positive
+buồn ngủ .,0,negative
+"thầy dạy hay , tận tình .",2,positive
+thầy đẹp trai nhưng trông có pha chút nữ tính .,0,negative
+"giáo viên chưa được tận tâm cho lắm , nhiều buổi thực hành giáo viên chỉ đến đưa thiết bị rồi đi họp .",0,negative
+cách dạy của cô rất thoải mái không gò bó sinh viên .,2,positive
+"tận tình , truyền đạt dễ hiểu .",2,positive
+có nhiều trò chơi nhỏ .,2,positive
+"trong giờ học thì không tập trung vào các nội dung chính của bài mà hỏi sinh viên những câu không liên quan , liên quan về vấn đề riêng tư , và em không thấy được sự áp dụng vô bài học .",0,negative
+"phòng học còn rất là bụi , phấn viết bảng thì thiếu trầm trọng , khăn lau bảng thì rách tả tơi .",0,negative
+nếu nghỉ học thì mong thầy báo sớm cho tụi em và mong thầy giải hoặc hướng tụi em cách làm một bài tập cũ hoặc mới một cách cụ thể hơn .,0,negative
+cho nhiều bài tập về nhà để luyện các kỹ năng nghe và đọc .,2,positive
+slide môn học có đôi chỗ bị sai .,0,negative
+"phòng học được sắp xếp gần nơi thi công wzjwz125 ồn ào , không học được .",0,negative
+"giảng viên hòa đồng , nhiệt huyết , tận tâm .",2,positive
+chất lượng giảng dạy .,1,neutral
+"nếu được thì mong nhà trường hoặc giảng viên giới thiệu rõ hơn về môn học , tầm ảnh hưởng tiên quyết của nó đối với các môn học chuyên ngành về sau .",0,negative
+do bản thân .,1,neutral
+"giảng viên hơi gầy , cần bồi bổ thể chất colonsmile .",0,negative
+"giáo viên vui tính , nhiệt huyết .",2,positive
+"kiến thức sát với thực tế , được cập nhật .",2,positive
+"thầy rất vui và dạy rất nhiệt tình , kiến thức rất rộng .",2,positive
+thiết bị còn quá cũ kỹ .,0,negative
+"cô đọc slides nhanh quá , ít giảng cụ thể và nêu ví dụ lên bảng .",0,negative
+"nhiệt tình , vui vẻ , tận tâm .",2,positive
+thầy dạy rất có tâm và giúp chúng em hiểu rất sâu .,2,positive
+giáo viên giảng dạy hay .,2,positive
+môn học rất khó hiểu .,1,neutral
+giáo viên giảng khó hiểu .,0,negative
+giảng dạy vui vẻ nhiệt tình gần gũi với sinh viên .,2,positive
+một số máy còn không được cài đặt phần mềm thực hành .,0,negative
+thầy cực kỳ nhiệt tình !,2,positive
+bài tập mang tính ứng dụng thực tế .,2,positive
+đây là góp ý nhỏ của em để cô đỡ mệt thêm thôi ạ !,1,neutral
+"còn ít tạo cơ hội cho sinh viên rèn luyện các kỹ năng quan trọng như nghe , nói nhiều .",0,negative
+có hài lòng .,1,neutral
+thời gian quá ngắn .,0,negative
+thầy nhiệt tình giảng dạy dù có lúc không ai thèm nghe thầy nói .,2,positive
+thầy chỉ đến hỗ trợ khi sinh viên cần giúp .,0,negative
+thực hành .,1,neutral
+thầy liên hệ thực tiễn rất tốt .,2,positive
+có .,1,neutral
+môn mạng máy tính nên tăng cường thêm thời gian thực hành thay vì dạy nội dung môn học dạy quá nhiều lý thuyết dẫn đến gây khó hiểu cho sinh viên .,0,negative
+"thầy hướng dẫn tận tâm , nhiệt tình !",2,positive
+"khả năng truyền đạt tốt , thân thiện với sinh viên .",2,positive
+nên sắp xếp lịch thực hành phù hợp với tiến độ giảng dạy lý thuyết .,0,negative
+mong khoa đổi giảng viên cho môn này vào năm học sau .,0,negative
+"thầy rất nhiệt tình giảng dạy , cho dù ít sinh viên .",2,positive
+trang thiết bị nên được trang bị thường xuyên .,0,negative
+thầy lên lớp rất đúng giờ .,2,positive
+thường xuyên đi trễ và áp đặt sinh viên .,0,negative
+khó gần .,0,negative
+để thay đổi không khí và vừa nghỉ giải lao .,2,positive
+cuối buổi học thầy chia sẻ kinh nghiệm để tụi em có thể học tốt hơn .,2,positive
+"nhiệt tình với sinh viên , luôn đáp ứng và trả lời câu hỏi khi sinh viên thắc mắc .",2,positive
+"thầy chơi đểu em nhé , gọi em 2 lần làm em 1 con dấu nợ đấy !",0,negative
+sinh viên có nhiều môn học nên khó mà chỉ đầu tư quá nhiều cho một môn .,0,negative
+đa số các kiến thức của môn sinh viên phải tự học hoặc học hỏi lẫn nhau mà không có hướng dẫn .,0,negative
+"chương trình quá nặng , quá nhiều yêu cầu dễ bị quá tải .",0,negative
+nên biên soạn tài liệu tiếng việt đi kèm .,0,negative
+yêu cầu môn học thì mập mờ và thiếu thực tế .,0,negative
+thầy dạy đủ buổi .,1,neutral
+"thầy dạy nhiệt tình , có sự tương tác giữa người dạy và học trong suốt quá trình học tập .",2,positive
+"thầy tâm lý , vui tính .",2,positive
+"các mục được đánh "" không ý kiến "" có nghĩa là em đồng ý với điều được hỏi , không ý kiến gì .",1,neutral
+phòng quá nóng và chói làm máy chiếu bị mờ .,0,negative
+sử dụng giờ lên lớp chưa hợp lý .,0,negative
+thầy dạy hay cho nhiều bài tập .,2,positive
+"tận tình , giảng rõ ràng .",2,positive
+thầy rất tích cực trong quá trình giảng dạy .,2,positive
+khó tiếp cận nội dung vì slide toàn tiếng anh .,0,negative
+thầy vui tính nhiệt tình .,2,positive
+chưa giảng chi tiết những bài tập sinh viên không làm được .,0,negative
+"giảng viên nhiệt tình , giảng dễ hiểu .",2,positive
+"nội dung thực hành còn sơ sài , giảng viên chưa hướng dẫn , thông báo trước hay giảng giải về nội dung thực hành .",0,negative
+"thầy rất thương sinh viên , sẵn sàng nói lại kiến thức lý thuyết khi sinh viên chưa hiểu .",2,positive
+"nhiệt tình , truyền đạt tốt , hiệu quả .",2,positive
+"có thể ta sẽ tìm thấy được một phương pháp lập trình cho bài toán đó tối ưu hơn , hay hơn .",2,positive
+em rất thích cách dạy này !,2,positive
+"phòng lab kém , buổi đầu tiên không cài visual , buổi thứ 2 cũng không cài , buổi thứ 3 cũng vậy sinh viên không đi thực hành !",0,negative
+rất dễ hiểu .,2,positive
+"thầy dạy có tâm , nhiệt tình , chấm điểm công bằng .",2,positive
+"thầy dạy thêm nhiều kiến thức hay , chia sẻ cho lớp nhiều kinh nghiệm đã từng học và đi làm của thầy , em thấy rất hứng thú .",2,positive
+"không gian học thoải mái , giảng viên tận tâm , không tạo nhiều áp lực cho sinh viên .",2,positive
+cần nhắc nhở giáo viên này và khiển trách nhiều .,0,negative
+"giảng viên nhiệt tình , giảng dạy rõ ràng .",2,positive
+"giáo viên dạy dễ hiểu , thực hành tốt , kích thích tư duy sinh viên .",2,positive
+"giảng viên dạy quá nhanh , ít sửa bài tập .",0,negative
+chấm bài tập hoặc đồ án hơi gắt .,0,negative
+"cách dạy thuyết phục sinh viên , phù hợp với sinh viên .",2,positive
+"quy định rõ sinh viên phải học và làm gì ngay từ đầu học kỳ , tránh đầu học kỳ yêu cầu một kiểu , giữa kỳ lại đổi làm sinh viên khó theo kịp yêu cầu môn học .",0,negative
+thầy có phong cách giảng bài gần gũi với sinh viên .,2,positive
+giảng viên cho quá nhiều bài tập .,0,negative
+"dạy nhanh , giải bài tập nhanh , làm em không theo kịp .",0,negative
+giáo viên nhiệt huyết .,2,positive
+"nhiệt tình , tận tâm , vui tính .",2,positive
+"cần đưa ra các ứng dụng thực tiễn của môn học , giúp cho sinh viên có thể định hình được họ có thể làm được những gì khi kết thúc môn học , đồng thời có thể áp dụng kiến thức môn học để đáp ứng yêu cầu của thị trường lao động .",0,negative
+phòng học quá bé và thời lượng học quá ít .,0,negative
+"giảng viên dễ thương , truyền đạt kiến thức tốt , dễ hiểu .",2,positive
+cô chấm kỹ quá .,0,negative
+dạy quá số giờ quy định .,0,negative
+cô dạy rất tận tâm và dễ hiểu .,2,positive
+chưa tận tụy .,0,negative
+thu hút em học .,2,positive
+"nên cho nhiều ví dụ và bài tập về nhà , cung cấp tài liệu thêm cho các sinh viên muốn tìm hiểu thêm .",0,negative
+thời gian trên lớp không hiệu quả .,2,positive
+"giáo viên không có khả năng đứng lớp , bài giảng dở tệ .",0,negative
+nên có nhiều buổi kiểm tra trên lớp .,0,negative
+nên giảm số sinh viên trong 1 lớp .,0,negative
+thầy luôn tích cực trả lời thắc mắc của sinh viên trên moodle .,2,positive
+thầy có định hướng dạy rất tốt về công nghệ hiện tại .,2,positive
+giáo viên nói hơi nhỏ .,0,negative
+thầy cần sửa nhiều bài tập hơn nữa .,0,negative
+thực hành không cần phải lên phòng máy nhiều .,0,negative
+mong thầy yêu thương tất cả học trò của mình !,0,negative
+"nhiệt tình , luôn quan tâm các sinh viên trong mỗi buổi dạy .",2,positive
+"truyền đạt kiến thức còn quá lan man , thiếu ví dụ về hệ thống thực tế bên ngoài , truyền cảm hứng chưa tốt , chưa tạo được niềm vui cho sinh viên đến lớp .",0,negative
+"giảng dạy tận tình , không khí học tập thoải mái , vui vẻ .",2,positive
+"thầy chỉ đọc trên slide , ít có giảng nội dung ngoài .",2,positive
+nên có nhiều bài tập vận dụng thực tế vào thực hành .,0,negative
+sau đó mở vào giờ khuya lúc sinh viên đi ngủ .,0,negative
+bài tập chất lượng .,2,positive
+"tuy có một số phần khó nhưng thầy giảng và làm ví dụ rất dễ hiểu , có một tiết thầy giảng bằng tiếng anh rất hay .",2,positive
+"bài giảng được cung cấp đầy đủ , hữu ích .",2,positive
+"trẻ , có nhiều cái mới , hay .",2,positive
+mong cô tiếp tục dạy như vậy nữa .,2,positive
+giảng viên nên cho bài tập thường xuyên tuần nào cũng phải trả bài .,0,negative
+cô dạy hay nhiệt tình và dễ hiểu .,2,positive
+"giảng kỹ , giảng nhiều phần nâng cao .",2,positive
+giảng viên hướng dẫn sinh động .,2,positive
+nên để ngày học thực hành chung ngày với lý thuyết .,0,negative
+thầy rất nhiệt tình và tận tâm với sinh viên !,2,positive
+thời khóa biểu thực hành cần sắp xếp hợp lý so với giờ học lý thuyết .,0,negative
+cô dạy rất nhiệt tình và quan tâm đến sinh viên .,2,positive
+giảng viên giảng tận tình .,2,positive
+giáo viên không đến lớp bữa nào nên em không biết nhận xét .,1,neutral
+vô cùng tuyệt vời .,2,positive
+"thầy dạy hơi nhanh , một vài chỗ lướt hơi nhanh .",0,negative
+thầy dạy nhiệt tình dễ hiểu .,2,positive
+giáo viên tận tình mặc dù nhiều sinh viên còn lơ là .,2,positive
+môn học khá nhẹ nhàng cho sinh viên .,2,positive
+máy tính trong phòng thực hành không được tốt cho lắm .,0,negative
+"phòng máy nên đầu tư đồng bộ một chút , tránh hiện tượng các máy là khác nhau .",0,negative
+thầy dạy đủ để thi .,1,neutral
+mong phòng đào tạo xem xét để khóa sau học được chất lượng ạ .,0,negative
+lớp trưởng trách nhiệm kém .,0,negative
+"cô dạy rất hay , vui tính và dễ hiểu .",2,positive
+em rất hài lòng về cách dạy của thầy trong môi trường đại học .,2,positive
+"thầy tận tâm , nhiệt tình với học sinh .",2,positive
+thầy hướng dẫn thực hành rất không tốt .,0,negative
+"phương pháp giảng dạy phù hợp , giải quyết thắc mắc nhanh chóng .",2,positive
+cần cải thiện tốc độ mạng .,0,negative
+thầy hơi khó chịu .,0,negative
+chưa tổng quát .,0,negative
+"chỉ được thực hành hai buổi thi vì vậy không vận dụng tốt kiến thức đã học , không đảm bảo số buổi như lúc bắt đầu đã thỏa thuận .",0,negative
+khuôn khổ bài học chưa truyền được cảm hứng cho sinh viên .,0,negative
+đề nghị giảng viên chuẩn bị tốt bài giảng .,0,negative
+cô rất nhiệt tình và tận tâm với sinh viên !,2,positive
+"giáo viên nhiệt tình , có trách nhiệm , truyền đạt dễ giểu .",2,positive
+được tiếp xúc môi trường thực tế ở các công ty .,2,positive
+thầy rất vui tính và dễ gần .,2,positive
+giảng kỹ và chi tiết .,2,positive
+giáo viên hướng dẫn tận tâm .,2,positive
+"em thấy giáo viên dạy dễ hiểu , tận tình .",2,positive
+giọng nói dễ nghe .,2,positive
+một số vấn đề còn khó hiểu .,0,negative
+giảng viên vui tính nhiệt tình .,2,positive
+"thầy giảng hơi khó hiểu , giọng đều đều buồn ngủ .",0,negative
+cần định hướng tạo điều kiện cho sinh viên giao lưu các doanh nghiệp để biết được yêu cầu của họ về một người kỹ sư .,0,negative
+"giàu kinh nghiệm , dễ hiểu , dẫn chứng cụ thể .",2,positive
+em nhớ nhất câu phải có sự đấu tranh mới phát triển .,2,positive
+"không kiểm soát được lớp , không tận tâm chuẩn bị trước khi lên lớp .",0,negative
+giáo viên đúng giờ .,2,positive
+cô dạy nhiệt tình nhưng hơi nhanh .,0,negative
+em nghĩ thầy nên cho nhiều bài tập về nhà hơn .,0,negative
+"bám không sát đề thi , lan man .",2,positive
+không có đề cương trên khoá học .,0,negative
+giảng viên nên thông báo hình thức ra đề đề mở hay đề đóng để sinh viên biết và chuẩn bị tài liệu để bài kiểm tra có kết quả tốt hơn .,0,negative
+đặc biệt là tránh để thời gian chết .,0,negative
+giảng viên hơi khó tính .,0,negative
+"thầy dạy tận tâm , nhiệt tình , truyển đạt dễ hiểu .",2,positive
+"thầy dạy rất kỹ và chi tiết , rất quan tâm đến học sinh .",2,positive
+ít cho học sinh luyện kỹ năng nghe nói .,0,negative
+giảng viên nên giảng chậm lại và phân tích trọng tâm từng đề mục của bài học .,0,negative
+funny .,2,positive
+quá nhiều lý thuyết khiến sinh viên không tiếp thu kịp vào không biết cách vận dụng .,0,negative
+mong thầy đổi phương pháp dạy và cách phản biện với sinh viên .,0,negative
+em nghĩ là nhà trường không nên tổ chức học thực hành .,0,negative
+sự cố này kéo dài hơn một tháng mới chấm dứt .,0,negative
+"cô giáo rất tích cực trong giảng dạy , truyền đạt kiến thức tới sinh viên rất hay .",2,positive
+cần thực hành thêm nhiều bài tập .,0,negative
+giúp cho sinh viên tập trung vào thiết kế mạng phù hợp với mục đích môn học .,2,positive
+giảng viên giải đáp các thắc mắc tại lớp tận tình .,2,positive
+thay vì cho làm kiểm tra wecode thì cho làm trên lớp thuận tiện hơn .,0,negative
+"nói to , rõ .",2,positive
+thiếu sự giảng dạy và khả năng truyền đạt không hiệu quả .,0,negative
+"hướng dẫn làm đồ án còn chưa rõ ràng , chưa hướng dẫn cho sinh viên một cách cụ thể về các kỹ năng đứng trước đám đông .",0,negative
+"các bài giảng khó tiếp thu , hiểu được .",0,negative
+thầy dạy vui tính .,2,positive
+thầy dạy được .,2,positive
+nhà trường nên giúp đỡ thầy trong việc giảng dạy vì môn này không đúng chuyên môn của thầy .,0,negative
+cung cấp nhiều kiến thức mở rộng hữu ích .,2,positive
+"giảng viên rất nhiệt tình , tạo mọi điều kiện cho sinh viên hoàn thành tốt môn học .",2,positive
+thầy rất nhiệt tình trong việc giảng dạy và hướng dẫn sinh viên .,2,positive
+cách truyền đạt của cô khá khó hiểu .,0,negative
+"nhiệt tình , giảng dạy chi tiết cụ thể .",2,positive
+"thầy biết sâu rộng và có nhiều chủ đề giảng mang tính thực tiễn , thực tế bên cạnh việc giảng dạy môn giải tích .",2,positive
+"giảng viên không hướng dẫn thực hành , vào phòng thực hành làm các bài lab và nộp , không có sự hướng dẫn , sinh viên nào chưa hiểu giảng viên yêu cầu đến lớp lý thuyết để hỏi vào phòng thực hành , giảng viên ngồi trên máy tính , sinh viên bên dưới làm gì tùy thích , đến hạn nộp lab xem như hoàn thành !",0,negative
+thầy dạy dễ hiểu và dễ tiếp thu .,2,positive
+em mong muốn thầy phân bổ thời gian dạy hợp lý hơn .,0,negative
+nên thu nhỏ lớp học lại .,0,negative
+thường xuyên cho bài tập về nhà .,2,positive
+"giáo viên nên liên hệ với giáo viên lý thuyết , để có nội dung thực hành sát với nội dung giảng dạy trên lớp .",0,negative
+thầy dạy nhiệt tình bài tập và slide hay .,2,positive
+thực tiễn .,1,neutral
+"thầy giáo nhiệt tình , tận tâm .",2,positive
+mong phòng đào tạo không sắp cho thầy dạy lớp em nữa .,0,negative
+"giảng viên nhiệt tình giảng dạy , giúp đỡ sinh viên rất nhiều .",2,positive
+"tận tâm , kỹ lưỡng .",2,positive
+"lên báo cáo thì "" đuổi về "" , thái độ với sinh viên quá là tệ .",0,negative
+mong thầy cô xem lại mức độ ra bài tập hoặc đưa ra hướng dẫn cụ thể hơn dành cho sinh viên .,0,negative
+nên điều chỉnh môn này thời gian nhiều hơn .,0,negative
+nội dung dạy không hấp dẫn !,0,negative
+rất hay và quá hay .,2,positive
+thầy nên giảng chậm lại để học sinh dễ hiểu hơn và cho nhiều bài tập để học sinh có thể áp dụng được .,0,negative
+học patin vui .,2,positive
+"cách trình bày , diễn đạt kiến thức chưa được tốt .",0,negative
+cải thiện tốc dộ mạng .,0,negative
+"giảng viên dạy dễ tiếp thu , nhiệt tình .",2,positive
+"thầy giảng bài rất tận tâm , dễ hiểu , nhưng tiết dạy kéo dài rất ngắn .",0,negative
+"giảng dạy dễ hiểu , cuốn hút sinh viên !",2,positive
+"giảng viên dạy nhiệt tình , chu đáo , tận tâm , tạo mọi điều kiện cho sinh viên phát triển kỹ năng suy luận .",2,positive
+giảng nhanh .,0,negative
+"hiểu được sơ lược về một hệ điều hành , biết được một số thuật toán cần thiết của môn học .",2,positive
+cho làm bài tập nhiều hơn nữa .,0,negative
+cô giáo dạy hay .,2,positive
+cách dạy khoa học .,2,positive
+dạy vui vẻ va nhiệt tình .,2,positive
+"giảng viên nhiệt tình , tận tình giải thích khi sinh viên thắc mắc .",2,positive
+chưa đảm bảo thời gian lên lớp .,0,negative
+cần tài liệu chính thức cho phần lý thuyết hơn nữa .,0,negative
+"cô dạy kiến thức còn sư phạm , khó áp dụng thực tế .",0,negative
+cần trang bị thêm các rèm che cho các phòng học ở dãy nhà c nhằm tránh tình trạng không thấy rõ máy chiếu .,0,negative
+hỗ trợ nhiều bài tập giúp nâng cao trình độ .,0,negative
+"gần gũi , hoà đồng , vui tính .",2,positive
+đây là môn đầu tiên học thầy và cũng nghe mọi người nói thầy dạy và chấm điểm khó .,0,negative
+dễ tính .,2,positive
+"có một nhóm seminar và mỗi tuần có một nhóm thực hiện thuyết trình , bên cạnh đó khoảng 2 - 3 tuần đầu học kỳ là giáo viên nghỉ dạy , thế nên hầu như là tuần nào cũng có seminar và cách giảng dạy của giảng viên là như trên .",0,negative
+nên tăng cường các kỹ năng nghe và nói cho sinh viên .,0,negative
+"giảng viên tận tâm , nhiệt tình với sinh viên .",2,positive
+"thầy dạy tận tình , khá rõ ràng .",2,positive
+đảm bảo giờ lên lớp .,2,positive
+nhiệt tình tận tâm .,2,positive
+giảng viên dạy được .,1,neutral
+em cảm ơn thầy nhiều ạ .,1,neutral
+giáo viên thân thiện .,2,positive
+môn học nên có thêm phần ví dụ về áp dụng thực tiễn .,0,negative
+"học tập thoải mái , không áp lực .",2,positive
+"nâng cao trang thiết bị phòng học doubledot máy chiếu , quạt , ổ điện .",0,negative
+"thầy giảng dạy nhiệt tình , hiệu quả .",2,positive
+em xin đóng góp là giáo viên dạy thực hành và giáo viên dạy lý thuyết cần có sự trao đổi với nhau để có sự thống nhất trong nội dung bài học cho sinh viên .,0,negative
+"hay đi trễ , giảng buồn ngủ .",0,negative
+"bài tập thầy cho quá dễ và không có tính bắt buộc nên sinh viên hay "" ngó lơ "" , lần sau thầy cứ trừ điểm quá trình là mấy bạn tự khắc làm liền à colonbigsmile .",0,negative
+"cách giảng bài khó hiểu , vòng vèo , không theo chủ đề .",0,negative
+phần speaking rất dễ hiểu .,2,positive
+tiếng anh chuẩn .,2,positive
+phương pháp giảng dạy hay .,2,positive
+"tận tình với sinh viên , dạy tốt .",2,positive
+"cô dạy rất nhiệt tình , bài giải đầy đủ !",2,positive
+thầy biết lắng nghe ý kiến từ học sinh .,2,positive
+giảng viên cần có tâm hơn .,0,negative
+truyền đạt khó hiểu .,0,negative
+nhanh .,1,neutral
+thầy dạy thiếu nhiệt tình .,0,negative
+không up tài liệu lên courses .,0,negative
+"thầy nhiệt tình tận tâm , đề cập thực tế và các phương pháp học dễ hiểu .",2,positive
+ví dụ không thực tiễn .,0,negative
+"thầy giảng rất dễ hiểu , hay , có tài liệu rõ ràng , đồng thời có kèm theo bài tập để luyện tập .",2,positive
+cái này là bức xúc với cách xếp lịch học chứ không hề có vấn đề gì với giảng viên .,0,negative
+môn học rất là hữu ích .,2,positive
+tma qua dạy làm cho thầy thiếu thời gian nhưng hầu như thầy dậy rất kỹ .,2,positive
+"giảng dễ hiểu , thu hút , hấp dẫn .",2,positive
+giảng viên giảng nhanh .,0,negative
+nên dùng giáo trình tập trung kỹ năng nghe nói nhiều hơn .,0,negative
+"dạy có tâm huyết với sinh viên , giảng và hướng dẫn làm bài tập tốt .",2,positive
+"thầy tận tâm , vui tính .",2,positive
+thầy cần xem rõ cách dạy trên lớp .,0,negative
+thầy đưa ra những tinh huống thực tế rất hay .,2,positive
+"thiết bị phòng lab cũ , chưa đáp ứng được yêu cầu thực hành .",0,negative
+"phòng thực hành kém chật lượng , quá nhỏ , nhiều bạn thực hành phải làm bài tập bên ngoài hành lang rồi mới vào trong chấm được .",0,negative
+"thầy rất vui , cực kỳ nhiệt tình .",2,positive
+thầy thường hay cho nghỉ .,0,negative
+kiến thức môn học nhàm chán .,0,negative
+thầy nghiêm khắc và nhiệt tình .,2,positive
+chữ viết khá nhỏ .,0,negative
+đôi lúc nói nhanh nghe không kịp .,0,negative
+"giảng viên vui tính , có tâm huyết .",2,positive
+điểm danh quá nhiều .,0,negative
+nâng cao thiết bị giảng dạy .,0,negative
+buổi thực hành giáo viên không đi buổi nào .,0,negative
+nhiều hoạt động giao lưu với học sinh .,2,positive
+giảng viên giảng dạy khá nhanh khiền nhiều sinh viên không theo kịp đặc biệt là phần lý thuyết .,0,negative
+em không học giáo viên này ạ !,1,neutral
+"tóm lại , đồ án cuối kỳ không nên đánh giá phần nội dung vì đề bài đã không thiết thực thì không thể nào bắt sinh viên làm đạt yêu cầu được .",0,negative
+"thời gian thực hành quá ít , phân bổ không phù hợp .",0,negative
+"giáo viên tận tình , giảng bài dễ hiểu dễ tiếp thu .",2,positive
+chỉ dẫn làm bài chưa hiệu quả cho sinh viên .,0,negative
+"thông báo học quá trễ , qua kỳ thi giữa kỳ 2 - 3 tuần mới có thông báo học buổi học thực hành đầu tiên .",0,negative
+"không ý kiến , môn học rất tốt .",2,positive
+đề nghị nhà trường nâng cấp .,0,negative
+hơi đi sâu vấn đề khác ( lạc đề ) .,0,negative
+có các bài tập hay bài kiểm tra đánh giá kiến thức theo từng tuần .,2,positive
+"thầy cho nghỉ thường xuyên , nhưng không báo trên hệ thống của trường mà toàn thông báo trên facebook của thầy .",0,negative
+"phòng học quá nóng , xin nhà trường trang bị thêm quạt cho các phòng học dãy c .",0,negative
+thầy đến lớp trễ và nghỉ nhưng không báo trước .,0,negative
+sửa và giảng bài khá nhanh .,0,negative
+giáo viên thực hành và lý thuyết nên liên hệ với nhau để hỗ trợ sinh viên tốt hơn trong việc học .,0,negative
+thầy nói tiếng anh sinh viên cũng khó hình dung được câu nói ( phát âm ) .,0,negative
+"giảng quá nhanh và quá phức tạp trong một buổi học , không giải bài tập hoặc ví dụ mẫu bao giờ , nên sinh viên khó lòng làm được các hình thức bài tập mới và khó .",0,negative
+"thầy rất nhiệt tình hay , thầy đưa nhiều ví dụ mẫu cho sinh viên dễ hiểu và luôn có đề mẫu làm thử khi gần thi giữa kỳ và cuối kỳ .",2,positive
+"lôi cuốn , thú vị , biết thêm nhiều kiến thức lạ , có tính áp dụng cao .",2,positive
+đề nghị giảng viên nên sử dụng hệ thống moodle nhiều hơn !,0,negative
+thầy dạy chưa đúng giờ .,0,negative
+nên lắng nghe ý kiến của sinh viên nhiều hơn .,0,negative
+tận tâm và nhiệt huyết .,2,positive
+có chuyên môn cao .,2,positive
+"giảng dạy nhiệt tình , đảm bảo kiến thức chuyên sâu .",2,positive
+"thầy dạy không nhiệt tình , cứ chiếu slide rồi cho sinh viên chép .",0,negative
+cô giảng quá nhanh .,0,negative
+sự nhiệt tình của giáo viên .,2,positive
+thầy hiểu học sinh cần đạt được kiến thức gì trong học kỳ đầu và tạo điều kiện để học sinh học tập .,2,positive
+"nhiệt tình , vui tính !",2,positive
+giáo viên giúp đỡ học sinh rất nhiều .,2,positive
+"nhiệt tình , tâm huyết với học sinh .",2,positive
+lịch học phân trùng thời gian sinh viên không thể tham gia học thực hành .,0,negative
+đó là hệ thống máy thực hành còn kém .,0,negative
+giáo trình tiếng anh .,0,negative
+"thầy dạy rất hay , nhiệt tình , dễ hiểu .",2,positive
+"thầy rất tận tình , cho bài tập rất nhiều , mở rộng nhiều kiến thức cho sinh viên .",2,positive
+thầy có liên hệ với thực tế khiến bài học dễ tiếp thu hơn .,2,positive
+"chương trình dạy hơi khó hiểu , khó tiếp thu và hơi ít bài tập để ôn luyện cho học sinh .",0,negative
+em cảm thấy hứng thú trong tiết học của thầy .,2,positive
+"không khí thoải mái , không bị gò bó về vấn đề bài tập , không bị áp lực .",2,positive
+đôi khi dạy hơi nhanh khiến học sinh hơi hoang mang .,0,negative
+"hơi lan man , không đi vào trọng tâm .",0,negative
+cần có biện pháp để có thể đánh giá phù hợp với thực lực của sinh viên hơn .,0,negative
+"giảng viên truyền đạt tốt , liên hệ nhiều kiến thức bên ngoài .",2,positive
+"cô rất nhiệt tình , vui tính .",2,positive
+"thầy giảng dạy nhiệt tình , và dễ hiểu .",2,positive
+lượng kiến thức cho phần kiểm tra đánh giá kết quả học tập tràn lan .,0,negative
+giảng viên phân tích rõ một vài vấn đề giúp hiểu rõ hơn về các ngành fraction khoa .,2,positive
+"giảng viên dạy đầy đủ , đúng giờ .",2,positive
+giảng viên luyện nói rất hiệu quả .,2,positive
+cần chuẩn bị thêm trang thiết bị để hỗ trợ kịp thời trong học tập và thực hành .,0,negative
+bài tập hay và cụ thể .,2,positive
+"môn tốt nghiệp mà thấy chỉ cho các nhóm thuyết trình xong điểm danh , thầy còn không ý kiến về cả bài thuyết trình .",0,negative
+"cô dạy rất nhiệt tình , tận tâm và chu đáo .",0,negative
+"mơ hồ , không chi tiết .",0,negative
+nói chung again 10 fraction 10 .,2,positive
+thời gian .,1,neutral
+thầy dạy chưa đúng với thời gian biểu .,0,negative
+"cần có giáo trình với nhiều ví dụ rõ ràng hơn , hiện tại quá ít ví dụ để sinh viên tự học theo .",0,negative
+"slide bài giảng , bài tập đầy đủ .",2,positive
+nhưng lại ra đề rất khó .,0,negative
+thầy hơi nóng tính .,0,negative
+phương pháp giảng dạy gây nhàm chán .,0,negative
+"giảng viên lên lớp đúng giờ , chấm điểm công bằng , có những hình thức để khuyến khích sinh viên đến lớp .",2,positive
+"giảng viên nhiệt tình , tận tâm với công việc , slide dễ hiểu .",2,positive
+ít bài tập ôn tập .,0,negative
+ít trao đổi với lớp .,0,negative
+hoạt động seminar chưa tốt .,0,negative
+không có tài liệu cụ thể .,0,negative
+thầy dễ thương !,2,positive
+quá trình giảng dạy rất dễ hiểu .,2,positive
+dạy nghiêm túc .,2,positive
+cô giảng dễ hiểu .,2,positive
+tổng quan môn học này không đúc kết được gì nhiều dù cho giảng viên có kiến thức tốt .,0,negative
+giảng viên không đảm bảo giờ lên lớp .,0,negative
+"thầy giảng rất hay , rất tận tâm , luôn dạy quá tiết , luôn trả lời thắc mắc của sinh viên .",2,positive
+chú trọng giao tiếp .,1,neutral
+giảng viên giảng dạy tận tâm nhiệt tình và chu đáo .,2,positive
+thầy nên cho làm nhiều bài tập hơn .,0,negative
+giang viên quá cứng nhắc .,0,negative
+trong khi đề thi lại có 50% bài tập .,1,neutral
+thầy cung cấp đủ các tài liệu giảng dạy .,2,positive
+"mọi thứ đều tốt , mong thầy chia sẻ thật nhiều kinh nghiệm hơn nữa cho tụi em .",2,positive
+"học tập bằng việc ghi trên bảng , khá thú vị .",2,positive
+đảm báo giờ lên lớp và kiến thức .,2,positive
+thầy giảng dạy hay và dễ hiểu .,2,positive
+thêm các ví dụ minh họa để sinh viên dễ hiểu hơn về môn học .,0,negative
+"phòng học quá gần khu thi công , ồn ào , mất tập trung .",0,negative
+tận tình giúp đỡ các bạn sinh viên .,2,positive
+"thầy dạy rất tận tình , dễ hiểu .",2,positive
+"cô vui tính , dạy nhiệt tình .",2,positive
+ví dụ trường hợp có hai lớp thực hành cách nhau một tuần nhưng lại cho ra một deadline bài tập cùng một thời điểm .,0,negative
+nên dạy lý thuyết trước rồi thực hành sau .,0,negative
+thấy dạy rất hay nhiệt tình .,2,positive
+bài tập .,1,neutral
+cô nhiệt tình giải bài tập để sinh viên hiểu lý thuyết kỹ hơn .,2,positive
+sĩ số sinh viên trong lớp quá đông với lại nhiều sinh viên nhiều ngành khác nhau học nên chất lượng buổi học không tốt .,0,negative
+dạy cách học hiểu vấn đề chứ không học vẹt .,0,negative
+thầy dạy hay và tốt với em .,2,positive
+sự nhiệt tình của cô .,1,neutral
+giảng dạy vui vẻ .,2,positive
+rất tận tâm .,2,positive
+"nhìn cô dễ thương , giọng cô nghe rất ngọt .",2,positive
+"cô vui , nhiệt tình , hướng dẫn tận tâm , thân thiện .",2,positive
+bài tập cực kỳ khó .,0,negative
+"vui tính , dạy dễ hiểu , đảm bảo tiết học lý thuyết và làm bài tập trên lớp .",2,positive
+"các bài giảng của giáo viên dễ hiểu và dễ tiếp thu , phương pháp dạy vui vẻ và nhiệt tình .",2,positive
+"tổng hợp ôn tập tốt , cô giáo nhiệt tinh .",2,positive
+"thầy dạy rất tốt , đầy đủ về nội dung .",2,positive
+rất hài lòng về tất cả hoạt động giảng dạy .,2,positive
+thầy dạy rất tận tâm và thương sinh viên .,2,positive
+"giờ giấc giảng dạy không đảm bảo , giảng viên hay vắng mặt không báo trước , không up tài liệu giảng dạy lên moodle .",0,negative
+"dạy dễ hiểu , dễ gần .",2,positive
+ngoài ra còn nói về một số kiến thức thực tế liên quan đến môn học .,2,positive
+"thầy giảng bài rất dễ hiểu , bên cạnh đó còn có các câu chuyện của cuộc sống rất ý nghĩa , mong được học nhiều môn thầy dạy !",2,positive
+khó tiếp thu .,0,negative
+"giảng viên dạy tương đối dễ hiểu , có nhiều ví dụ minh họa cụ thể .",2,positive
+"bài giảng của cô khá trừu tượng , nếu cô có thêm vài ví dụ rõ ràng hơn , thì chúng em sẽ hiểu bài hơn .",0,negative
+"thầy dạy khá sát thực tiễn , bài tập nhiều , hay .",2,positive
+"phương pháp giảng dạy hiệu quả , giúp cho sinh viên hiểu rõ được vấn đề .",2,positive
+em nghĩ môn học không cần thiết ạ !,0,negative
+cần có thêm nhiều tiết bài tập .,0,negative
+bài tập thực hành khá nặng so với lý thuyết tại cùng một thời điểm .,0,negative
+"không nên chia giờ học kiểu 2 tiết 1 buổi , như vậy thời lượng học mỗi buổi quá ít , gây gián đoạn cho việc giảng dạy .",0,negative
+"giảng bài dễ hiểu , dễ tiếp thu .",2,positive
+không có gì để không hài lòng .,1,neutral
+chương trình nên cập nhật thường xuyên để phù hợp hơn với thực tế .,0,negative
+"giáo viên vui vẻ , thân thiện .",2,positive
+"tận tâm , nhiệt tình và hay liên hệ thực tiễn .",2,positive
+"cô dạy rất dễ hiểu , tận tình hướng dẫn học sinh .",2,positive
+lớp em học thì máy hay có sự cố .,0,negative
+"cô vui vẻ , nhiệt tình , hòa đồng .",2,positive
+thầy cần có nhiều phương pháp giảng dạy hay hơn !,0,negative
+"cô dạy tốt tận tình , tài liệu đầy đủ .",2,positive
+"thầy vui tính , nhiệt tình với sinh viên .",2,positive
+giảng viên cần nói nhiều hơn khi dạy .,0,negative
+nên có hướng dẫn chi tiết .,0,negative
+"giảng viên nhiệt tình , kỹ năng truyền đạt tốt .",2,positive
+"đầu tư vật chất , có nhiều hoạt đông thú vị .",2,positive
+nên giảng dạy phương pháp làm bài trước khi đưa ra bài tập .,0,negative
+"khoa wzjwz10 với số lượng sinh viên khá đông mà đôi khi lại có thêm những bạn từ khoa khác vào học , nên giảng đường 2 trở nên đông kín .",0,negative
+với lại môn học này dạy quá chán .,0,negative
+"thầy vui tính , giảng bài hấp dẫn , mới mẻ .",2,positive
+"khi báo cáo đồ án cuối kỳ , thì do sự phân công , và trong một nhóm thì ai cũng có điểm yếu và điểm mạnh nên mới tạo thành một nhóm để giúp đỡ nhau , nhưng thầy làm khó các thành viên .",0,negative
+giảng viên tận tình giúp đỡ sinh viên .,2,positive
+thầy rất quan tâm sinh viên luôn cho điểm đúng thực lực .,2,positive
+nhưng em nghĩ thời gian và phòng học nên cố định hơn và được thông báo rõ ràng .,0,negative
+"vui vẻ , nhiệt tình , tận tụy .",2,positive
+giải đáp thắc mắc của sinh viên nhanh chóng .,2,positive
+bài giảng mang tính thực tiễn và ứng dụng cao .,2,positive
+"đưa ra ít ví dụ về những trường hợp đặc biệt cần phải lưu ý , nên dành nhiều thời gian cho những phần quan trọng , đưa ra ví dụ song song với việc demo trực tiếp trên máy tính trong lúc giảng dạy như vậy hiệu quả giảng dạy sẽ tốt hơn .",0,negative
+dạy học .,1,neutral
+em rất mong phòng đào tạo cho em biết được tên giảng viên khi đăng ký môn học để sau nay em còn đc học thầy wzjwz155 .,0,negative
+"cô vui tính , tận tình và cách giảng giải dễ hiểu .",2,positive
+"đúng giờ , giảng bài kỹ .",2,positive
+chưa giới thiệu cụ thể các tài liệu cho sinh viên đọc thêm .,0,negative
+ứng dụng thực tế vô giảng dạy .,2,positive
+"dạy sát chương trình thi , nhiệt tình .",2,positive
+tổ chức quá nhiều hoạt động thừa trên lớp không phù hợp với trình độ của sinh viên .,0,negative
+thầy cho thuyết trình làm đồ án theo nhóm nên giúp em có khả nang truyền đạt kỹ năng work group nâng cao .,2,positive
+"thầy dạy nhiệt tình , cho làm nhiều bài tập để hiểu sâu và có khả năng vận dụng được kiến thức .",2,positive
+giáo viên giảng dạy dễ hiểu .,2,positive
+em có góp ý với thầy ở vấn đề thuyết trình lấy điểm giữa kỳ doubledot một số bạn trình bày về công nghệ hay kỹ thuật rất hay nhưng do cách trình bày nên các bạn ở dưới chưa hiểu lắm .,0,negative
+"thầy wzjwz184 dạy hay , dễ hiểu , truyền đạ nhiều kiến thức chuyên môn lẫn kiến thức cuộc sống , đi làm cho sinh viên , có nhiều lời khuyên .",2,positive
+"môn lập trình mạng căn bản sử dụng ngôn ngữ csharp nhưng trước đó nhà trường không đề xuất cho sinh viên học môn này trước , gây nhiều khó khăn cho sinh viên khi học môn mới .",0,negative
+cô nên thêm nhiều bài tập áp dụng lý thuyết hơn .,0,negative
+còn nhiều slide .,0,negative
+tăng chất lượng các thiết bị phục vụ giảng dạy .,0,negative
+đôi lúc đi trễ tầm 30 phút .,0,negative
+"giảng viên thực hành nên hướng dẫn sinh viên thực hành một cách cụ thể , không nên ngồi làm việc riêng rồi khi sinh viên gọi hỏi thì lại tỏ thái độ khó chịu .",0,negative
+"thầy đưa ra những dạng bài hay , bao quát kiến thức cho sinh viên .",2,positive
+sau khi qua môn này chắc sẽ không học thầy nữa .,0,negative
+"giữa kỳ cộng max là 4 điểm , rồi lại cộng tiếp cho quá trình , giờ thì lại điểm quá trình tính trong 1 bài , không làm được , ít điểm cộng thì đành chịu .",0,negative
+nâng cao trang thiết bị phòng học doubledot quạt .,0,negative
+điều này tạo cho sinh viên sự chủ động trong học tập .,1,neutral
+nhưng có một vấn đề mà em chưa thích đó là đi sâu vào lý thuyết quá nhiều chưa có giảng dạy cho chúng em nhiều về cách cấu thành sản phẩm .,0,negative
+thầy giảng rất ít .,0,negative
+thầy dạy đôi khi hơi chán cần thay đổi phương pháp giảng dạy .,0,negative
+cô rất nhiệt tình và vui tính .,2,positive
+mong thầy cô xem lại cách giảng dạy môn này .,0,negative
+"giảng viên rất nhiệt tình thậm chí dạy lố giờ , dư buổi nhưng vẫn không đảm bảo đủ số bài của chương trình học , không giảng giải bài học một cách rõ ràng , khi dạy chỉ mở slide và đọc tất cả những gì trên slide bài giảng nhưng không giảng thêm gì nhiều hoặc nếu có giảng thêm thì cũng khá khó hiểu , khi sinh viên hỏi lại thì thường chỉ nói lại những gì đã nói lần trước mà không giảng thêm để sinh viên có thể hiểu được bài , slide bài giảng được chuẩn bị sơ sài và có nhiều sai sót , giảng viên thường xuyên ra ngoài nghe điện thoại , ăn , hút thuốc trong giờ dạy , thường xuyên dạy các kiến thức nâng cao trong khi sinh viên chưa hiểu hết kiến thức cơ bản , thường hay nói chuyện nặng lời với sinh viên trong lớp .",0,negative
+"bài giảng và bài tập trọng tâm , chi tiết .",2,positive
+"phân chia chương trình hợp lý hơn , chia nhỏ lượng kiến thức cần đạt được .",2,positive
+cô nhiệt tình giải đáp thắc mắc cho sinh viên .,2,positive
+"thầy hướng dẫn thực hành tốt , nhiệt tình .",2,positive
+"cô wzjwz228 rất nhiệt tình với sinh viên trong giờ lên lớp , rất hay khuyến khích sinh viên đặt câu hỏi , hay tự đặt những câu hỏi xây dựng khuyến khích sinh viên tìm hiểu trả lời .",2,positive
+dạy cho sinh viên biết nhiều về thực tế .,2,positive
+cô than hoài à .,0,negative
+"nội dung môn học không phù hợp , quá nhiều lý thuyết , lý thuyết quá rườm rà và không phù hợp với truyền thống việt nam .",0,negative
+cô vui vẻ và nhiệt tình .,2,positive
+"phương pháp giảng dạy tốt , dễ hiểu .",2,positive
+"cô nhiệt tình , thân thiện với sinh viên .",2,positive
+vấn đề nghe từ thiết bị không tốt lắm .,0,negative
+giảng viên hay đến muộn .,0,negative
+cách giảng cô rất phức tạp vẫn chưa ngắn gọn xúc tích gây khó hiểu ở các công thức tính toán .,2,positive
+cách dạy học tăng khả năng tự vận động của học sinh .,2,positive
+đây là môn học khó và cần phải có nền tảng kiến thức từ những môn học cơ bản hơn nó nhưng chương trình k6 thì không có môn nào cơ bản về tín hiệu trước môn xử lý tín hiệu số .,0,negative
+"giáo viên nhiệt tình , truyền đạt kiến thức tận tâm .",2,positive
+thầy dạy còn khá khó về thời lượng .,0,negative
+hướng dẫn chi tiết nhiệt tình .,2,positive
+em rất thích .,2,positive
+có tinh thần trách nhiệm .,2,positive
+các dụng cụ còn hư nhiều .,0,negative
+"cô nói hơi dài dòng , đôi chỗ hơi khó hiểu .",0,negative
+thầy thường chạy trước chương trình học lý thuyết .,0,negative
+"thêm nhiều ví dụ cụ thể , dễ hiểu cho sinh viên vì năm đầu tiên ở trường học môn nhập môn lập trình có nhiều bạn còn bỡ ngỡ , khó hiểu được những kiến thức có thể chưa bao giờ gặp qua này .",0,negative
+cho các nhóm tự nghiên cứu và thuyết trình .,1,neutral
+"số lượng sinh viên lớp nên tối đa là 30 , vì đây là môn học cá biệt cần sự tương tác thực tế .",0,negative
+giảng viên thường đến lớp trễ .,0,negative
+"phiền thầy chỉ giới thiệu nhanh chóng , không cần dành quá nhiều thời gian cho nó , em nghĩ mọi người đã biết từ trước những nội dung cơ bản như vậy ( ít nhất là những người em quen ) .",0,negative
+thầy vô cùng hài hước tạo không khí lớp học vui vẻ cho sinh viên .,2,positive
+cô dạy rất tốt và rất nhiệt tình .,2,positive
+"giảng viên giảng chưa được thu hút , gây nhàm chán .",0,negative
+nên cần giúp sinh viên thực hành nói nhiều hơn và phương pháp trau dồi từ vựng sáng tạo .,0,negative
+"cần nâng cấp phòng học , máy chiếu .",0,negative
+"có slide bài giảng , giảng kỹ bài .",2,positive
+"cô dạy hay , nhiệt tình , cung cấp đầy đủ kiến thức của bộ môn .",2,positive
+bài giảng hay .,2,positive
+giảng viên tận tình .,2,positive
+"giảng viên vui tính , hòa đồng .",2,positive
+bằng chứng là thầy wzjwz56 dạy thay thầy wzjwz57 ở lớp wzjwz58 .,1,neutral
+giáo viên trao đổi với sinh viên hoàn toàn bằng tiếng anh .,1,neutral
+cần thêm tài liệu thực hành .,0,negative
+tận tình chỉ dạy .,2,positive
+cách ứng dụng lý thuyết vào thực tế .,1,neutral
+"đúng giờ , sát chương trình .",2,positive
+"phòng học còn nóng và bụi bặm , máy chiếu tuy nhìn được nhưng như vậy vẫn là mờ , nếu ngồi xa hay hôm nào sáng quá sẽ khó thấy .",0,negative
+"thầy dạy rất hay , nhiệt tình với sinh viên .",2,positive
+hầu hết em và các bạn đều không đi thực hành .,0,negative
+giảng viên nên tương tác với sinh viên nhiều hơn nữa .,0,negative
+thầy rất thân thiện !,2,positive
+không có gì .,1,neutral
+rất bổ ích và thú vị .,2,positive
+cải tiến trang thiết bị thường xuyên hơn .,0,negative
+thầy giảng dễ hiểu .,2,positive
+"ngoài ra , các mặt còn lại em không có ý kiến .",1,neutral
+"giảng viên truyền đạt tốt , khơi gợi cho sinh viên tự tìm hiểu kiến thức .",2,positive
+"thầy truyền đạt kiến thức rất hay , và dễ hiểu .",2,positive
+môn học rất hay và bổ ích .,2,positive
+không có điều nào không hài lòng .,1,neutral
+nên rèn kỹ năng nghe và nói nhiều hơn cho sinh viên .,0,negative
+thầy có kiến thức chuyên môn sâu .,2,positive
+cách thầy giảng rất hấp dẫn và dễ hiểu .,2,positive
+"giảng dạy tận tình , đi đúng giờ .",2,positive
+"cô dạy quá nhanh , lý thuyết dạy quá nhanh và quá nhiều mà cũng không cần thiết lắm .",0,negative
+khá ổn .,2,positive
+thầy giảng hơi khó hiểu hay tại bài học khó hiểu ?,0,negative
+"giảng viên vui vẻ , nhiệt tình .",2,positive
+nên để giảng viên dạy lý thuyết cả thực hành sẽ logic hơn .,0,negative
+sinh viên tìm tòi cách khác để có được kết quả giống nhưng không chấp nhận .,0,negative
+"giảng viên thân thiện , hòa đồng với sinh viên .",2,positive
+"thầy rất tận tâm , tận tình với học sinh .",2,positive
+dạy hơi khó hiểu .,0,negative
+cô giảng hay .,2,positive
+giang dạy quá nhiệt tình và tâm huyết truyền đạt cho học sinh kiến thức của cô .,2,positive
+"thầy tận tâm , nhiệt tình , dạy kỹ bài , hướng dẫn giải bài cụ thể .",2,positive
+giảng viên tận tâm nhiệt tình .,2,positive
+"giảng viên nhiệt tình , tương tác tích cực với sinh viên .",2,positive
+giảng viên nhiệt tình giảng giải những thắc mắc của sinh viên .,2,positive
+thầy tạo điều kiện cho sinh viên có thê hoàn thành tất cả các bài lab .,2,positive
+nên cải tiến phòng thực hành .,0,negative
+thầy chấm điểm hơi mắc .,0,negative
+có dạy thêm ngôn ngữ trung rất thú vị .,2,positive
+"cách giảng dạy của giảng viên dễ tiếp thu , dễ hiểu .",2,positive
+"thường xuyên đi trễ , giảng dạy không nhiệt tình , dạy khá lang mang , không đảm bảo đúng tiến độ học tập .",0,negative
+cô dễ thương quá coloncc .,2,positive
+nêu lên những ví dụ rất hay giúp sinh viên dễ nắm bắt kiến thức .,2,positive
+giảng viên thường xuyên đi trễ vào những buổi gần cuối .,0,negative
+giảng viên giảng dạy khó tiếp thu .,0,negative
+"giảng viên dạy hay , nhiệt tình .",2,positive
+"rất hài lòng , cô dạy rất vui vẻ .",2,positive
+"cô nói nhanh và nhiều khiến em bị "" quá tải "" .",0,negative
+"bổ sung nhiều kiến thức thực hay , nâng cao cho sinh viên .",2,positive
+đảm bảo số giờ lên lớp .,2,positive
+thầy chỉ dạy một buổi nên không đánh giá được .,0,negative
+"cô rất nhiệt tình , cô còn có phương pháp giảng dạy gây hứng thú cho người học .",2,positive
+cần có lập trình thực nghiệm các bước và xem rõ cách hoạt động chương trình demo .,0,negative
+"cần có các bài lab thực hành để trực quan hơn , sát với thực tế làm việc ở các công ty phần cứng .",0,negative
+"giảng viên vui tính , nhiệt tình .",2,positive
+chưa truyền đạt được kiến thức .,0,negative
+cần thêm tài liệu .,0,negative
+thầy giúp học sinh giải nhiều bài tập .,2,positive
+"nhiệt tình , bài giảng tạo cảm hứng cho sinh viên học tập .",2,positive
+chỉ nhìn mỗi khía cạnh làm slide lý thuyết mà đánh giá cả đồ án của sinh viên một cách rất hời hợt .,0,negative
+tóm lại em rất hài lòng .,2,positive
+"giảng viên giảng bài còn mơ hồ , phức tạp .",0,negative
+"cô dạy rất nhiệt tình và vui vẻ , dạy chi tiết từng tí một .",2,positive
+mong thầy sử dụng micro .,0,negative
+"cô đến lớp đúng giờ , giảng dễ hiểu .",2,positive
+"giảng viên tạo áp lực quá lớn cho sinh viên trong khi đây là môn học đòi hỏi sự năng động , sáng tạo .",0,negative
+"cô dạy rất hay và kỹ , dành nhiều thời gian sửa bài tập .",2,positive
+cho bài tập nhiều giúp học sinh có bài tập về nhà làm .,2,positive
+giáo viên truyền đạt kiến thức mập mờ cho sinh viên .,0,negative
+"có cảm giác hà khắc , khá khó chịu .",0,negative
+nói chung là em không thể tiếp thu bài trên lớp .,0,negative
+"thầy chăm lên lớp giảng dạy , tận tình .",2,positive
+"dạy nhiệt tình , hiệu quả .",2,positive
+"cô điểm danh mình em lúc đầu giờ , cuối giờ mới điểm danh mấy bạn kia colonsadcolon .",0,negative
+giải tích 2 .,1,neutral
+slide bài giảng hay .,2,positive
+"nên có một số buổi ngoại khóa bên ngoài , tiếp cận thực tiễn , giao tiếp với người nước ngoài .",0,negative
+giảm tảibỏ những phần không thật sự cần thiết .,0,negative
+thiếu hiệu quả không phù hợp với môn học .,0,negative
+dạy lý thuyết tốt .,2,positive
+"không khí học tập sôi nổi , dễ tiếp thu kiến thức .",2,positive
+dạy rất dễ hiểu .,2,positive
+"thầy hiền , nhiệt tình .",2,positive
+kiến thức thực cần tế hơn .,0,negative
+"nhiệt tình truyền đạt kiến thức , hài hước .",2,positive
+đôi lúc thầy giảng hơi nhanh .,0,negative
+đầu tư thêm máy móc hiện đại .,0,negative
+"thầy dạy những nội dung cần thiết , ngắn gọn và dễ hiểu .",2,positive
+giúp đỡ sát sao khi sinh viên gặp vấn đề khó trong thực hành .,2,positive
+đa số sinh viên tự học và không liên hệ đến giảng viên thực hành .,0,negative
+phân bổ thời gian hoàn thành môn học hợp lý hơn nữa .,0,negative
+thầy dạy rất nhiệt tình và sẵn sàng giải đáp .,2,positive
+thầy rất quan tâm đến điểm số của sinh viên .,2,positive
+"nhiệt tình , giảng hiểu bài .",2,positive
+"cô dạy hấp dẫn , thú vị !",2,positive
+quan tâm sinh viên .,2,positive
+giảng bài hay !,2,positive
+"đây làm môn học cần thực hành nhiều , cần tăng thêm số buổi thực hành .",0,negative
+"giảng dạy dễ hiểu , nhiệt tình với sinh viên .",2,positive
+"giảng viên dạy nhiệt tình , dễ hiểu !",2,positive
+thầy hiền dễ tính .,2,positive
+nên để đồ án cuối kỳ các sinh viên được phép làm nhóm .,0,negative
+"giảng viên không bao giờ đi dạy , toàn nhờ sinh viên dạy thay , không có trách nhiệm , môn học này chẳng giúp ích được gì , thanks .",0,negative
+"giáo trình anh văn dường như không giúp ích cho công nghệ thông tin cũng như những khả năng giao tiếp của sinh viên , sinh viên trung bình khó có thể đạt 5 điểm ở các chương trình anh văn .",0,negative
+giáo viên rất nhiệt tình trong việc giải đáp thắc mắc cho sinh viên .,2,positive
+nhiệt tình và quan tâm học sinh .,2,positive
+diễn đạt trong giảng dạy không được tốt lắm .,0,negative
+thầy chưa hỗ trợ lớp trong việc giải đáp các câu hỏi cũng như tạo điều kiện cho sinh viên học hỏi .,0,negative
+giới thiệu những kiến thức mới cho sinh viên .,2,positive
+"vui , hay .",2,positive
+không biết thầy wzjwz260 là thầy nào ?,0,negative
+nên có nhiều bài tập cho sinh viên tham khảo .,0,negative
+hầu như giảng viên không giảng mà chỉ dịch slide do slide viết bằng tiếng anh .,0,negative
+"giảng viên giảng kỹ , dễ hiểu .",2,positive
+luôn giải thích chi tiết vấn đề thắc mắc của sinh viên .,2,positive
+cho ít đồ án thôi .,0,negative
+thầy cho chép quá nhiều .,0,negative
+"trang thiết bị phục vụ còn hạn chế , không có nhiều thời gian trực tiếp thực hành .",0,negative
+giáo viên dạy rất tệ .,0,negative
+giáo viên cần bổ sung thêm các bài tập liên quan nhiều hơn để các bạn sính viên nắm rõ hơn .,0,negative
+"môn học này có định hướng thiên về lý thuyết logic nên em nghĩ nên học theo hình thức trao đổi và tham khảo , không nên đặt nặng đồ án và bài tập .",0,negative
+"dạy dễ hiểu , tạo cảm giác thân thiện với học sinh !",2,positive
+giảng viên dạy tận tâm .,2,positive
+đồ án lớn không có trong phần giảng dạy khiến sinh viên khó khăn trong việc thực hiện .,0,negative
+thầy đi vào trễ nhưng lại về muộn .,0,negative
+thầy nên sử dụng micro để giảng .,0,negative
+tốc độ dạy khá nhanh khiến việc tiếp thu không hiệu quả .,0,negative
+dạy sát với chương trình .,2,positive
+"vui vẻ , nhiệt tình , giảng dễ hiểu .",2,positive
+thời gian nộp bài thực hành quá ngắn .,0,negative
+cô dạy dễ hiểu và thân thiện .,2,positive
+"thầy có kiến thức rất rộng , có thể giải thích mọi thắc mắc của sinh viên .",2,positive
+"rèn luyện cho sinh viên kỹ năng làm việc nhóm , nâng cao tính chủ động của sinh viên .",2,positive
+"cô có ôn tập , sửa bài đầy đủ .",2,positive
+nghiêm khắc nhưng rất tận tình .,2,positive
+"giảng viên lý thuyết nên cải thiện kỹ năng truyền đạt , và chuẩn bị bài giảng tốt hơn .",0,negative
+quá ít thiết bị cho sinh viên thực hành .,0,negative
+không có ý kiến gì .,1,neutral
+thời gian lên lớp ít nhưng tiếp thu nhiều .,2,positive
+tài liệu giảng dạy đầy đủ .,2,positive
+luôn luôn đúng giờ .,2,positive
+"cô giảng dạy rất chăm chú , tận tình giải đáp thắc mắc của sinh viên .",2,positive
+thầy rất tận tâm và thương yêu sinh viên .,2,positive
+nhiều kinh nghiệm .,2,positive
+thầy có kiến thức nhiều .,1,neutral
+"ngoài việc giảng dạy , do môn này là môn nhập môn máy học , nếu thầy có thể giới thiệu về các tài liệu về các loại máy học , áp dụng , hơn đơn thuần cưỡi ngựa xem hoa .",0,negative
+"thầy có slide , nhưng làm mất thời gian vì quá trình viết bảng .",0,negative
+thầy giảng còn hơi khó hiểu .,0,negative
+"cô bớt xinh lại giúp em một tí , làm em hơi mất tập trung mỗi lần nhìn cô giảng .",0,negative
+"cô vui tính , dễ gần , nhiệt tình .",2,positive
+bài tập quá nhiều .,0,negative
+"thầy dạy tốt , có tâm huyết với an toàn thông tin .",2,positive
+"chưa tạo động lực học cho học sinh , chưa hướng dẫn rõ ràng cho sinh viên làm đồ án .",0,negative
+cô dạy rất có tâm và quan tâm đến sinh viên .,2,positive
+đó là nội dung chương trình học rất tốt .,0,negative
+nên đi sâu vào vấn đề .,0,negative
+"cô nhiệt tình với học sinh , bài giảng dễ hiểu .",2,positive
+"cần nâng cấp các phòng học thực hành , phòng máy quá tệ để thực hành , các phiên bản phần mềm cũ .",0,negative
+những nội dung mà cô muốn truyền đạt đều rất có ích cho quá trình làm việc sau này của sinh viên !,2,positive
+thầy tận tâm nhiệt huyết .,2,positive
+"giảng viên không sử dụng course gây khó khăn cho sinh viên , hay chém gió , giọng giảng không rõ ràng .",0,negative
+trong lúc giảng thầy thường xuyên viết & vẽ lên bảng .,2,positive
+đi dạy đầy đủ .,2,positive
+thầy lo giảng quên cả giờ giấc .,2,positive
+cô rất nhiệt tình trong việc giảng dạy .,2,positive
+giảng viên khá vui tính .,2,positive
+"giảng viên tận tâm , nhiệt tình , quan tâm sinh viên .",2,positive
+"nói chuyện rất nhỏ , cách truyền đạt chưa đến với sinh viên .",0,negative
+"thầy dạy khá hay nhưng cho bài tập đột xuất , đôi khi thầy nói các vấn đề hơi nhanh .",0,negative
+"thầy là người rất hài hước , nhiệt huyết và cách truyền đạt rất hay .",2,positive
+cảm ơn thầy rất nhiều .,1,neutral
+"đề thi sử dụng google dịch , nửa tiếng anh nửa tiếng việt .",0,negative
+"thuyết trình nhiều như thế chưa có hiệu quả lắm , hi vọng cô sẽ cải thiện hình thức dạy và học .",0,negative
+"năm ngoái học đã có bao nhiêu bạn bị rớt và suýt bị rớt vì môn này , nhưng năm nay cô không rút kinh nghiệm cách dạy thậm chí còn khó hơn năm ngoái .",0,negative
+"tận tâm nhiệt tình , lắng nghe sinh viên .",2,positive
+"cách dạy về môn học chưa được hợp lý , nên dạy cơ bản trước khi dạy nâng cao .",0,negative
+em nghĩ cần tăng thêm thời gian học thực hành .,0,negative
+tuyệt vời .,2,positive
+em nghĩ giảng viên nên cho bài và sửa bài tập nhiều hơn .,0,negative
+"giảng viên vui tính , tận tâm , nhiệt tình !",2,positive
+phòng máy cũ cần nâng cấp .,0,negative
+"thầy nên có đề mẫu , bài mẫu .",0,negative
+cô không tập trung trong giờ giảng .,0,negative
+"thầy rất nhiệt tình , giúp đỡ sinh viên rất nhiều trong quá trình hoàn thành đồ án .",2,positive
+"và chuột máy tính trong phòng lab cũng hư khá nhiều , đề nghị nhà trường thay thế để có nhiều máy tính phục vụ học tập cho sinh viên .",0,negative
+"giáo viên giảng dạy tận tâm , dễ hiểu , truyền đạt và liên hệ thực tiễn .",2,positive
+giảng viên tận tụy có tâm huyết đối với sinh viên .,2,positive
+"giảng viên dạy rất nhiệt tình , tuy nhiên việc dạy quá giờ lên lớp sẽ khiến nhiều sinh viên gặp khó khăn trong việc học , giảng viên dạy vượt qua tiết 4 và 5 khiến nhiều sinh viên phải sang học tiết khác và bỏ qua rất nhiều bài giảng dẫn đến việc học không hiệu quả .",0,negative
+em có suy nghĩ là thầy không tin các bài tập do chính các bạn nữ làm .,0,negative
+tạo thêm nhiều ví dụ ngoài thực tiễn .,0,negative
+"giảng viên giảng dạy nhiệt tình , phương pháp dạy hay , chỉ dẫn hiệu quả .",2,positive
+không hài lòng điểm gì cả !,0,negative
+"cần có các bài lab thực hành , để sinh viên thành thạo cũng như các thao tác ứng dụng .",0,negative
+cách dạy của thầy wzjwz170 vô cùng chán đối với môn học kỹ năng như thế này .,2,positive
+"thầy luôn hướng dẫn sinh viên giải bài tập bằng nhiều cách , suy luận logic .",2,positive
+sự nhiệt tình thầy dạy dễ hiểu vui vẻ .,2,positive
+cần tạo điều kiện cho sinh viên tăng vốn ngoại ngữ giao tiếp .,0,negative
+"thầy dạy dễ hiểu , dễ tiếp thu .",2,positive
+thầy hay đến lớp muộn sao với sinh viên .,0,negative
+giảng dạy nhiệt tình hơn .,0,negative
+thầy sáng tạo .,2,positive
+cô rất vui tính giảng bài rất hay .,2,positive
+cho nhiều bài nghe hay .,2,positive
+nhiệt tình và tận tâm với sinh viên .,2,positive
+giảng viên giảng bài rất dễ hiểu .,2,positive
+tìa liệu hướng dẫn thực hành nên cụ thể hơn đối với những lab khó .,0,negative
+có liên hệ những ví dụ thực tế để giảng dạy .,2,positive
+"giảng bài hơi nhanh , tài liệu không rõ ràng , không dùng moodle .",0,negative
+phương pháp dạy không hợp lý .,0,negative
+"cô dạy hay , rất nhiệt tình , luôn giúp đỡ , giải đáp các thắc mắc của sinh viên .",2,positive
+"tận tâm , nhiệt tình , cách giảng dạy hiệu quả .",2,positive
+không muốn hỏi bài thầy vì thầy giải đáp không hiểu .,0,negative
+gây lãng phí .,0,negative
+nên nhiều khi em thấy không thể hiểu .,0,negative
+nên có giáo trình rõ ràng và cơ bản hơn .,0,negative
+nâng cấp trang thiết bị của phòng thực hành .,0,negative
+"thầy còn nhiều lúc giảng chưa kỹ lướt qua quá nhanh chưa kịp đọc bài , chỉ dẫn chưa rõ ràng .",0,negative
+"có vài chỗ cô giảng còn khó hiểu , những chỗ code khó , dài và rối em mong cô giảng kỹ và nhiều hơn .",0,negative
+thầy dạy rất nhiệt tình và vui vẻ .,2,positive
+giảng viên tận tình với sinh viên .,2,positive
+"nên phân công giảng viên ít công việc ngoài , phân bố thời gian nghỉ lễ hợp lý .",0,negative
+"dù có tìm hiểu nhưng em không thể hiểu hết và nắm bắt hoàn toàn nội dung bài lab , nhưng khi hỏi giảng viên thì em cũng không thu được thông tin gì thêm cả .",0,negative
+cần phải có phương pháp giảng dạy linh hoạt và sáng tạo hơn .,0,negative
+"điểm danh quá nhiều colonsurprise , silde bài giảng cần phải đầu tư nhiều hơn .",0,negative
+giảng dạy rõ ràng .,2,positive
+"thầy dạy giỏi , vui tính .",2,positive
+có liên hệ thực tế qua bài giảng giúp sinh viên nhanh tiếp thu kiến thức .,2,positive
+"thầy dạy hay , vui vẻ .",2,positive
+kiến thức dạy cần được lên kế hoạch kỹ càng chương trình giảng dạy .,0,negative
+giảng viên ít có giải thích các phần bài tập mà chỉ chiếu kết quả trên phần mềm outcomes và lướt lướt cho nhanh để hết tiết .,0,negative
+bám sát nội dung môn học .,2,positive
+thầy có cho bài tập về nhà nhưng chưa hướng dẫn và giải chi tiết vào hôm sau .,0,negative
+"giảng viên nhiệt tình giúp đỡ , tận tâm với công việc .",2,positive
+giảng dạy tốt !,2,positive
+thầy dậy quá nhanh và không sâu nên không nắm chắc được kiến thức .,0,negative
+"vui hiền , dạy hay sinh động , perfect .",2,positive
+"tận tâm , nhiệt tình trong giảng dạy .",2,positive
+"chém gió , nói chuyện quá nhiều , hướng dẫn giải bài tập một cách quá sơ sài .",0,negative
+"thầy dạy rất tốt , cung cấp kiến thức sâu , đủ với khả năng sinh viên .",2,positive
+"chưa đề cập đến nhiều nội dung như đồ họa , tệp , liên kết .",0,negative
+"giảng viên nhiệt tình giải đáp câu hỏi , thắc mắc .",2,positive
+không có ý kiến với giáo viên .,1,neutral
+"giảng viên giảng lý thuyết kỹ trước khi cho làm thực hành , đánh giá điểm hợp lý .",2,positive
+bài giảng chi tiết .,2,positive
+không nên sử dụng slide bằng tiếng anh tí nào .,0,negative
+cô cho rất nhiều ví dụ nên rất dễ hiểu được bài .,2,positive
+thầy vui tính giảng dạy dễ hiểu ân cần .,2,positive
+tăng tính thực tế trong các đồ án hơn một chút là tuyệt vời .,1,neutral
+"dạy khá nhanh , nên chậm lại tí là ok .",0,negative
+chất lượng đào tạo tốt .,2,positive
+quá trình thầy giảng dạy thì hầu hết bọn em chỉ lên nghe thầy nói kiểu nước đổ đầu vịt .,0,negative
+"kiến thức bao quát quá rộng lớn , khó tiếp cận cho người tự học .",0,negative
+"thầy dạy vui tính , dễ hiểu , dễ thương !",2,positive
+làm kiểm tra thường xuyên .,1,neutral
+khả năng diễn đạt bằng tiếng anh thực sự không tốt lắm .,0,negative
+quá chú trọng vào phần listening .,0,negative
+"môn học đề cao tính ứng dụng , vì vậy nên trang bị nhiều cơ sở vật chất và tài liệu nghiên cứu làm ý tưởng cho sinh viên làm đồ án môn học .",0,negative
+áp dụng thực tiễn .,2,positive
+"áp dụng được các hình ảnh , video clip vào trong quá trình giảng dạy .",2,positive
+"kết quả thực hành , đánh giá chưa quy chuẩn , còn qua loa .",0,negative
+"giảng viên thường giảng dạy quá thời gian của tiết học , nói nhiều và cách nói không thu hút sinh viên .",0,negative
+giảng viên chưa cung cấp kiến thức đầy đủ cho sinh viên .,0,negative
+"giảng viên rất nhiệt tình , tâm lý , dễ thương , luôn luôn tạo nhiều cơ hội ghi điểm cho sinh viên và tạo mọi điều kiện để sinh viên trao đổi , thảo luận về bài giảng trên lớp cũng như kiến thức liên quan đến môn học .",2,positive
+"các máy tính tại phòng thực hành lab khoa wzjwz42 đa phần đều hư hỏng không có chuột , chuột không dùng được , máy bị virus rất nặng .",0,negative
+không thật sự công bằng và đúng theo yêu cầu .,0,negative
+"giảng viên nhiệt tình , cho bài tập đầy đủ , sử dụng giờ lên lớp hiệu quả và đúng giờ .",2,positive
+môn này hay .,2,positive
+"cô rất vui vẻ , tâm huyết nhiệt tình .",2,positive
+"thầy giảng bài vô cùng thu hút , dễ hiểu , không bị nhàm chán .",2,positive
+giảng viên có thể giải nhiều bài tập và giảng kỹ ở mỗi dạng để sinh viên nắm được bài .,2,positive
+"không tổ chức thi cuối kỳ môn học , vì lý do làm đồ án đã mất rất nhiều thời gian .",0,negative
+giờ thực hành quá ít .,0,negative
+"nói lúc to lúc nhỏ , nghe mệt tai .",0,negative
+"vui , nhiệt tình .",2,positive
+"thầy dạy tận tình , vui tính , dễ trao đổi , kiến thức được thầy truyền đạt rất kỹ càng .",2,positive
+"vui tính , tận tâm !",2,positive
+không có tài liệu học tập .,0,negative
+"giảng nhiệt tình , rèn luyện sinh viên kỹ năng làm việc nhóm , chủ động trong học tập .",2,positive
+"thực hành hay , tuy nhiên cần tìm hiểu thời gian nhiều sinh viên rảnh nhất không thì sẽ có bạn mất bài của môn .",0,negative
+kết hợp thực tế trong giảng dạy .,2,positive
+"nội dung môn học không hay , khá nhàm chán , không xác định được mục tiêu của môn học .",0,negative
+"cô wzjwz20 rất nhiệt tình và tận tâm , nhưng cách cô giảng bài làm nhiều sinh viên khó tiếp thu , tất cả đều có trong slide , cô chủ yếu chỉ nói trong slide , rất khó hiểu .",2,positive
+cho điểm khó .,0,negative
+thời gian học không đúng theo lịch .,0,negative
+"cung cấp đầy đủ hơn về tài liệu và những gì sinh viên cần biết , nên có kênh thông tin để sinh viên giao tiếp với giảng viên .",0,negative
+"giải đáp thắc mắc , cập nhật kiến thức thực tế .",2,positive
+nếu như 5 tiết đó để cho sinh viên làm các dạng bài tập khác nhau do thầy chiếu trên slide thì hay hơn là dùng 5 tiết để ghi tràn lan lý thuyết và số lượng lớn bài tập trùng dạng trên bảng .,0,negative
+nhà trường cần có giáo trình dùng chung cho tất cả các lớp và có một chương trình dạy cụ thể vì mỗi lớp có một kế hoạch học tập riêng mà lại thi chung nên rất khó cho sinh viên .,0,negative
+"thầy nhiệt tình , luôn cập nhật những công nghệ mới cho sinh viên , giúp sinh viên hứng thú hơn trong việc học .",2,positive
+bên cạnh đó lại đòi hỏi chuẩn quá cao trong khi việc truyền đạt thì vô cùng không hiệu quả .,0,negative
+em không có ý kiến .,1,neutral
+giáo viên giải đáp thắc mắc nhiệt tình .,2,positive
+cô dạy hay và rất nhiệt tình .,2,positive
+"cô wzjwz266 nghiêm túc với công việc giảng dạy , dạy tiết nào đáng tiết đó , cung cấp kiến thức đầy đủ cho sinh viên .",2,positive
+"vui tính , luôn giúp đỡ sinh viên khi sinh viên gặp khó khăn .",2,positive
+"giáo trình , bài giảng và tài liệu phục vụ môn học được cung cấp đầy đủ và cập nhật trên hệ thống moodle .",2,positive
+thầy rất rất chi là nhiệt tình .,2,positive
+đề nghị sắp xếp thời gian thực hành nhiều hơn .,0,negative
+giảng viên tận tình chỉ dạy .,2,positive
+áp dụng một vài phương pháp học trao đổi mới trên internet thay vì dựa vào lý thuyết trên sách vở nhiều .,1,neutral
+cô hiền coloncontemn .,2,positive
+"giảng viên trẻ , nhiệt huyết , vui tính , năng động và dễ thương !",2,positive
+thường xuyên trễ 15 - 30 phút .,0,negative
+"thầy giảng dạy nhiệt tình , truyền đạt kiến thức tốt .",2,positive
+mong nhà trường sớm thay máy mới !,0,negative
+không nên nhiệt tình quá nên xúc tích vào những nội dung cần thiết .,0,negative
+"giảng viên năng động , hoạt bát , tạo hứng thú cho sinh viên trong lớp .",2,positive
+thiếu sót là chưa có đề cương môn học khiến cho việc tìm tài liệu trên mạng rất tràn lan và không biết tìm như thế nào cho hiệu quả !,0,negative
+"cách dạy của cô hết sức tuyệt vời , tạo cảm hứng học tập cho sinh viên .",2,positive
+giọng đọc tiếng anh khó nghe .,0,negative
+"thầy dạy nhiệt tình , thầy dạy tốt , tận tâm , gần gũi với sinh viên .",2,positive
+"hệ thống âm thanh sử dụng cho phần "" listening "" chưa thực sự tốt .",0,negative
+giảng bài thú vị và sinh động .,2,positive
+xảy ra tai nạn đáng tiếc .,0,negative
+khả năng truyền đạt chưa tốt lắm .,0,negative
+thầy rất tốt và rất tận tâm .,2,positive
+do là hình thức thực hành 2 .,0,negative
+em thích nhất là phần dạy lý thuyết của thầy .,2,positive
+"khi đưa ra ví dụ , cô có thể gợi ý hướng giải để chúng em dễ hiểu bài hơn .",0,negative
+cho học sinh nói nhiều hơn .,0,negative
+"giảng viên giảng dạy rất nhiệt tình , dễ tiếp thu kiến thức .",2,positive
+"cô dạy rất dễ tiếp thu , tận tình , giải thích rất rõ ràng .",2,positive
+kiến thức truyền đạt khá ít .,0,negative
+thầy dạy vui he he .,2,positive
+"cô rất tận tâm , nhiệt tình trong công tác giảng dạy , cô giảng bài rất chi tiết , có các ví dụ cụ thể để minh họa cho từng phần mà cô giảng .",2,positive
+"thầy dạy tận tình , dễ hiểu , luôn quan tâm giúp đỡ sinh viên .",2,positive
+"không có gì không hài lòng , có góp ý xíu là sau này thầy có thể cho tự chọn mcu luôn , lần này thầy chọn sẵn nên đôi khi mất đi một xíu sự thú vị , cho sinh viên chọn luôn mới hay ho , sinh viên sẽ phải tìm hiểu nhiều hơn nữa , xem con chip nào phù hợp nhất .",0,negative
+"giúp giảng viên chủ động truyền đạt các kiến thức đã học một cách cụ thể cho sinh viên bởi thực tế hiện nay sinh viên thường làm các đồ án trong đó không thể hiện được rõ các kiến thức đã học trên lớp , nó thiên về sử dụng kỹ thuật nhiều hơn .",0,negative
+"thầy dạy ổn , đúng với lý thuyết .",2,positive
+"giảng viên tận tâm , nhiệt tình , dễ thương .",2,positive
+tận tình luôn muốn sinh viên hiểu bài .,2,positive
+"các slide bài tập hàng tuần rất đầy đủ , kể cả về nội dung thực hành .",2,positive
+"chi tiết , dễ hiểu .",2,positive
+áp lực nặng .,0,negative
+"cảm ơn thầy , thầy rất nhiệt tình !",2,positive
+giảng viên dạy hơi quá thời gian .,0,negative
+thầy rất nhiệt tình hướng dẫn sinn viên đặc biệt là sửa lỗi sai hay giải bài tập trên lớp .,2,positive
+thầy hay đi trễ .,0,negative
+đánh giá đúng năng lực của sinh viên .,2,positive
+"không nhấn vào trọng tâm , giảng bài hơi khó tiếp thu .",0,negative
+giờ lên dạy .,1,neutral
+hay đi trễ .,0,negative
+tập trung vào nghiên cứu phần kiến thức trọng tâm .,2,positive
+cô có tính cách năng động hòa đồng với học sinh .,2,positive
+số bài thực hành quá nhiều đối với một môn thực hành hình thức 2 .,0,negative
+"giảng dạy nhiệt tình , tận tâm với sinh viên , giảng dễ hiểu , tài liệu cung cấp luôn đầy đủ .",2,positive
+có bài tập thực hành hợp lý cho từng tuần và phù hợp với lý thuyết vừa học xong .,2,positive
+"thân thiện , nhiệt tình , hòa đồng , vui tính , đẹp trai .",2,positive
+thầy dạy rất thoải mái .,2,positive
+"cô rất tận tâm , hết mình với sinh viên .",2,positive
+"nhiệt tình , chia sẻ kinh nghiệm học tập .",2,positive
+có kiến thức cao .,2,positive
+"giảng viên tận tâm , thân thiện gần gũi .",2,positive
+"cô nói nhanh , liên tục nhiều khi em không thể nghe kịp .",0,negative
+không nên cho thi môn này .,0,negative
+dạy gì thi đó .,1,neutral
+thầy rất nhiệt tâm .,2,positive
+"giảng viên luôn cố gắng liên hệ thực tế nhiều nhất có thể , giúp sinh viên hiểu hơn về thực tiễn hơn là chỉ tập trung vào lý thuyết của bài học .",2,positive
+giảng viên rất nhiệt tình trong giảng dạy cũng như giải đáp thắc mắc của sinh viên .,2,positive
+phòng học gần tòa nhà đang xây gây ảnh hưởng đến các bài nghe của môn học này .,0,negative
+"thầy dạy rất dễ hiểu , đơn giản sát với thực tế .",2,positive
+giảng viên nói rõ ràng .,2,positive
+"thầy dạy rất chất , em chưa thấy thầy nào dạy chính trị hay hơn thầy .",2,positive
+"dạy nhiệt tình , thân thiện .",2,positive
+dãy bàn chính giữa không có quạt .,0,negative
+thời gian học không đảm bảo .,0,negative
+"có nhiều hoạt động theo nhóm , tăng tính đoàn kết .",2,positive
+"thêm các phần ứng dụng của danh sách liên kết stack , queue và bảng băm .",0,negative
+"vui vẻ , nhiệt tình , tạo cơ hội cho sinh viên được gắn kết cũng như trau dồi kỹ năng nói tiếng anh nhiều hơn .",2,positive
+"em học không tốt , em nghỉ nhiều buổi thực hành , còn lý thuyết thì em khá vững .",0,negative
+dạy vui vẻ .,2,positive
+thầy nhiệt tình giảng dễ hiểu không nhàm chán .,2,positive
+thầy dạy ngắn gọn dễ hiểu .,2,positive
+thầy đi bài giảng hơi nhanh .,0,negative
+không tận tâm .,0,negative
+tạm ổn .,1,neutral
+"thầy vui tính , nhiệt tình , trả lời mọi thắc mắc của sinh viên .",2,positive
+cách dạy của thầy em rất thích .,2,positive
+chưa kiểm soát được thời gian .,0,negative
+dạy chú trọng đến người học .,2,positive
+nên cung cấp tài liệu giải trắc nghiệm anh văn .,0,negative
+nếu làm chung với nhóm khác thì sẽ dẫn tới khác đề nên không hợp tác được .,0,negative
+đôi khi kẹt xe thầy lại trễ giờ .,0,negative
+"sự tận tâm , nhiệt tình trong giảng dạy của giảng viên .",2,positive
+"giáo viên giảng bài hay , thu hút .",2,positive
+giảng viên truyền đạt hiệu quả .,2,positive
+rất thực tế và cụ thể .,2,positive
+em rất hài lòng về phương pháp dạy này .,2,positive
+"thầy cần giảng giải cách làm đối với từng dạng bài nhiều hơn , rồi sau đó hãy cho nhiều bài tập .",0,negative
+"em nghĩ thầy nên nhiều bài tập hơn và gửi bài giảng qua courses , lập nhóm làm bài để chấm điểm như các lớp khác .",0,negative
+quạt trong phòng học chưa đáp ứng tốt .,0,negative
+thầy dạy hay và nhiệt tình .,2,positive
+"thầy dạy rất kỹ , rất chi tiết .",2,positive
+"cô dạy nhiệt tình , dễ hiểu , đảm bảo cho sinh viên hiểu rõ lý thuyết .",2,positive
+không triển khai slide bài giảng trên moodle .,0,negative
+"giảng viên giảng dạy nhiệt tình , tạo ra hoạt động vui nhộn .",2,positive
+phản hồi nhanh các thắc mắc của sinh viên .,2,positive
+có lẽ cô nên ra nhiều bài tập về nhà hơn cho các bạn trong lớp .,0,negative
+"em thấy có một số buổi học kéo dài , có buổi kéo dài tới gần 12h .",0,negative
+"thầy nói lan man khá nhiều , khiến sinh viên không biết đâu là phần nội dung chính .",0,negative
+"dạy tận tâm , nhiệt tình .",2,positive
+cho bài khó .,0,negative
+"cô dạy rất hay , chậm và kỹ càng , giúp chúng em hiểu sâu hơn về bài giảng .",2,positive
+buổi dạy của thầy hay bị gián đoạn .,0,negative
+bên cạnh việc giảng dạy thầy còn rất kể nhiều câu chuyện những chiêm nghiệm trong cuộc sống cho sinh viên nghe .,2,positive
+mong nhà trường sẽ có nhiều biện pháp để tăng cường thêm các trang thiết bị và cơ sở vật chất để phục vụ tốt hơn cho việc học tiếng anh của sinh viên .,0,negative
+giáo viên giảng dễ hiểu .,2,positive
+"giảng viên rất nhiệt tình , các kiến thức đều được đưa ra hợp lý dễ hiểu và nắm bắt .",2,positive
+bản thân sinh viên chưa từng gặp giảng viên này một lần nào trong khóa học .,0,negative
+"thầy sử dụng tốt hệ thống moodle để trao đổi với sinh viên và những giảng giải mang tính dễ hiểu , gần gũi với sinh viên .",2,positive
+phương pháp dạy giúp sinh viên tiếp thu dễ hơn .,2,positive
+cần tăng cường thêm nhiều bài tập vào nhiều tiết thực hành .,0,negative
+cô dạy rất tận tình dễ hiểu .,2,positive
+nhiều lúc thầy nói hơi nhanh .,0,negative
+"giáo viên dạy kỹ càng , dễ hiểu .",2,positive
+trang bị phòng thí nghiệm để hiểu rõ hơn về thực tế .,0,negative
+"dạy hay , vui vẻ và gần gũi với sinh viên .",2,positive
+"có nhiều vấn đề còn khó hiểu , khó tiếp cận .",0,negative
+giảng viên chưa thực sự chuẩn bị bài giảng chu đáo trong một số buổi học .,0,negative
+giờ học chưa đảm bảo .,0,negative
+phòng có máy điều hòa .,1,neutral
+cô không cho đề trước khi thi .,0,negative
+"cô dạy rất nhiệt tình , luôn trao đổi trên lớp và trên website môn học .",2,positive
+phương pháp giảng dạy không nên phụ thuộc hoàn toàn vào việc thuyết trình của sinh viên .,0,negative
+"giảng viên tận tình , dạy minh họa dễ hiểu .",2,positive
+"giáo viên giảng dạy hay , dễ hiểu .",2,positive
+"ra bài tập thì thầy nên sửa , để chúng em đối chiếu kết quả .",0,negative
+cách giảng của thầy chưa thực sự hay và có nhiều sự chuẩn bị cho bài giảng bằng những tình huống thực tế .,0,negative
+"thầy dạy rất có tâm , chấm điểm rất chính xác .",2,positive
+"đưa slide , bài tập lên moodle để sinh viên tham khảo .",1,neutral
+"giảng rất nhiệt tình , cố gắng quan sát sinh viên .",2,positive
+"nên cho bài tập theo hình thức file , thay vì chép bảng ( chỉ nên chép bảng bài học thôi ) .",0,negative
+giọng thầy hơi khó nghe .,0,negative
+"chương trình dạy quá cũ , chưa hợp lý .",0,negative
+em quen ngồi máy tính tìm hiểu hơn là học môn này buồn ngủ .,0,negative
+"điều này thật là "" ảo "" vì không sinh viên nào làm điều đó .",0,negative
+cô là giáo viên tận tâm nhất trong những người tận tâm nhất .,2,positive
+tăng cường kỹ năng nói nhiều hơn nữa .,0,negative
+"trang bị máy chiếu mới , loa và micro của phòng học , máy tính mới cho phòng lab .",0,negative
+giảng bài đôi khi hơi khó hiểu .,0,negative
+cô tận tình giải đáp thắc mắc .,2,positive
+"giảng dạy tận tình , bài tập hay .",2,positive
+các máy tính trong phòng lab nên cài đặt thêm phần mềm android studio để phục vụ việc thực hành môn này .,0,negative
+"nhiệt tình giải đáp những thắc mắc trên lớp , và qua trang web sinh viên .",2,positive
+cho làm nhiều bài kiểm tra hơn .,0,negative
+thầy tương đối khó trong việc nộp bài lab .,0,negative
+tài liệu đầy đủ .,2,positive
+chỉ dẫn tận tình cho sinh viên .,2,positive
+tích cực giúp đỡ sinh viên .,2,positive
+"giảng viên nhiệt tình , vui tính , có tâm .",2,positive
+cô phát âm kém và sai .,0,negative
+"giảng viên nghỉ dạy khá nhiều , không đảm bảo giờ lên lớp .",0,negative
+cung cấp nhiều kiến thức hữu ích liên quan đến ngành .,2,positive
+chu đáo .,2,positive
+trân trọng .,1,neutral
+cô rất dễ .,2,positive
+"giáo trình cấu trúc dữ liệu và giải thuật còn khá nhiều sai sót , mong nhà trường chỉnh sửa và bổ sung lại .",0,negative
+thầy chưa giải đáp thật chi tiết thắc mắc của sinh viên .,0,negative
+"không nên mê gái , nên quan tâm đồng đều tất cả các học sinh .",0,negative
+thầy giảng hay có trọng tâm dễ hiểu .,2,positive
+trong nửa đầu của học kỳ không có giáo viên hướng dẫn thực hành .,2,positive
+thầy dạy hay dễ hiểu cho làm nhiều bài tập thực hành oop nhờ thầy em học tốt hơn .,2,positive
+giáo viên nhiệt tình và vui tính .,2,positive
+"phòng học quá nóng phòng wzjwz96 , lớp em có nhiều sinh viên nhưng chỉ có 2 cái quạt , học anh văn vào buổi chiều bị nắng chiếu mà còn nóng thì em tiếp thu bài rất kém ạ !",0,negative
+"nhiệt tình , phương pháp giảng dạy hiệu quả .",2,positive
+môn thực hành nên cho những giảng viên có kinh nghiệm giảng dạy để giúp sinh viên có nền tảng về lập trình vì học ngành này thực hành là rất quan trọng .,0,negative
+"phòng thực hành không đảm bảo phục vụ cho môn học , các phần mềm , chương trình không còn phù hợp nữa .",0,negative
+có hướng dẫn đầy đủ dễ hiểu .,2,positive
+hướng dẫn lab mơ hồ .,0,negative
+"thầy cho chúng em những bài tập mang tính thực hành , thực tiễn cao và em thực sự rất hài lòng .",2,positive
+thầy không dạy nhiều chủ yếu cho sinh viên tự tìm hiểu .,0,negative
+em muốn đổi tên môn học vì tên môn là lập trình c fraction cplusplus nhưng lại học thiên về csharp .,0,negative
+thầy vừa dạy vừa chat hoặc gọi điện thoại thường xuyên .,0,negative
