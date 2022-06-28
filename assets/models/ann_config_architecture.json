@@ -1,7 +1,18 @@
 {
     "best_model": {
-        "val_loss": 0.9087860186894735,
-        "val_acc": 0.6839887640449438,
-        "epoch": 3
+        "val_loss": 0.752259168624878,
+        "val_acc": 0.7972204674668352,
+        "epoch": 7
+    },
+    "model": {
+        "model_name": "ann",
+        "input_size": 2180,
+        "n_labels": 3,
+        "drop_out": 0.2,
+        "map_label": {
+            "negative": 0,
+            "neutral": 1,
+            "positive": 2
+        }
     }
 }
