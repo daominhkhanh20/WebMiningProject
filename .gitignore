@@ -73,7 +73,7 @@ ENV/
 docs/_build/
 
 #local storage
-assets/model
+assets/models
 
 
 

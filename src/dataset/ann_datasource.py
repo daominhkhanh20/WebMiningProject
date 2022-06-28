@@ -28,10 +28,11 @@ class AnnDataSource(object):
                         path_folder_data: str = 'assets/data',
                         stopword_path: str = 'assets/stopword/stopword.txt',
                         path_save_tf: str ='assets/utils_weight',
-                        text_col: str = 'comment',
-                        label_col: str = 'pred_label'):
+                        text_col: str = 'sentence',
+                        label_col: str = 'lb_name',
+                        map_labels:dict = {'negative':0,'neutral':1,'positive':2}
+                        ):
         train_dataset, test_dataset, val_dataset = None, None, None
-        map_labels = {'positive': 0, 'neural': 1, 'negative': 2}
         for file in os.listdir(path_folder_data):
             logger.info(f"Start convert file {file} to dataset")
             if 'train' in file:
