@@ -43,4 +43,4 @@ class NaiveBayesClassifier():
     def predict(self, input):
         model = pickle.load(open(os.path.join(self.model_path, "naive_bayes.pkl"), 'rb'))
         y_pred = model.predict(input)
-        y_pred
+        return y_pred
