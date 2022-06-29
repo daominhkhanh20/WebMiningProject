@@ -18,3 +18,4 @@ torch
 tqdm
 scikit-learn
 tabulate
+imblearn

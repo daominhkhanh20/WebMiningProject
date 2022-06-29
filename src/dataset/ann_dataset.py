@@ -7,6 +7,7 @@ from typing import Union
 from collections import Counter
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
+from imblearn.over_sampling import RandomOverSampler
 
 class AnnCommentDataset(Dataset):
     def __init__(self, data: Union[DataFrame, str],
@@ -29,6 +30,9 @@ class AnnCommentDataset(Dataset):
                     stopwords.append(word.replace('\n',''))
             vectorizer = TfidfVectorizer(stop_words=stopwords)
             self.data_tf = vectorizer.fit_transform(self.data[text_col]).toarray()
+
+            ros = RandomOverSampler(random_state=42,sampling_strategy={'neural':2000})
+            self.data_tf, self.y_res = ros.fit_resample(self.data_tf, self.data[label_col])
             with open(f'{path_save_tf}/vectorizer.pk', 'wb') as fin:
                 pickle.dump(vectorizer, fin)
         else:
@@ -45,12 +49,14 @@ class AnnCommentDataset(Dataset):
         else:
             self.map_label = map_label
             self.list_labels = list(self.map_label.keys())
-
-        self.data[label_col] = self.data[label_col].map(self.map_label)
-        self.labels = self.data[label_col].values.tolist()
+        if is_train:
+            self.labels = self.y_res.map({'negative':0,'neural':1,'positive':2}).to_list()
+        else:
+            self.data[label_col] = self.data[label_col].map(self.map_label)
+            self.labels = self.data[label_col].values.tolist()
 
     def __len__(self):
-        return len(self.data)
+        return len(self.data_tf)
 
     def __getitem__(self, item):
         return {
