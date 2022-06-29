@@ -15,7 +15,7 @@ parser.add_argument('--use_label_smoothing', default=False, type=lambda x: x.low
 parser.add_argument('--smoothing_value', type=float, default=0.1)
 parser.add_argument('--learning_rate', type=float, default=1e-5)
 parser.add_argument('--path_save_model', type=str, default='models')
-parser.add_argument('--is_save_best_model', default=False, type=lambda x: x.lower() == 'true')
+parser.add_argument('--is_save_best_model', default=True, type=lambda x: x.lower() == 'true')
 parser.add_argument('--mode_increase_weight_neural', default=False, type=lambda x: x.lower() == 'true')
 parser.add_argument('--neural_weight', type=int, default=10)
 parser.add_argument('--dropout', type=float, default=0.1)
