@@ -214,7 +214,7 @@ class BertLearner(BaseLeaner):
             if self.data_source.val_dataset:
                 logger.info("Start evaluate")
                 val_loss, val_acc = self.evaluate(self.val_loader)
-                if val_loss < self.best_val_loss and val_acc > self.best_val_acc:
+                if val_loss < self.best_val_loss or val_acc > self.best_val_acc:
                     self.best_val_loss = val_loss
                     self.best_val_acc = val_acc
                     self.save(epoch)
