@@ -35,7 +35,7 @@ class BertCommentModel(nn.Module):
 
         if fine_tune:
             logger.info("Turn on fine tune mode")
-            
+
         for child in self.bert_encoder.children():
             for param in child.parameters():
                 param.requires_grad = fine_tune
