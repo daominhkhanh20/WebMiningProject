@@ -53,7 +53,7 @@ class BertDataSource(object):
                 train_dataset = dataset
             elif 'test' in file:
                 test_dataset = dataset
-            elif 'val' in file:
+            elif 'val' in file or 'dev' in file:
                 val_dataset = dataset
             else:
                 raise Exception(f"Currently, convert file for {file} isn't support"
