@@ -1,10 +1,11 @@
 import pickle
 import os
+import re
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
-from sklearn.metrics import classification_report, accuracy_score
+from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score
 from sklearn.neighbors import KNeighborsClassifier
  
 
@@ -28,17 +29,23 @@ class KNNClassifier():
                                              max_features=None) 
 
     def train(self, X_train, y_train):
-        X_train = self.vectorizer.fit_transform(X_train)
         self.KNN.fit(X_train, y_train)
 
     def evaluate(self,X_train, y_train, X_test, y_test):
         self.train(X_train, y_train)
-        X_test = self.vectorizer.fit_transform(X_test)
         y_pred = self.KNN.predict(X_test)
-        print("Accuracy score vs {} neighbors: {}".format(self.n_neighbors, accuracy_score(y_test, y_pred)))
-        print(classification_report(y_test, y_pred))
+        accuracy = accuracy_score(y_test, y_pred)
+        precision = precision_score(y_test, y_pred, average='weighted')
+        recall = recall_score(y_test, y_pred, average='weighted')
+        F1_score = f1_score(y_test, y_pred, average='weighted')
+        print("Accuracy score vs {} neighbors: {}".format(self.n_neighbors, accuracy))
+        print("Precision score vs {} neighbors: {}".format(self.n_neighbors, precision))
+        print("Recall score vs {} neighbors: {}".format(self.n_neighbors, recall))
+        print("F1 score vs {} neighbors: {}".format(self.n_neighbors, F1_score))
+        print(classification_report(y_test, y_pred, target_names=['negative', 'neural', 'positive']))
+        return (accuracy, precision, recall, F1_score)
 
     def predict(self, input):
-        input = self.vectorizer.fit_transform(input)
+        input = self.vectorizer.transform(input)
         y_pred = self.KNN.predict(input)
         y_pred
