@@ -16,7 +16,7 @@ dataset = MlDataset(
     path_testset='/home/thangnd/Documents/Project/WebMiningProject/assets/_UIT-VSFC/csv/test.csv',
     path_valset='/home/thangnd/Documents/Project/WebMiningProject/assets/_UIT-VSFC/csv/dev.csv'
 )
-knn = KNNClassifier()
+# knn = KNNClassifier(n_neighbors=107)
 
 train_set, test_set, val_set = dataset.get_data()
 # print(train_set['input'].shape)
@@ -26,7 +26,8 @@ train_set, test_set, val_set = dataset.get_data()
 # print(val_set['input'].shape)
 # print(val_set['label'].shape)
 
-# knn.evaluate(train_set['input'], train_set['label'], test_set['input'], test_set['label'])
+# a,p,r,f = knn.evaluate(train_set['input'], train_set['label'], test_set['input'], test_set['label'])
+
 
 # data_train = np.append([train_set['input']], [val_set['input']], axis=0)
 # label_train = np.append([train_set['label'], val_set['label']], axis=0)
@@ -37,7 +38,7 @@ precision = []
 recall = []
 f1_score = []
 for k in k_neighbors:
-    knn = KNNClassifier(n_neighbors=k)
+    knn = KNNClassifier(n_neighbors=k, mode='distance')
     print("Result classification of k = {} nearest neighborhoods".format(k))
     a,p,r,f = knn.evaluate(train_set['input'], train_set['label'], test_set['input'], test_set['label'])
     accuracy.append(a)

@@ -15,15 +15,16 @@ class KNNClassifier():
         path_save_model: str = "assets/model", 
         max_df: float = 0.8, 
         min_n: int = 1, 
-        max_n: int = 1, n_neighbors=3):
+        max_n: int = 1, n_neighbors=3, mode: str = 'uniform'):
 
+        self.mode = mode
         self.model_path = model_path
         self.path_save_model = path_save_model
         self.max_df = max_df
         self.min_n = min_n
         self.max_n = max_n 
         self.n_neighbors = n_neighbors
-        self.KNN = KNeighborsClassifier(n_neighbors=self.n_neighbors)
+        self.KNN = KNeighborsClassifier(n_neighbors=self.n_neighbors, weights=self.mode)
         self.vectorizer = CountVectorizer(ngram_range=(self.min_n, self.max_n),
                                              max_df=self.max_df,
                                              max_features=None) 

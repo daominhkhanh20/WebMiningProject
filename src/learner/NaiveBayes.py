@@ -1,4 +1,3 @@
-from decimal import MIN_EMIN
 import pickle
 import os
 from sklearn.feature_extraction.text import CountVectorizer
@@ -23,7 +22,7 @@ class NaiveBayesClassifier():
         self.min_n = min_n
         self.max_n = max_n 
         self.pipeline = Pipeline([ 
-                                ('tfidf', TfidfTransformer()), 
+                                # ('tfidf', TfidfTransformer()), 
                                 ('clf', MultinomialNB()) ])
 
     def train(self, X_train, y_train): 
