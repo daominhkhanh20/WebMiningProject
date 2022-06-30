@@ -29,8 +29,9 @@ class AnnLearner(BaseLeaner):
                  learning_rate: float = 1e-6, path_save_model: str = 'assets/models',
                  path_report: str = 'assets/report',
                  is_save_best_model: bool = True,
+                 infer_parm: dict=None,
                  dropout: float = 0.2, **kwargs):
-        super().__init__(**kwargs)
+        super().__init__()
         if mode.lower() not in [INFERENCE_MODE, TRAINING_MODE]:
             NotImplementedError(f"{mode} isn't support")
         if mode == INFERENCE_MODE:
@@ -43,12 +44,12 @@ class AnnLearner(BaseLeaner):
             "cuda" if torch.cuda.is_available() else "cpu")
         if mode == INFERENCE_MODE:
             self.data_source = data_source
-            self.map_label = self.data_source.train_dataset.map_label
+            self.map_label = infer_parm['map_label']
 
             self.model = ANNModel(
-                input_size=self.data_source.train_dataset.input_size,
-                n_labels=len(self.data_source.train_dataset.map_label),
-                drop_out=dropout
+                input_size=infer_parm['input_size'],
+                n_labels=infer_parm['n_labels'],
+                drop_out=infer_parm['drop_out']
             ).to(self.device)
             weight_name = "ann_weight.pth"
             self.model.load_state_dict(torch.load(f"{path_save_model}/{weight_name}"))
@@ -101,6 +102,13 @@ class AnnLearner(BaseLeaner):
                 "val_acc": self.best_val_acc,
                 "epoch": 0
             }
+            self.config_architecture['model'] = {
+                "model_name": 'ann',
+                "input_size":self.data_source.train_dataset.input_size,
+                "n_labels": len(self.data_source.train_dataset.map_label),
+                "drop_out":dropout,
+                'map_label':self.map_label
+            }
 
     def make_loader(self, dataset):
         return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
@@ -109,6 +117,7 @@ class AnnLearner(BaseLeaner):
         if input == None:
             input = ''
         input = [input]
+        print(input)
         path_save_tf = 'assets/utils_weight'
         with open(f'{path_save_tf}/vectorizer.pk', 'rb') as fin:
             vectorizer = pickle.load(fin)
@@ -123,7 +132,7 @@ class AnnLearner(BaseLeaner):
             for item in self.map_label:
                 if self.map_label[item] == label_pred[0]:
                     res = item
-            print(res)
+            return res
             
 
     def train_one_epoch(self, **kwargs):

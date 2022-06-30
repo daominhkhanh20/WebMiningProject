@@ -1,9 +1,10 @@
 from transformers import AutoModel, BertPreTrainedModel
 import torch
 from torch import nn, Tensor
-
+import logging
 from src.module import LabelSmoothingCrossEntropyLoss
 
+logger = logging.getLogger(__name__)
 
 class BertCommentModel(nn.Module):
     def __init__(self,
@@ -31,6 +32,9 @@ class BertCommentModel(nn.Module):
             )
         else:
             self.loss_fn = nn.CrossEntropyLoss()
+
+        if fine_tune:
+            logger.info("Turn on fine tune mode")
 
         for child in self.bert_encoder.children():
             for param in child.parameters():

@@ -7,6 +7,7 @@ from pandas import DataFrame
 from typing import List, Union
 import unicodedata
 import os
+from src.utils.create_data import clean_text
 
 
 tqdm_notebook().pandas()
@@ -26,31 +27,6 @@ class CleanText:
         self.path_save = path_save
         if os.path.exists(self.path_save) is False:
             os.makedirs(self.path_save, exist_ok=True)
-
-    def clean_text(self, sent):
-        sent = unicodedata.normalize('NFC', sent)
-        emoji = re.compile("["
-                           u"\U0001F600-\U0001F64F"  # emoticons
-                           u"\U0001F300-\U0001F5FF"  # symbols & pictographs
-                           u"\U0001F680-\U0001F6FF"  # transport & map symbols
-                           u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
-                           u"\U00002500-\U00002BEF"  # chinese char
-                           u"\U00002702-\U000027B0"
-                           u"\U00002702-\U000027B0"
-                           u"\U000024C2-\U0001F251"
-                           u"\U0001f926-\U0001f937"
-                           u"\U00010000-\U0010ffff"
-                           u"\u2640-\u2642"
-                           u"\u2600-\u2B55"
-                           u"\u200d"
-                           u"\u23cf"
-                           u"\u23e9"
-                           u"\u231a"
-                           u"\ufe0f"  # dingbats
-                           u"\u3030"
-                           "]+", re.UNICODE)
-        sent = re.sub(emoji, '', sent)
-        return " ".join(gensim.utils.simple_preprocess(sent))
 
     def split(self, df: DataFrame, label_col: str = 'pred_label', n_percentage_split: float = 0.1):
         # print(f"Before: {df.shape}")
@@ -78,7 +54,7 @@ class CleanText:
         self.data = self.data[self.data.notna()].reset_index(drop=True)
         self.data = self.data[['comment', 'rating_star', 'by', 'pred_label']]
         self.data.reset_index(drop=True)
-        self.data['comment'] = self.data['comment'].progress_apply(lambda x: self.clean_text(x))
+        self.data['comment'] = self.data['comment'].progress_apply(lambda x: clean_text(x))
         df_train, df_test = self.split(self.data, n_percentage_split=self.test_split_percentage)
         df_train, df_val = self.split(df_train, n_percentage_split=self.val_split_percentage)
         self.save(df_train, f"{self.path_save}/{self.prefix_file}_train.csv")

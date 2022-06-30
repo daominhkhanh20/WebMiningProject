@@ -15,6 +15,7 @@ from src.model import BertCommentModel
 from src.learner import BaseLeaner
 from src.utils.io import *
 from src.constants import *
+from src.utils.create_data import make_input_bert
 
 logger = logging.getLogger(__name__)
 
@@ -35,7 +36,7 @@ class BertLearner(BaseLeaner):
                 raise Exception(f"{path_save_model} isn't exist")
 
             self.config_architecture = get_config_architecture(path_save_model)
-            self.pretrained_model = self.config_architecture['architecture']['encoder']['pretrained_name']
+            self.pretrained_model = self.config_architecture['model']['architecture']['encoder']['pretrained_model']
         elif mode.lower() == TRAINING_MODE:
             self.pretrained_model = pretrained_model
 
@@ -45,7 +46,30 @@ class BertLearner(BaseLeaner):
         self.pad_id = self.tokenizer.pad_token_id
 
         if mode == INFERENCE_MODE:
-            pass
+            self.n_labels = self.config_architecture['data']['n_label']
+            self.map_label = self.config_architecture['data']['map_label']
+            self.int_to_label = {value: key for key, value in self.map_label.items()}
+            self.dropout = self.config_architecture['hyper_parameter'].get('dropout', 0.1)
+            self.fine_tune = self.config_architecture['model']['architecture']['encoder'].get('fine_tune', True)
+            self.use_smoothing_label = self.config_architecture['hyper_parameter'].get('use_label_smoothing', True)
+            self.weight_contribution = torch.tensor(self.config_architecture['data']['weight_contribution'],
+                                                    dtype=torch.long)
+            self.smoothing_value = self.config_architecture['hyper_parameter']['smoothing_value']
+            self.model = BertCommentModel(
+                bert_encoder=self.bert_encoder,
+                n_labels=self.n_labels,
+                dropout=self.dropout,
+                fine_tune=self.fine_tune,
+                use_label_smoothing=self.use_smoothing_label,
+                weight_contribution=self.weight_contribution,
+                smoothing_value=smoothing_value
+            ).to(self.device)
+            if self.device == torch.device('cpu'):
+                self.model.load_state_dict(torch.load(f"{path_save_model}/weight.pth", map_location="cpu"))
+            else:
+                self.model.load_state_dict(torch.load(f"{path_save_model}/weight.pth"))
+            self.model.eval()
+
         elif mode == TRAINING_MODE:
             self.data_source = data_source
             self.map_label = self.data_source.train_dataset.map_label
@@ -96,7 +120,7 @@ class BertLearner(BaseLeaner):
                 'learning_rate': learning_rate,
                 'use_label_smoothing': use_label_smoothing,
                 'smoothing_value': smoothing_value
-            }}
+            }, 'model_name': self.__class__.__name__}
             self.optimizer = AdamW(self.model.parameters(), lr=learning_rate)
             self.train_loader = self.make_loader(self.data_source.train_dataset)
             if self.data_source.val_dataset:
@@ -191,15 +215,26 @@ class BertLearner(BaseLeaner):
             if self.data_source.val_dataset:
                 logger.info("Start evaluate")
                 val_loss, val_acc = self.evaluate(self.val_loader)
-                if val_loss < self.best_val_loss and val_acc > self.best_val_acc:
+                if val_loss < self.best_val_loss or val_acc > self.best_val_acc:
                     self.best_val_loss = val_loss
                     self.best_val_acc = val_acc
                     self.save(epoch)
-                logger.info(f"Epoch: {epoch} --- Training loss: {train_loss} --- Val loss: {val_loss} --- Val acc: {val_acc}"
-                            f"Time: {time.time() -start_time}s")
+                logger.info(
+                    f"Epoch: {epoch} --- Training loss: {train_loss} --- Val loss: {val_loss} --- Val acc: {val_acc}"
+                    f"Time: {time.time() - start_time}s")
 
             if self.data_source.test_dataset:
                 logger.info("Start testing")
-                _, test_acc = self.evaluate(self.test_loader, mode_testing = True)
+                _, test_acc = self.evaluate(self.test_loader, mode_testing=True)
 
-
+    def predict(self, sample: str, **kwargs):
+        input_ids, attention_mask = make_input_bert(self.tokenizer, sample)
+        input_ids = input_ids.unsqueeze(dim=0).to(self.device)
+        attention_mask = attention_mask.unsqueeze(dim=0).to(self.device)
+        _, outs = self.model(input_ids, attention_mask)
+        label_predict = torch.argmax(outs, dim=-1)
+        predict_probs = torch.softmax(outs, dim=-1).squeeze(dim=0)
+        return {
+            "pred_label": self.int_to_label[label_predict.item()],
+            "probability": predict_probs.detach().cpu().numpy().tolist()
+        }

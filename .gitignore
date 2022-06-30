@@ -73,9 +73,9 @@ ENV/
 docs/_build/
 
 #local storage
-assets/model
+assets/models
+failed.csv
 
-
-
+.idea
 temp.ipynb
 CommentData
