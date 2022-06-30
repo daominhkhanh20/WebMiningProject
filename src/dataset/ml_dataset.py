@@ -1,6 +1,7 @@
 import pandas as pd 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import LabelEncoder
+from sklearn.feature_extraction.text import TfidfTransformer
 
 class MlDataset():
     def __init__(self, path_trainset, path_testset, path_valset, mode_encoding: str = "bow"):
@@ -10,9 +11,10 @@ class MlDataset():
         self.train_set = None
         self.test_set = None
         self.val_set = None
+        # if mode_encoding == "bow":
         self.vectorizer = CountVectorizer(ngram_range=(1, 1),
-                                             max_df=0.8,
-                                             max_features=None)
+                                            max_df=0.8,
+                                            max_features=None)
         self.label_encoder = LabelEncoder()
         # self.vectorizer_final = None
         self.df_test = None

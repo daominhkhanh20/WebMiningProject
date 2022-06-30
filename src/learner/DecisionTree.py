@@ -6,9 +6,9 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score
+from sklearn.tree import DecisionTreeClassifier
 
-
-class DecisionTreeClassifier():
+class DecisionTree():
     def __init__(self, 
         model_path: str = "assets/model",
         path_save_model: str = "assets/model", 
@@ -22,9 +22,10 @@ class DecisionTreeClassifier():
         self.min_n = min_n
         self.max_n = max_n 
         self.pipeline = Pipeline([
-                                 ('tfidf', TfidfTransformer()), 
+                                 ('tfidf', TfidfTransformer()),
                                  ('dt', DecisionTreeClassifier())
                                  ])
+        # self.pipeline = DecisionTreeClassifier()
 
     def train(self, X_train, y_train): 
         model = self.pipeline.fit(X_train, y_train)
