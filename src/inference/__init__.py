@@ -1,0 +1,1 @@
+from src.inference.inference import SentimentInference

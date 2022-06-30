@@ -36,7 +36,7 @@ class BertLearner(BaseLeaner):
                 raise Exception(f"{path_save_model} isn't exist")
 
             self.config_architecture = get_config_architecture(path_save_model)
-            self.pretrained_model = self.config_architecture['architecture']['encoder']['pretrained_name']
+            self.pretrained_model = self.config_architecture['model']['architecture']['encoder']['pretrained_model']
         elif mode.lower() == TRAINING_MODE:
             self.pretrained_model = pretrained_model
 
@@ -48,12 +48,13 @@ class BertLearner(BaseLeaner):
         if mode == INFERENCE_MODE:
             self.n_labels = self.config_architecture['data']['n_label']
             self.map_label = self.config_architecture['data']['map_label']
+            self.int_to_label = {value: key for key, value in self.map_label.items()}
             self.dropout = self.config_architecture['hyper_parameter'].get('dropout', 0.1)
             self.fine_tune = self.config_architecture['model']['architecture']['encoder'].get('fine_tune', True)
             self.use_smoothing_label = self.config_architecture['hyper_parameter'].get('use_label_smoothing', True)
             self.weight_contribution = torch.tensor(self.config_architecture['data']['weight_contribution'],
                                                     dtype=torch.long)
-            self.smoothing_value = self.config_architecture['data']['smoothing_value']
+            self.smoothing_value = self.config_architecture['hyper_parameter']['smoothing_value']
             self.model = BertCommentModel(
                 bert_encoder=self.bert_encoder,
                 n_labels=self.n_labels,
@@ -63,7 +64,7 @@ class BertLearner(BaseLeaner):
                 weight_contribution=self.weight_contribution,
                 smoothing_value=smoothing_value
             ).to(self.device)
-            if self.device == 'cpu':
+            if self.device == torch.device('cpu'):
                 self.model.load_state_dict(torch.load(f"{path_save_model}/weight.pth", map_location="cpu"))
             else:
                 self.model.load_state_dict(torch.load(f"{path_save_model}/weight.pth"))
@@ -234,6 +235,6 @@ class BertLearner(BaseLeaner):
         label_predict = torch.argmax(outs, dim=-1)
         predict_probs = torch.softmax(outs, dim=-1).squeeze(dim=0)
         return {
-            "pred_label": self.map_label[label_predict.item()],
+            "pred_label": self.int_to_label[label_predict.item()],
             "probability": predict_probs.detach().cpu().numpy().tolist()
         }
