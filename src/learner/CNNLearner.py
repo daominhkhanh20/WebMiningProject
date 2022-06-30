@@ -169,6 +169,7 @@ class CNNLearner(BaseLeaner):
             for key in sample.keys():
                 sample[key] = sample[key].to(self.device)
             loss, _ = self.model(sample)
+            logger.info(f"Loss: {loss.item()}")
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
