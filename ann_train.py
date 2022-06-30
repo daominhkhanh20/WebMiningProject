@@ -4,8 +4,8 @@ from src.learner import AnnLearner
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--path_folder_data', type=str, default='assets/data')
-parser.add_argument('--text_col', type=str, default='sentence')
-parser.add_argument('--label_col', type=str, default='lb_name')
+parser.add_argument('--text_col', type=str, default='text')
+parser.add_argument('--label_col', type=str, default='label')
 parser.add_argument('--batch_size', type=int, default=64)
 parser.add_argument('--n_epochs', type=int, default=100)
 parser.add_argument('--learning_rate', type=float, default=1e-4)
@@ -25,7 +25,7 @@ datasource = AnnDataSource.init_datasource(
     stopword_path=args.stopword_path,
     path_save_tf=args.path_save_tf,
     text_col=args.text_col,
-    map_labels = {'negative':0,'neutral':1,'positive':2},
+    map_labels = {'negative':0,'neural':1,'positive':2},
     label_col=args.label_col)
 
 trainer = AnnLearner(
