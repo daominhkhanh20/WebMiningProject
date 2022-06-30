@@ -67,10 +67,10 @@ class CNNDataSource(object):
                 train_dataset = dataset
             elif 'test' in file:
                 test_dataset = dataset
-            elif 'val' in file:
+            elif 'dev' in file:
                 val_dataset = dataset
             else:
-                raise Exception(f"File not valid, only accept file for train, test and valid.")
+                raise Exception(f"File not valid, only accept file for train, test and dev.")
         if train_dataset is not None:
             labels_counter = dict(Counter(train_dataset.data[label_col]))
             labels_counter = {label: labels_counter[train_dataset.map_label[label]] for label in \
