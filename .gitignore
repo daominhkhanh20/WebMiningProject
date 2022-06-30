@@ -79,3 +79,5 @@ failed.csv
 .idea
 temp.ipynb
 CommentData
+
+training.log
