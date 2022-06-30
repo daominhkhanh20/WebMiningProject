@@ -30,6 +30,7 @@ class AnnLearner(BaseLeaner):
                  path_report: str = 'assets/report',
                  is_save_best_model: bool = True,
                  infer_parm: dict=None,
+                 over_sampling: bool=None,
                  dropout: float = 0.2, **kwargs):
         super().__init__()
         if mode.lower() not in [INFERENCE_MODE, TRAINING_MODE]:
@@ -39,7 +40,7 @@ class AnnLearner(BaseLeaner):
                 path_save_model = os.path.abspath(path_save_model)
             else:
                 raise Exception(f"{path_save_model} isn't exist")
-
+        self.over_sampling = over_sampling
         self.device = torch.device(
             "cuda" if torch.cuda.is_available() else "cpu")
         if mode == INFERENCE_MODE:
@@ -51,7 +52,10 @@ class AnnLearner(BaseLeaner):
                 n_labels=infer_parm['n_labels'],
                 drop_out=infer_parm['drop_out']
             ).to(self.device)
-            weight_name = "ann_weight.pth"
+            if infer_parm['over_sampling']:
+                weight_name = "ann_weight_over_sampling.pth"
+            else:
+                weight_name = "ann_weight.pth"
             self.model.load_state_dict(torch.load(f"{path_save_model}/{weight_name}"))
             print('Load model done...')
 
@@ -64,6 +68,7 @@ class AnnLearner(BaseLeaner):
             self.learning_rate = learning_rate
             self.path_report = path_report
             self.path_save_model = path_save_model
+            self.is_best = 0
 
             self.is_save_best_model = is_save_best_model
 
@@ -107,7 +112,8 @@ class AnnLearner(BaseLeaner):
                 "input_size":self.data_source.train_dataset.input_size,
                 "n_labels": len(self.data_source.train_dataset.map_label),
                 "drop_out":dropout,
-                'map_label':self.map_label
+                'map_label':self.map_label,
+                'over_sampling' :self.over_sampling
             }
 
     def make_loader(self, dataset):
@@ -167,12 +173,23 @@ class AnnLearner(BaseLeaner):
         self.config_architecture["best_model"]["val_loss"] = self.best_val_loss
         self.config_architecture["best_model"]["val_acc"] = self.best_val_acc
         self.config_architecture["best_model"]["epoch"] = epoch
-        self.save_json(self.config_architecture,
-                       f"{self.path_save_model}/ann_config_architecture.json")
-        if self.is_save_best_model:
-            weight_name = 'ann_weight.pth'
+        if self.over_sampling:
+            self.save_json(self.config_architecture,
+                       f"{self.path_save_model}/ann_config_architecture_over_sampling.json")
         else:
-            weight_name = f"ann_weight{epoch}.pth"
+            self.save_json(self.config_architecture,
+                        f"{self.path_save_model}/ann_config_architecture.json")
+        if self.is_save_best_model:
+            if self.over_sampling:
+                weight_name = "ann_weight_over_sampling.pth"
+            else:
+                weight_name = 'ann_weight.pth'
+        else:
+            if self.over_sampling:
+                weight_name = f"ann_weight_over_sampling{epoch}.pth"
+            else:
+                weight_name =f"ann_weight{epoch}.pth"
+
         torch.save(self.model.state_dict(),
                    f"{self.path_save_model}/{weight_name}")
         logger.info("Save model done")
@@ -204,6 +221,16 @@ class AnnLearner(BaseLeaner):
                 "accuracy_score": [accuracy]
             }
             logger.info("Detail result for testing")
+            if self.is_best:
+                print('best',self.k)
+                self.config_architecture['best'] = {'epoch':self.k}
+
+                self.config_architecture['best']['labels_truth'] = labels_truth
+                self.config_architecture['best']['labels_pred'] = labels_pred
+                self.is_best = 0
+                self.save(self.k)
+
+
             print(tabulate(report, headers="keys", tablefmt="pretty"))
 
         print(classification_report(labels_truth, labels_pred,
@@ -223,9 +250,11 @@ class AnnLearner(BaseLeaner):
                 self.info_train['val_loss'].append(val_loss)
                 self.info_train['val_acc'].append(val_acc)
                 if val_loss < self.best_val_loss and val_acc > self.best_val_acc:
+                    self.is_best = 1
+                    self.k = epoch
+                    print('best',self.k)
                     self.best_val_loss = val_loss
                     self.best_val_acc = val_acc
-                    self.save(epoch)
                 logger.info(f"Epoch: {epoch} --- Training loss: {train_loss} --- Train acc: {train_acc} --- Val loss: {val_loss} --- Val acc: {val_acc}"
                             f"Time: {time.time() -start_time}s")
 
@@ -234,5 +263,10 @@ class AnnLearner(BaseLeaner):
                 _, test_acc = self.evaluate(
                     self.test_loader, mode_testing=True)
         if self.path_report:
-            with open(f'{self.path_report}/ann_report.pk', 'wb') as fin:
+            if self.over_sampling:
+                path  = f'{self.path_report}/ann_report_over_sampling.pk'
+            else:
+                path  = f'{self.path_report}/ann_report.pk'
+
+            with open(path, 'wb') as fin:
                 pickle.dump(self.info_train, fin)

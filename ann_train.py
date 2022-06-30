@@ -6,6 +6,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--path_folder_data', type=str, default='assets/data')
 parser.add_argument('--text_col', type=str, default='text')
 parser.add_argument('--label_col', type=str, default='label')
+parser.add_argument('--over_sampling', type=int, default=0)
 parser.add_argument('--batch_size', type=int, default=64)
 parser.add_argument('--n_epochs', type=int, default=100)
 parser.add_argument('--learning_rate', type=float, default=1e-4)
@@ -20,11 +21,13 @@ parser.add_argument('--is_save_best_model', default=True)
 parser.add_argument('--dropout', type=float, default=0.2)
 args = parser.parse_args()
 
+
 datasource = AnnDataSource.init_datasource(
     path_folder_data=args.path_folder_data,
     stopword_path=args.stopword_path,
     path_save_tf=args.path_save_tf,
     text_col=args.text_col,
+    over_sampling=args.over_sampling,
     map_labels = {'negative':0,'neural':1,'positive':2},
     label_col=args.label_col)
 
@@ -32,6 +35,7 @@ trainer = AnnLearner(
     mode='training',
     data_source=datasource,
     batch_size=args.batch_size,
+    over_sampling=args.over_sampling,
     n_epochs=args.n_epochs,
     learning_rate=args.learning_rate,
     path_save_model=args.path_save_model,

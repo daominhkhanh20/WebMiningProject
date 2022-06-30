@@ -17,6 +17,7 @@ class AnnCommentDataset(Dataset):
                  is_train: bool = None,
                  stopword_path: str=None,
                  path_save_tf : str=None,
+                 over_sampling: bool=None,
                  **kwargs):
         if isinstance(data, str):
             data = pd.read_csv(data)
@@ -30,9 +31,9 @@ class AnnCommentDataset(Dataset):
                     stopwords.append(word.replace('\n',''))
             vectorizer = TfidfVectorizer(stop_words=stopwords)
             self.data_tf = vectorizer.fit_transform(self.data[text_col]).toarray()
-
-            ros = RandomOverSampler(random_state=42,sampling_strategy={'neural':2000})
-            self.data_tf, self.y_res = ros.fit_resample(self.data_tf, self.data[label_col])
+            if over_sampling:
+                ros = RandomOverSampler(random_state=42,sampling_strategy={'neural':2000})
+                self.data_tf, self.y_res = ros.fit_resample(self.data_tf, self.data[label_col])
             with open(f'{path_save_tf}/vectorizer.pk', 'wb') as fin:
                 pickle.dump(vectorizer, fin)
         else:
@@ -49,7 +50,7 @@ class AnnCommentDataset(Dataset):
         else:
             self.map_label = map_label
             self.list_labels = list(self.map_label.keys())
-        if is_train:
+        if is_train and over_sampling:
             self.labels = self.y_res.map({'negative':0,'neural':1,'positive':2}).to_list()
         else:
             self.data[label_col] = self.data[label_col].map(self.map_label)

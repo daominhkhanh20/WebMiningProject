@@ -30,7 +30,8 @@ class AnnDataSource(object):
                         path_save_tf: str ='assets/utils_weight',
                         text_col: str = 'sentence',
                         label_col: str = 'lb_name',
-                        map_labels:dict = {'negative':0,'neutral':1,'positive':2}
+                        map_labels:dict = {'negative':0,'neutral':1,'positive':2},
+                        over_sampling: bool=None,
                         ):
         train_dataset, test_dataset, val_dataset = None, None, None
         for file in os.listdir(path_folder_data):
@@ -43,6 +44,7 @@ class AnnDataSource(object):
                     map_label=map_labels,
                     stopword_path= stopword_path,
                     path_save_tf= path_save_tf,
+                    over_sampling=over_sampling,
                     is_train=True)
                 logger.info(train_dataset.map_label)
                 if map_labels is None:
