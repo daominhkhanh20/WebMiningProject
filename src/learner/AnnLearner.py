@@ -56,7 +56,7 @@ class AnnLearner(BaseLeaner):
                 weight_name = "ann_weight_over_sampling.pth"
             else:
                 weight_name = "ann_weight.pth"
-            self.model.load_state_dict(torch.load(f"{path_save_model}/{weight_name}"))
+            self.model.load_state_dict(torch.load(f"{path_save_model}/{weight_name}",map_location='cpu'))
             print('Load model done...')
 
         elif mode == TRAINING_MODE:

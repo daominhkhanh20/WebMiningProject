@@ -5,13 +5,13 @@ pandas
 numpy
 matplotlib
 seaborn
-collections
+
 
 coloredlogs
 transformers
 kaggle
 
-pickle
+
 
 gensim
 torch
