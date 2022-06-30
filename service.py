@@ -2,6 +2,7 @@ from typing import Union
 from fastapi import FastAPI
 from src.learner import AnnLearner
 import json
+from src.inference import SentimentInference
 from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 app.add_middleware(
@@ -24,11 +25,13 @@ def init_ann():
     )
 
 init_ann()
+bert_inference = SentimentInference(
+    model_path='assets/models/BertModel'
+)
+
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
-
-
 
 @app.get("/predict/")
 def return_result(model: str, q: Union[str, None] = None):
@@ -38,3 +41,9 @@ def return_result(model: str, q: Union[str, None] = None):
         else:
             result = ann_trainer.predict(q)
             return result
+    elif model == 'Bert':
+        if q is None:
+            return None
+        else:
+            log = bert_inference.predict(q)
+            return log['pred_label']
