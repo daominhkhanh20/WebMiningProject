@@ -21,7 +21,9 @@ class TestingModel(unittest.TestCase):
             "Cô dạy khá hay": "positive",
             "bình thường": "neural",
             "abcxyz abcxyz": "neural",
-            "cô hơi già": "negative"
+            "thầy dạy khá ổn": "neural",
+            "giáo viên truyền đạt kinh nghiệm thực tế nhiều": "neural",
+            "cung cấp giáo trình đầy đủ phiên bản có thể xem được trên máy tính pdf hoặc doc": "neural",
         }
         for sent, label in test_case.items():
             log = self.inference.predict(sent)
