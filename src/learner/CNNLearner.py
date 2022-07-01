@@ -17,6 +17,10 @@ from src.utils.io import *
 from src.constants import *
 
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+fh = logging.FileHandler("training.log")
+fh.setLevel(logging.INFO)
+logger.addHandler(fh)
 
 
 class CNNLearner(BaseLeaner):
@@ -55,7 +59,7 @@ class CNNLearner(BaseLeaner):
         self.data_source = data_source
         # self.pad_id = self.tokenizer.pad_token_id
 
-        print(type(self.data_source))
+        # print(type(self.data_source))
         if mode == INFERENCE_MODE:
             pass
         elif mode == TRAINING_MODE:
@@ -165,6 +169,7 @@ class CNNLearner(BaseLeaner):
             for key in sample.keys():
                 sample[key] = sample[key].to(self.device)
             loss, _ = self.model(sample)
+            logger.info(f"Loss: {loss.item()}")
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
@@ -196,8 +201,8 @@ class CNNLearner(BaseLeaner):
                 "accuracy_score": [accuracy]
             }
             logger.info("Detail result for testing")
-            print(tabulate(report, headers="keys", tablefmt="pretty"))
-        print(classification_report(labels_truth, labels_pred, target_names=list(self.map_label.keys())))
+            logger.info(tabulate(report, headers="keys", tablefmt="pretty"))
+        logger.info(classification_report(labels_truth, labels_pred, target_names=list(self.map_label.keys())))
         return val_loss / len(loader), accuracy
 
     def fit(self, **kwargs):

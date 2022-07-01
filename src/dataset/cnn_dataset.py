@@ -74,6 +74,8 @@ class CNNTokenizer:
         if len(idx) < self.sequence_length:
             for item in range(len(idx), self.sequence_length):
                 idx.append(self.vocab_map["<pad>"])
+        elif len(idx) > self.sequence_length:
+            idx = idx[:self.sequence_length]
         return torch.tensor(idx, dtype=torch.long)
 
 

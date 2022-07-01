@@ -1,0 +1,54 @@
+{
+    "model": {
+        "architecture": {
+            "cnn_layer": {
+                "n_cnn": 1,
+                "kernel_size": [
+                    3
+                ],
+                "out_channel": [
+                    32
+                ],
+                "pooling_kernel_size": 2
+            },
+            "linear": {
+                "n_dense": 4,
+                "n_tensor_dense": [
+                    512,
+                    256,
+                    128,
+                    64
+                ]
+            },
+            "dropout": 0.1,
+            "embedding_dim": 256,
+            "n_vocab": 954
+        }
+    },
+    "hyper_parameter": {
+        "num_epochs": 100,
+        "learning_rate": 0.0001,
+        "use_label_smoothing": false,
+        "smoothing_value": 0.1,
+        "num_warmup_steps": 89,
+        "num_training_steps": 179
+    },
+    "data": {
+        "map_label": {
+            "positive": 0,
+            "negative": 1,
+            "neural": 2
+        },
+        "n_label": 3,
+        "weight_contribution": [
+            1,
+            1,
+            1
+        ]
+    },
+    "best_model": {
+        "val_loss": 0.6523516368865967,
+        "val_acc": 0.8982943777637398,
+        "epoch": 56
+    }
+}
