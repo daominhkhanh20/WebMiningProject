@@ -17,7 +17,7 @@ import json
 import pickle
 import torch
 from torch.utils.data import Dataset, TensorDataset,DataLoader
-
+from src.utils.create_data import clean_text
 
 logger = logging.getLogger(__name__)
 
@@ -122,6 +122,7 @@ class AnnLearner(BaseLeaner):
         self.model.eval()
         if input == None:
             input = ''
+        input = clean_text(input)
         input = [input]
         print(input)
         path_save_tf = 'assets/utils_weight'
