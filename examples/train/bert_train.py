@@ -20,6 +20,9 @@ parser.add_argument('--mode_increase_weight_neural', default=False, type=lambda 
 parser.add_argument('--neural_weight', type=int, default=10)
 parser.add_argument('--dropout', type=float, default=0.1)
 parser.add_argument('--fine_tune', default=True, type=lambda x: x.lower() == 'true')
+parser.add_argument('--mode_save_by_val_loss', default=False, type=lambda x: x.lower() == 'true')
+parser.add_argument('--mode_save_by_val_acc', default=False, type=lambda x: x.lower() == 'true')
+
 args = parser.parse_args()
 
 datasource = BertDataSource.init_datasource(

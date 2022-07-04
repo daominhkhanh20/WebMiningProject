@@ -3,6 +3,7 @@ import logging
 import sys
 
 import torch
+from collections import defaultdict
 from torch.utils.data import DataLoader
 from transformers import AutoModel, AutoTokenizer, AdamW, get_cosine_schedule_with_warmup
 import time
@@ -14,6 +15,7 @@ from src.dataset import BertDataSource, CommentCollate
 from src.model import BertCommentModel
 from src.learner import BaseLeaner
 from src.utils.io import *
+from src.utils.plot import *
 from src.constants import *
 from src.utils.create_data import make_input_bert
 
@@ -25,7 +27,8 @@ class BertLearner(BaseLeaner):
                  data_source: BertDataSource = None,
                  batch_size: int = 64, n_epochs: int = 10, use_label_smoothing: bool = False, fine_tune: bool = True,
                  smoothing_value: float = 0.1, learning_rate: float = 1e-6, path_save_model: str = 'models',
-                 is_save_best_model: bool = False, dropout: float = 0.1, **kwargs):
+                 is_save_best_model: bool = False, dropout: float = 0.1, mode_save_by_val_loss: bool = False,
+                 mode_save_by_val_acc: bool = False, **kwargs):
         super().__init__(**kwargs)
         if mode.lower() not in [INFERENCE_MODE, TRAINING_MODE]:
             NotImplementedError(f"{mode} isn't support")
@@ -72,8 +75,11 @@ class BertLearner(BaseLeaner):
 
         elif mode == TRAINING_MODE:
             self.data_source = data_source
+            self.history = defaultdict(list)
             self.map_label = self.data_source.train_dataset.map_label
             self.n_labels = len(self.map_label)
+            self.mode_save_by_val_loss = mode_save_by_val_loss
+            self.mode_save_by_val_acc = mode_save_by_val_acc
             self.batch_size = batch_size
             self.n_epochs = n_epochs
             self.learning_rate = learning_rate
@@ -158,6 +164,7 @@ class BertLearner(BaseLeaner):
         self.config_architecture["best_model"]["val_acc"] = self.best_val_acc
         self.config_architecture["best_model"]["epoch"] = epoch
         save_json(self.config_architecture, f"{self.path_save_model}/config_architecture.json")
+
         if self.is_save_best_model:
             weight_name = 'weight.pth'
         else:
@@ -168,21 +175,26 @@ class BertLearner(BaseLeaner):
     def train_one_epoch(self, **kwargs):
         self.model.train()
         train_loss = 0
+        label_truth, label_preds = [], []
         for idx, sample in tqdm(enumerate(self.train_loader), total=len(self.train_loader)):
             for key in sample.keys():
                 sample[key] = sample[key].to(self.device)
-            loss, _ = self.model(**sample)
+            loss, outs = self.model(**sample)
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
             if self.scheduler is not None:
                 self.scheduler.step()
             train_loss += loss.item()
-        return train_loss / len(self.train_loader)
+            label_preds.extend(torch.argmax(outs, dim=-1).detach().cpu().numpy().tolist())
+            label_truth.extend(sample['labels'].detach().cpu().numpy().tolist())
+        train_acc = accuracy_score(label_truth, label_preds)
+        return train_loss / len(self.train_loader), train_acc
 
     def evaluate(self, loader, **kwargs):
         self.model.eval()
         mode_testing = kwargs.get('mode_testing', False)
+        is_better = kwargs.get('is_better', False)
         labels_truth, labels_pred = [], []
         val_loss = 0
         for idx, sample in tqdm(enumerate(loader), total=len(loader)):
@@ -202,6 +214,8 @@ class BertLearner(BaseLeaner):
                 "recall_score": [recall_score(labels_truth, labels_pred, average='weighted')],
                 "accuracy_score": [accuracy]
             }
+            if is_better:
+                plot_confusion_matrix(labels_truth, labels_pred, labels=list(self.map_label.values()), path_save=self.path_save_model)
             logger.info("Detail result for testing")
             print(tabulate(report, headers="keys", tablefmt="pretty"))
         print(classification_report(labels_truth, labels_pred, target_names=list(self.map_label.keys())))
@@ -211,21 +225,28 @@ class BertLearner(BaseLeaner):
         for epoch in range(self.n_epochs):
             start_time = time.time()
             logger.info("Start Training")
-            train_loss = self.train_one_epoch()
+            train_loss, train_acc = self.train_one_epoch()
+            self.history['train_loss'].append(train_loss)
+            self.history['train_acc'].append(train_acc)
+            is_better = False
             if self.data_source.val_dataset:
                 logger.info("Start evaluate")
                 val_loss, val_acc = self.evaluate(self.val_loader)
-                if val_loss < self.best_val_loss or val_acc > self.best_val_acc:
+                self.history['val_loss'].append(val_loss)
+                self.history['val_acc'].append(val_acc)
+                if (self.mode_save_by_val_loss and val_loss < self.best_val_loss)\
+                        or (self. mode_save_by_val_acc and val_acc > self.best_val_acc):
                     self.best_val_loss = val_loss
                     self.best_val_acc = val_acc
                     self.save(epoch)
+                    is_better = True
                 logger.info(
                     f"Epoch: {epoch} --- Training loss: {train_loss} --- Val loss: {val_loss} --- Val acc: {val_acc}"
                     f"Time: {time.time() - start_time}s")
 
             if self.data_source.test_dataset:
                 logger.info("Start testing")
-                _, test_acc = self.evaluate(self.test_loader, mode_testing=True)
+                _, test_acc = self.evaluate(self.test_loader, mode_testing=True, is_better=is_better)
 
     def predict(self, sample: str, **kwargs):
         input_ids, attention_mask = make_input_bert(self.tokenizer, sample)
