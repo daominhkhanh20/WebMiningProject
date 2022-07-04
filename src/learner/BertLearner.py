@@ -77,6 +77,7 @@ class BertLearner(BaseLeaner):
             self.data_source = data_source
             self.history = defaultdict(list)
             self.map_label = self.data_source.train_dataset.map_label
+            self.int_to_label = {value: key for key, value in self.map_label.items()}
             self.n_labels = len(self.map_label)
             self.mode_save_by_val_loss = mode_save_by_val_loss
             self.mode_save_by_val_acc = mode_save_by_val_acc
