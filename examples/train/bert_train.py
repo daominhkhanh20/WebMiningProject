@@ -45,7 +45,9 @@ trainer = BertLearner(
     path_save_model=args.path_save_model,
     is_save_best_model=args.is_save_best_model,
     dropout=args.dropout,
-    fine_tune=args.fine_tune
+    fine_tune=args.fine_tune,
+    mode_save_by_val_acc=args.mode_save_by_val_acc,
+    mode_save_by_val_loss=args.mode_save_by_val_loss
 )
 
 trainer.fit()
