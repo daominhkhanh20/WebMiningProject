@@ -63,6 +63,7 @@ class BertDataSource(object):
                                 f"Only support for train, test, val")
         weight_contribution = None
         if use_weight_contribution:
+            logger.info("Turn on mode use weight contribution")
             if train_dataset is not None and mode_increase_weight_neural is False:
                 labels_counter = dict(Counter(train_dataset.data[label_col]))
                 labels_counter = {label: labels_counter[train_dataset.map_label[label]] for label in train_dataset.list_labels}
@@ -79,6 +80,8 @@ class BertDataSource(object):
                         weight_contribution.append(1)
 
                 weight_contribution = torch.tensor(weight_contribution, dtype=torch.long)
+        else:
+            logger.info("Turn off mode use weight contribution")
 
         return cls(
             train_dataset=train_dataset,
