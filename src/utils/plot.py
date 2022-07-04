@@ -29,7 +29,7 @@ def plot_acc(history: defaultdict, path_save: str):
 
 
 def plot_confusion_matrix(final_true: list, final_preds: list, labels: list, path_save: str):
-    temp = confusion_matrix(final_true, final_preds)
+    temp = confusion_matrix(final_true, final_preds, labels=labels)
     df = pd.DataFrame(temp, index=labels, columns=labels).astype(int)
     plt.figure(figsize=(12, 8))
     heatmap = sns.heatmap(df, annot=True, fmt="d")
