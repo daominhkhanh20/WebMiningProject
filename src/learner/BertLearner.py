@@ -164,6 +164,8 @@ class BertLearner(BaseLeaner):
         self.config_architecture["best_model"]["val_acc"] = self.best_val_acc
         self.config_architecture["best_model"]["epoch"] = epoch
         save_json(self.config_architecture, f"{self.path_save_model}/config_architecture.json")
+        plot_acc(self.history, self.path_save_model)
+        plot_loss(self.history, self.path_save_model)
 
         if self.is_save_best_model:
             weight_name = 'weight.pth'
@@ -241,7 +243,7 @@ class BertLearner(BaseLeaner):
                     self.save(epoch)
                     is_better = True
                 logger.info(
-                    f"Epoch: {epoch} --- Training loss: {train_loss} --- Val loss: {val_loss} --- Val acc: {val_acc}"
+                    f"Epoch: {epoch} --- Train acc: {train_acc} ---Training loss: {train_loss} --- Val loss: {val_loss} --- Val acc: {val_acc}"
                     f"Time: {time.time() - start_time}s")
 
             if self.data_source.test_dataset:
