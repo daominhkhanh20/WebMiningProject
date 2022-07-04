@@ -33,7 +33,8 @@ class BertDataSource(object):
                         text_col: str = 'comment',
                         label_col: str = 'pred_label',
                         mode_increase_weight_neural: bool = False,
-                        neural_weight: int = 10):
+                        neural_weight: int = 10,
+                        use_weight_contribution: bool = False):
         train_dataset, test_dataset, val_dataset = None, None, None
         map_labels = None
         for file in os.listdir(path_folder_data):
@@ -60,24 +61,24 @@ class BertDataSource(object):
             else:
                 raise Exception(f"Currently, convert file for {file} isn't support"
                                 f"Only support for train, test, val")
-        if train_dataset is not None and mode_increase_weight_neural is False:
-            labels_counter = dict(Counter(train_dataset.data[label_col]))
-            labels_counter = {label: labels_counter[train_dataset.map_label[label]] for label in train_dataset.list_labels}
-            norm_count_labels = [len(train_dataset.data) / value for label, value in labels_counter.items()]
-            weight_contribution = torch.tensor(
-                [value/sum(norm_count_labels) for value in norm_count_labels]
-            )
-        elif mode_increase_weight_neural:
-            weight_contribution = []
-            for label in train_dataset.map_label.values():
-                if 'neural' in label:
-                    weight_contribution.append(neural_weight)
-                else:
-                    weight_contribution.append(1)
+        weight_contribution = None
+        if use_weight_contribution:
+            if train_dataset is not None and mode_increase_weight_neural is False:
+                labels_counter = dict(Counter(train_dataset.data[label_col]))
+                labels_counter = {label: labels_counter[train_dataset.map_label[label]] for label in train_dataset.list_labels}
+                norm_count_labels = [len(train_dataset.data) / value for label, value in labels_counter.items()]
+                weight_contribution = torch.tensor(
+                    [value/sum(norm_count_labels) for value in norm_count_labels]
+                )
+            elif mode_increase_weight_neural:
+                weight_contribution = []
+                for label in train_dataset.map_label.values():
+                    if 'neural' in label:
+                        weight_contribution.append(neural_weight)
+                    else:
+                        weight_contribution.append(1)
 
-            weight_contribution = torch.tensor(weight_contribution, dtype=torch.long)
-        else:
-            weight_contribution = None
+                weight_contribution = torch.tensor(weight_contribution, dtype=torch.long)
 
         return cls(
             train_dataset=train_dataset,

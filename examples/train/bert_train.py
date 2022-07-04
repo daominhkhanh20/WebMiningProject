@@ -22,7 +22,7 @@ parser.add_argument('--dropout', type=float, default=0.1)
 parser.add_argument('--fine_tune', default=True, type=lambda x: x.lower() == 'true')
 parser.add_argument('--mode_save_by_val_loss', default=False, type=lambda x: x.lower() == 'true')
 parser.add_argument('--mode_save_by_val_acc', default=False, type=lambda x: x.lower() == 'true')
-
+parser.add_argument('--use_weight_contribution', default=False, type=lambda x: x.lower() == 'true')
 args = parser.parse_args()
 
 datasource = BertDataSource.init_datasource(
@@ -30,7 +30,8 @@ datasource = BertDataSource.init_datasource(
     pretrained_model_name=args.pretrained_model_name,
     max_length=args.max_length,
     text_col=args.text_col,
-    label_col=args.label_col
+    label_col=args.label_col,
+    use_weight_contribution=args.use_weight_contribution
 )
 
 trainer = BertLearner(
