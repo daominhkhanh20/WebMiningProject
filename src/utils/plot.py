@@ -15,6 +15,7 @@ def plot_loss(history: defaultdict, path_save: str):
     plt.legend(loc="upper left")
     plt.savefig(f'{path_save}/loss.png')
     logger.info(f"Save loss.png at {path_save}")
+    plt.close()
 
 
 def plot_acc(history: defaultdict, path_save: str):
@@ -24,6 +25,7 @@ def plot_acc(history: defaultdict, path_save: str):
     plt.legend(loc="upper left")
     plt.savefig(f'{path_save}/acc.png')
     logger.info(f"Save acc.png at {path_save}")
+    plt.close()
 
 
 def plot_confusion_matrix(final_true: list, final_preds: list, labels: list, path_save: str):
@@ -39,3 +41,4 @@ def plot_confusion_matrix(final_true: list, final_preds: list, labels: list, pat
     plt.title("Accuracy for test:{:0.5f}".format(result))
     plt.savefig(f"{path_save}/confusion_matrix.png")
     logger.info(f"Save confusion_matrix.png at {path_save}")
+    plt.close()
