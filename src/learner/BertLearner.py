@@ -219,8 +219,6 @@ class BertLearner(BaseLeaner):
                 "accuracy_score": [accuracy]
             }
             if is_better:
-                labels_truth = [self.int_to_label[label] for label in labels_truth]
-                labels_pred = [self.int_to_label[label] for label in labels_pred]
                 plot_confusion_matrix(labels_truth, labels_pred, labels=list(self.int_to_label.values()), path_save=self.path_save_model)
             logger.info("Detail result for testing")
             print(tabulate(report, headers="keys", tablefmt="pretty"))
