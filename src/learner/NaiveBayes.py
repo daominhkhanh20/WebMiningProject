@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score
-
+from sklearn.naive_bayes import GaussianNB
  
 
 class NaiveBayesClassifier():
@@ -14,16 +14,24 @@ class NaiveBayesClassifier():
         path_save_model: str = "assets/model", 
         max_df: float = 0.8, 
         min_n: int = 1, 
-        max_n: int = 1):
+        max_n: int = 1,
+        mode: str = 'multinominal'):
 
         self.model_path = model_path
         self.path_save_model = path_save_model
         self.max_df = max_df
         self.min_n = min_n
         self.max_n = max_n 
-        self.pipeline = Pipeline([ 
-                                # ('tfidf', TfidfTransformer()), 
-                                ('clf', MultinomialNB()) ])
+        self.mode = mode
+        if self.mode == 'multinominal':
+            self.pipeline = Pipeline([ 
+                                    # ('tfidf', TfidfTransformer()), 
+                                    ('clf', MultinomialNB()) ])
+        else:
+            self.pipeline = Pipeline([
+                ('tfidf', TfidfTransformer()),
+                ('clf',  GaussianNB())
+            ])
 
     def train(self, X_train, y_train): 
         model = self.pipeline.fit(X_train, y_train)
@@ -37,7 +45,7 @@ class NaiveBayesClassifier():
         recall = recall_score(y_test, y_pred, average='weighted')
         F1_score = f1_score(y_test, y_pred, average='weighted')
         print(classification_report(y_test, y_pred, target_names=['negative', 'neural', 'positive']))
-        return (accuracy, precision, recall, F1_score)
+        return (accuracy, precision, recall, F1_score, y_test, y_pred)
 
     def predict(self, input):
         model = pickle.load(open(os.path.join(self.model_path, "naive_bayes.pkl"), 'rb'))

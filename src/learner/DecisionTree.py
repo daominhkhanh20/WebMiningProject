@@ -40,7 +40,7 @@ class DecisionTree():
         recall = recall_score(y_test, y_pred, average='weighted')
         F1_score = f1_score(y_test, y_pred, average='weighted') 
         print(classification_report(y_test, y_pred, target_names=['negative', 'neural', 'positive']))
-        return (accuracy, precision, recall, F1_score)
+        return (accuracy, precision, recall, F1_score, y_test, y_pred)
     def predict(self, input):
         model = pickle.load(open(os.path.join(self.model_path, "decision_tree.pkl"), 'rb'))
         y_pred = model.predict(input)

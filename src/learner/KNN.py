@@ -44,7 +44,7 @@ class KNNClassifier():
         print("Recall score vs {} neighbors: {}".format(self.n_neighbors, recall))
         print("F1 score vs {} neighbors: {}".format(self.n_neighbors, F1_score))
         print(classification_report(y_test, y_pred, target_names=['negative', 'neural', 'positive']))
-        return (accuracy, precision, recall, F1_score)
+        return (accuracy, precision, recall, F1_score, y_test, y_pred)
 
     def predict(self, input):
         input = self.vectorizer.transform(input)
